@@ -1,0 +1,17 @@
+{
+  "id": "seite-de-impressum",
+  "sprache": "de",
+  "uebersetzungsSchluessel": "seite-impressum",
+  "slug": "impressum",
+  "titel": "Impressum",
+  "einleitung": "Angaben zur verantwortlichen Person dieser Demo und zur dargestellten Praxis.",
+  "seoTitel": "Impressum",
+  "seoBeschreibung": "Impressum der Demo-Website für die Praxis am Zürichberg, Zürich.",
+  "bausteine": [
+    {
+      "_type": "rechtstextBaustein",
+      "_key": "impressum-text",
+      "rechtstext": "impressum"
+    }
+  ]
+}

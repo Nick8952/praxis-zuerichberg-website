@@ -1,0 +1,270 @@
+{
+  "logo": {
+    "id": "logo",
+    "original": "assets/originale/img_logo.png",
+    "breite": 270,
+    "hoehe": 79,
+    "quellen": [
+      {
+        "breite": 270,
+        "url": "/images/logo-270-8eb80462.png"
+      }
+    ]
+  },
+  "sso": {
+    "id": "sso",
+    "original": "assets/originale/sso.png",
+    "breite": 250,
+    "hoehe": 51,
+    "quellen": [
+      {
+        "breite": 250,
+        "url": "/images/sso-250-85d541db.png"
+      }
+    ]
+  },
+  "team-bindl": {
+    "id": "team-bindl",
+    "original": "assets/originale/team/img_team_1.jpg",
+    "breite": 548,
+    "hoehe": 350,
+    "quellen": [
+      {
+        "breite": 274,
+        "url": "/images/team-bindl-274-dcdcef07.webp"
+      },
+      {
+        "breite": 548,
+        "url": "/images/team-bindl-548-a1724a0e.webp"
+      }
+    ]
+  },
+  "team-fritschi": {
+    "id": "team-fritschi",
+    "original": "assets/originale/team/img_team_2.jpg",
+    "breite": 548,
+    "hoehe": 350,
+    "quellen": [
+      {
+        "breite": 274,
+        "url": "/images/team-fritschi-274-98af42cf.webp"
+      },
+      {
+        "breite": 548,
+        "url": "/images/team-fritschi-548-24a0e174.webp"
+      }
+    ]
+  },
+  "team-friedl": {
+    "id": "team-friedl",
+    "original": "assets/originale/team/friedl.jpg",
+    "breite": 365,
+    "hoehe": 341,
+    "quellen": [
+      {
+        "breite": 365,
+        "url": "/images/team-friedl-365-a3864f19.webp"
+      }
+    ]
+  },
+  "praxis-schild": {
+    "id": "praxis-schild",
+    "original": "assets/originale/praxis/img_teaser_1.jpg",
+    "breite": 1700,
+    "hoehe": 1223,
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/praxis-schild-480-579f88f1.webp"
+      },
+      {
+        "breite": 960,
+        "url": "/images/praxis-schild-960-da516d96.webp"
+      },
+      {
+        "breite": 1600,
+        "url": "/images/praxis-schild-1600-8bf2f5d5.webp"
+      }
+    ]
+  },
+  "praxis-behandlungsraum": {
+    "id": "praxis-behandlungsraum",
+    "original": "assets/originale/praxis/img_teaser_2.jpg",
+    "breite": 1700,
+    "hoehe": 1223,
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/praxis-behandlungsraum-480-ab646cef.webp"
+      },
+      {
+        "breite": 960,
+        "url": "/images/praxis-behandlungsraum-960-dec3b476.webp"
+      },
+      {
+        "breite": 1600,
+        "url": "/images/praxis-behandlungsraum-1600-ebcdb98e.webp"
+      }
+    ]
+  },
+  "praxis-cerec": {
+    "id": "praxis-cerec",
+    "original": "assets/originale/praxis/img_teaser_3.jpg",
+    "breite": 1700,
+    "hoehe": 1223,
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/praxis-cerec-480-600291be.webp"
+      },
+      {
+        "breite": 960,
+        "url": "/images/praxis-cerec-960-4fc2a9ac.webp"
+      },
+      {
+        "breite": 1600,
+        "url": "/images/praxis-cerec-1600-06dc195c.webp"
+      }
+    ]
+  },
+  "praxis-behandlungsraum-2": {
+    "id": "praxis-behandlungsraum-2",
+    "original": "assets/originale/praxis/img_teaser_4.jpg",
+    "breite": 1700,
+    "hoehe": 1223,
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/praxis-behandlungsraum-2-480-59c5ec95.webp"
+      },
+      {
+        "breite": 960,
+        "url": "/images/praxis-behandlungsraum-2-960-cfeb5ff2.webp"
+      },
+      {
+        "breite": 1600,
+        "url": "/images/praxis-behandlungsraum-2-1600-296c974d.webp"
+      }
+    ]
+  },
+  "praxis-mikroskop": {
+    "id": "praxis-mikroskop",
+    "original": "assets/originale/praxis/img_teaser_5.jpg",
+    "breite": 1700,
+    "hoehe": 1223,
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/praxis-mikroskop-480-8b8348ed.webp"
+      },
+      {
+        "breite": 960,
+        "url": "/images/praxis-mikroskop-960-c4e1cc86.webp"
+      },
+      {
+        "breite": 1600,
+        "url": "/images/praxis-mikroskop-1600-00701125.webp"
+      }
+    ]
+  },
+  "praxis-instrumente": {
+    "id": "praxis-instrumente",
+    "original": "assets/originale/praxis/img_teaser_6.jpg",
+    "breite": 1700,
+    "hoehe": 1223,
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/praxis-instrumente-480-953d898d.webp"
+      },
+      {
+        "breite": 960,
+        "url": "/images/praxis-instrumente-960-eebaf0f3.webp"
+      },
+      {
+        "breite": 1600,
+        "url": "/images/praxis-instrumente-1600-725312fb.webp"
+      }
+    ]
+  },
+  "praxis-empfang": {
+    "id": "praxis-empfang",
+    "original": "assets/originale/praxis/img_teaser_7.jpg",
+    "breite": 1700,
+    "hoehe": 1130,
+    "quellen": [
+      {
+        "breite": 480,
+        "url": "/images/praxis-empfang-480-4810c7c8.webp"
+      },
+      {
+        "breite": 960,
+        "url": "/images/praxis-empfang-960-b0c77982.webp"
+      },
+      {
+        "breite": 1600,
+        "url": "/images/praxis-empfang-1600-c3dc6a47.webp"
+      }
+    ]
+  },
+  "panorama-zuerich": {
+    "id": "panorama-zuerich",
+    "original": "assets/originale/praxis/bg_page_2.jpg",
+    "breite": 1980,
+    "hoehe": 598,
+    "quellen": [
+      {
+        "breite": 640,
+        "url": "/images/panorama-zuerich-640-932aac06.webp"
+      },
+      {
+        "breite": 1280,
+        "url": "/images/panorama-zuerich-1280-699e6222.webp"
+      },
+      {
+        "breite": 1980,
+        "url": "/images/panorama-zuerich-1980-86c50369.webp"
+      }
+    ]
+  },
+  "panorama-gleise": {
+    "id": "panorama-gleise",
+    "original": "assets/originale/praxis/bg_page_4.jpg",
+    "breite": 1980,
+    "hoehe": 600,
+    "quellen": [
+      {
+        "breite": 640,
+        "url": "/images/panorama-gleise-640-5d547bf7.webp"
+      },
+      {
+        "breite": 1280,
+        "url": "/images/panorama-gleise-1280-e653dcbe.webp"
+      },
+      {
+        "breite": 1980,
+        "url": "/images/panorama-gleise-1980-54d0ecfe.webp"
+      }
+    ]
+  },
+  "panorama-arbeitsplatz": {
+    "id": "panorama-arbeitsplatz",
+    "original": "assets/originale/praxis/bg_page_5.jpg",
+    "breite": 1980,
+    "hoehe": 600,
+    "quellen": [
+      {
+        "breite": 640,
+        "url": "/images/panorama-arbeitsplatz-640-75125abf.webp"
+      },
+      {
+        "breite": 1280,
+        "url": "/images/panorama-arbeitsplatz-1280-22248eb3.webp"
+      },
+      {
+        "breite": 1980,
+        "url": "/images/panorama-arbeitsplatz-1980-1fc07c3a.webp"
+      }
+    ]
+  }
+}

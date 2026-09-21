@@ -1,0 +1,526 @@
+[
+  {
+    "id": "behandlung-en-digitale-zahnmedizin",
+    "sprache": "en",
+    "uebersetzungsSchluessel": "behandlung-digitale-zahnmedizin",
+    "titel": "Computer-aided dentistry, digital dentistry",
+    "anker": "computer-aided-dentistry",
+    "inhalt": [
+      {
+        "_type": "block",
+        "_key": "96e7be5d5033",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "73c1b70ff4d3",
+            "text": "Using computer technology in the dental field has been well-established for clinicians as well as for dental technology over the past decades. In particular it is usefully deployed in the following areas:",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      },
+      {
+        "_type": "block",
+        "_key": "6f47d88cf925",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "e3472a13868f",
+            "text": "Visually recording the situation (tooth defects, gaps and soft tissue) with the aid of intraoral 3D scanners (e.g. a Cerec camera), creating computer-aided restorations from a variety of ceramic or polymer materials.",
+            "marks": []
+          }
+        ],
+        "markDefs": [],
+        "listItem": "bullet",
+        "level": 1
+      },
+      {
+        "_type": "block",
+        "_key": "ca2fd8baa35b",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "f4270efbca00",
+            "text": "Extraoral face scanners have been introduced which can be combined with cone beam computed tomography (digital 3D volume x-ray imaging) for diagnostic purposes; digital 2D x-ray imaging has replaced conventional x-ray images.",
+            "marks": []
+          }
+        ],
+        "markDefs": [],
+        "listItem": "bullet",
+        "level": 1
+      },
+      {
+        "_type": "block",
+        "_key": "dbe67852ee22",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "7e2000b89c6c",
+            "text": "Virtual planning of dental implants in the precise size and 3D position, evaluating hard and soft tissue grafting and even computer-aided fabrication of drill templates for implant surgery are derived from 3D computed tomography.",
+            "marks": []
+          }
+        ],
+        "markDefs": [],
+        "listItem": "bullet",
+        "level": 1
+      },
+      {
+        "_type": "block",
+        "_key": "b04c1320e10d",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "f644e20b525f",
+            "text": "Digital photography and/or combined with intraoral scanning are used for diagnostic purposes and to document treatment stages, healing processes, soft/hard tissue volume changes (tooth erosion, attrition). Scans are made at a variety of points in time and the software overlays them in order to identify differences.",
+            "marks": []
+          }
+        ],
+        "markDefs": [],
+        "listItem": "bullet",
+        "level": 1
+      }
+    ],
+    "gruppe": "diagnostik",
+    "reihenfolge": 10,
+    "quelle": "praxiszuerichberg.ch/index_en.html, section 'Treatment' (abgerufen 21.09.2026)",
+    "pruefstatus": "sprachlich-angepasst"
+  },
+  {
+    "id": "behandlung-en-untersuchung",
+    "sprache": "en",
+    "uebersetzungsSchluessel": "behandlung-untersuchung",
+    "titel": "Examination, appraisal, diagnosis",
+    "anker": "examination-diagnosis",
+    "inhalt": [
+      {
+        "_type": "block",
+        "_key": "26df56c0c301",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "a09679ccc771",
+            "text": "The basis of every treatment is carrying out an examination and appraisal leading to diagnosis. Additional records such as digital x-ray images are part of the armamentarium to certify the process (individual images, panoramic radiographs or 3D volume tomography images). It can thus be determined whether the teeth (cavities), the endodontium (pulp), the periodontium (gums), or the oral cavity show signs of disease and enable the decision-making process of which treatment strategy should best be applied.",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      }
+    ],
+    "gruppe": "diagnostik",
+    "reihenfolge": 20,
+    "quelle": "praxiszuerichberg.ch/index_en.html, section 'Treatment' (abgerufen 21.09.2026)",
+    "pruefstatus": "sprachlich-angepasst"
+  },
+  {
+    "id": "behandlung-en-schmerzbehandlung",
+    "sprache": "en",
+    "uebersetzungsSchluessel": "behandlung-schmerzbehandlung",
+    "titel": "Pain treatment",
+    "anker": "pain-treatment",
+    "inhalt": [
+      {
+        "_type": "block",
+        "_key": "1d976f0128bd",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "9be1fdeaa262",
+            "text": "Strong and acute pain in particular is by far the worst condition. Based on the examination and appraisal, we locate the cause of the pain and perform the required treatment. Whenever possible, we try to arrange an appointment on the day that you call us.",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      }
+    ],
+    "gruppe": "diagnostik",
+    "reihenfolge": 30,
+    "quelle": "praxiszuerichberg.ch/index_en.html, section 'Treatment' (abgerufen 21.09.2026)",
+    "pruefstatus": "sprachlich-angepasst"
+  },
+  {
+    "id": "behandlung-en-prophylaxe",
+    "sprache": "en",
+    "uebersetzungsSchluessel": "behandlung-prophylaxe",
+    "titel": "Prophylactic (preventative) treatment & dental hygiene",
+    "anker": "prophylaxis-dental-hygiene",
+    "inhalt": [
+      {
+        "_type": "block",
+        "_key": "2c1366506588",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "186d866feecb",
+            "text": "Our primary aim is to preserve and prevent damage to hard and soft tissue in the oral cavity. To protect you from further diseases of the teeth, the periodontium and the surrounding structures, we offer individual prophylactic (preventative) treatment. The dental hygienist is a primary healthcare professional who checks the condition of the oral cavity and oral hygiene, aims at removing calculus surrounding the teeth and provides a final polish to obtain healthy tissues. Motivation and instructions to achieve better daily oral hygiene at home are given. Support is essential before, during and for the long-term maintenance of prosthetic rehabilitations on teeth and implants. Depending on the individual oral conditions, the appropriate recall interval (3-12 months) is set.",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      },
+      {
+        "_type": "block",
+        "_key": "8a2199a35f27",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "525dd78750c5",
+            "text": "In the event of chronic periodontitis (inflammation of the tooth-supporting bone and gum), the dental hygienist is challenged to reduce/eliminate inflammation around the teeth and stabilize the process of losing tooth attachment. The active treatment phase of the supportive periodontal maintenance consists of several closely set appointments depending on the individual situation, followed by an evaluation at around 3 months, and requires good patient compliance.",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      }
+    ],
+    "gruppe": "vorsorge",
+    "reihenfolge": 40,
+    "quelle": "praxiszuerichberg.ch/index_en.html, section 'Treatment' (abgerufen 21.09.2026)",
+    "pruefstatus": "sprachlich-angepasst"
+  },
+  {
+    "id": "behandlung-en-digitales-roentgen",
+    "sprache": "en",
+    "uebersetzungsSchluessel": "behandlung-digitales-roentgen",
+    "titel": "Digital x-rays",
+    "anker": "digital-x-rays",
+    "inhalt": [
+      {
+        "_type": "block",
+        "_key": "1c8e4b584187",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "8b1f3e6e78d6",
+            "text": "Digitally created x-ray images are produced with less radiation exposure in comparison to conventional x-ray images. No chemicals are required to develop the images. They can be viewed immediately after they have been produced and can be archived safely. Panoramic radiographs (large overview images) are also produced digitally.",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      }
+    ],
+    "gruppe": "diagnostik",
+    "reihenfolge": 50,
+    "quelle": "praxiszuerichberg.ch/index_en.html, section 'Treatment' (abgerufen 21.09.2026)",
+    "pruefstatus": "sprachlich-angepasst"
+  },
+  {
+    "id": "behandlung-en-bleaching",
+    "sprache": "en",
+    "uebersetzungsSchluessel": "behandlung-bleaching",
+    "titel": "Teeth whitening",
+    "anker": "teeth-whitening",
+    "inhalt": [
+      {
+        "_type": "block",
+        "_key": "d59bd3728d7d",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "08f8779bc371",
+            "text": "We offer individually customised whitening kits and provide gentle bleaching agent (Opalescence PF™ 16% Carbamide Peroxide). The patient has total control over the whitening process, which is repeated until the desired tooth shade is reached.",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      },
+      {
+        "_type": "block",
+        "_key": "4f9dd7bb1721",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "09f4e81b664c",
+            "text": "Sometimes it is not only the dark colour of the teeth that bothers patients but also their shape or gaps between the teeth. Tooth-coloured filling materials can be applied to remedy minor misalignments and close gaps.",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      }
+    ],
+    "gruppe": "restaurativ",
+    "reihenfolge": 60,
+    "quelle": "praxiszuerichberg.ch/index_en.html, section 'Treatment' (abgerufen 21.09.2026)",
+    "pruefstatus": "sprachlich-angepasst"
+  },
+  {
+    "id": "behandlung-en-fuellungen",
+    "sprache": "en",
+    "uebersetzungsSchluessel": "behandlung-fuellungen",
+    "titel": "Minimally invasive fillings (tooth-coloured)",
+    "anker": "minimally-invasive-fillings",
+    "inhalt": [
+      {
+        "_type": "block",
+        "_key": "113928a6fc40",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "0d93843d00d2",
+            "text": "Tooth-coloured composite is favourably used for minor tooth cavities such as small interdental defects or for the anterior teeth. The filling is adapted to the defect so that maximum tooth structure is preserved. The composite is directly applied and shaped by the dentist and then cured with blue light. The material is adhesively bonded to the natural tooth structure. Final contours, texture and glossy polish give the material a natural appearance.",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      }
+    ],
+    "gruppe": "restaurativ",
+    "reihenfolge": 70,
+    "quelle": "praxiszuerichberg.ch/index_en.html, section 'Treatment' (abgerufen 21.09.2026)",
+    "pruefstatus": "sprachlich-angepasst"
+  },
+  {
+    "id": "behandlung-en-cerec",
+    "sprache": "en",
+    "uebersetzungsSchluessel": "behandlung-cerec",
+    "titel": "Computer-aided inlays, partial crowns and crowns",
+    "anker": "computer-aided-inlays-crowns",
+    "inhalt": [
+      {
+        "_type": "block",
+        "_key": "079166ed6998",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "0b61fb9ea48d",
+            "text": "With more extensive tooth defects, a reliable solution is a tooth-coloured ceramic restoration. Conventionally, a dental impression is made and a dental laboratory is assigned to fabricate the restoration. The tooth must be fitted with a temporary filling until the permanent restoration has been incorporated. With the CEREC method, the prepared tooth is digitally recorded in the patient's mouth with a 3D camera instead of a silicone impression. A 3D model of the involved teeth is generated with the software and the restoration is tailor-made for the patient. In the same session, the restoration is milled out of a ceramic block by a milling machine and then adhesively placed.",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      }
+    ],
+    "gruppe": "restaurativ",
+    "reihenfolge": 80,
+    "quelle": "praxiszuerichberg.ch/index_en.html, section 'Treatment' (abgerufen 21.09.2026)",
+    "pruefstatus": "sprachlich-angepasst"
+  },
+  {
+    "id": "behandlung-en-veneers",
+    "sprache": "en",
+    "uebersetzungsSchluessel": "behandlung-veneers",
+    "titel": "Veneers",
+    "anker": "veneers",
+    "inhalt": [
+      {
+        "_type": "block",
+        "_key": "b8e9072c59ea",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "39631a47f3dd",
+            "text": "Veneers are highly esthetic porcelain restorations that mimic the natural textured and lustrous tooth surface and shade. They are indicated when pronounced defects of the anterior teeth have to be treated. They are the thinnest (minimally invasive) restorations and can improve esthetics by changing tooth size and form, closing gaps or correcting moderate tooth position. Veneers are either crafted by the dental technician or can be fabricated using the CEREC method.",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      }
+    ],
+    "gruppe": "restaurativ",
+    "reihenfolge": 90,
+    "quelle": "praxiszuerichberg.ch/index_en.html, section 'Treatment' (abgerufen 21.09.2026)",
+    "pruefstatus": "sprachlich-angepasst"
+  },
+  {
+    "id": "behandlung-en-endodontie",
+    "sprache": "en",
+    "uebersetzungsSchluessel": "behandlung-endodontie",
+    "titel": "Root canal treatment (endodontics)",
+    "anker": "root-canal-treatment",
+    "inhalt": [
+      {
+        "_type": "block",
+        "_key": "2065e7dccd24",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "2dbf49640559",
+            "text": "If the dental pulp (soft tissue and nerve tissue inside a tooth) is inflamed or infected, root canal treatment must be performed (e.g. within the framework of the treatment of acute pain). The pulp tissue is removed and the root canals are prepared, cleaned, disinfected and filled again using special tools. If treated root canals become infected or if the seal deteriorates, the treatment can be renewed and improved. Root-canal-treated teeth with a definitive restoration (ceramic) provide the best seal in the long term. The use of an operating microscope allows the dentist to visualise the complex anatomy inside the tooth and accurately prepare the root canals.",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      }
+    ],
+    "gruppe": "restaurativ",
+    "reihenfolge": 100,
+    "quelle": "praxiszuerichberg.ch/index_en.html, section 'Treatment' (abgerufen 21.09.2026)",
+    "pruefstatus": "sprachlich-angepasst"
+  },
+  {
+    "id": "behandlung-en-dvt",
+    "sprache": "en",
+    "uebersetzungsSchluessel": "behandlung-dvt",
+    "titel": "3D x-ray imaging (cone beam computed tomography)",
+    "anker": "3d-x-ray-imaging",
+    "inhalt": [
+      {
+        "_type": "block",
+        "_key": "7960df276596",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "05aac0a71199",
+            "text": "Traditional x-ray technology creates two-dimensional images of anatomic structures (e.g. a two-dimensional panoramic radiograph). 3D cone beam computed tomography displays a three-dimensional volume and therefore allows a reliable assessment, for example the evaluation of the exact position and relationship of wisdom teeth to the mandibular nerve or the precise analysis of the bone situation prior to dental implant surgery. With our two digital 3D volume tomography units, GALILEOS and ORTHOPHOS XG 3D, we can offer you a three-dimensional view of anatomical structures.",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      }
+    ],
+    "gruppe": "diagnostik",
+    "reihenfolge": 110,
+    "quelle": "praxiszuerichberg.ch/index_en.html, section 'Treatment' (abgerufen 21.09.2026)",
+    "pruefstatus": "sprachlich-angepasst"
+  },
+  {
+    "id": "behandlung-en-implantate",
+    "sprache": "en",
+    "uebersetzungsSchluessel": "behandlung-implantate",
+    "titel": "Implant planning and implant treatment",
+    "anker": "dental-implants",
+    "inhalt": [
+      {
+        "_type": "block",
+        "_key": "405500848e53",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "13b66341e067",
+            "text": "Dental implants can retain fixed crowns and bridges or support removable dental prostheses. Implants are carefully planned and have to be accurately installed surgically. 3D x-ray images can facilitate implant diagnostics including bone grafting and further aid guided surgical procedures with machined templates derived from the diagnostic 3D data, which is especially helpful in more complex situations.",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      }
+    ],
+    "gruppe": "chirurgie",
+    "reihenfolge": 120,
+    "quelle": "praxiszuerichberg.ch/index_en.html, section 'Treatment' (abgerufen 21.09.2026)",
+    "pruefstatus": "sprachlich-angepasst"
+  },
+  {
+    "id": "behandlung-en-chirurgie",
+    "sprache": "en",
+    "uebersetzungsSchluessel": "behandlung-chirurgie",
+    "titel": "Dental surgery",
+    "anker": "dental-surgery",
+    "inhalt": [
+      {
+        "_type": "block",
+        "_key": "5022ac7f35de",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "cdcc2698784e",
+            "text": "Seriously damaged or fractured teeth are to be removed before the jaw area becomes inflamed due to infection. In certain cases, wisdom teeth have to be surgically removed. Dental surgery also includes regenerative procedures like bone and/or soft tissue grafting to prepare site defects for dental implants as well as resective procedures of periodontal surgery or mucogingival esthetic surgery.",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      }
+    ],
+    "gruppe": "chirurgie",
+    "reihenfolge": 130,
+    "quelle": "praxiszuerichberg.ch/index_en.html, section 'Treatment' (abgerufen 21.09.2026)",
+    "pruefstatus": "sprachlich-angepasst"
+  },
+  {
+    "id": "behandlung-en-festsitzende-prothetik",
+    "sprache": "en",
+    "uebersetzungsSchluessel": "behandlung-festsitzende-prothetik",
+    "titel": "Fixed prosthesis",
+    "anker": "fixed-prosthesis",
+    "inhalt": [
+      {
+        "_type": "block",
+        "_key": "b0ca51186932",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "fb18b6a9a7b7",
+            "text": "Tooth- or implant-supported fixed dental prostheses provide functional and esthetic replacement of missing teeth. Fixed bridgework can be made with high-strength zirconia frameworks. Conventionally, silicone impressions are taken and sent to the dental laboratory. In ideal situations we can digitally record the situation using the CEREC camera and send the data to the dental laboratory via the internet.",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      }
+    ],
+    "gruppe": "chirurgie",
+    "reihenfolge": 140,
+    "quelle": "praxiszuerichberg.ch/index_en.html, section 'Treatment' (abgerufen 21.09.2026)",
+    "pruefstatus": "sprachlich-angepasst"
+  },
+  {
+    "id": "behandlung-en-abnehmbare-prothetik",
+    "sprache": "en",
+    "uebersetzungsSchluessel": "behandlung-abnehmbare-prothetik",
+    "titel": "Removable prosthesis",
+    "anker": "removable-prosthesis",
+    "inhalt": [
+      {
+        "_type": "block",
+        "_key": "6055a971b8ed",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "13b1b438b9a7",
+            "text": "Removable dental prostheses replace teeth and tissue of partially or completely edentulous jaws. The retention is accomplished with the use of attachments (clasps, telescopic crowns, root caps, etc.) to the remaining teeth or prepared roots. Dental implants can further support and retain removable dental prostheses.",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      }
+    ],
+    "gruppe": "chirurgie",
+    "reihenfolge": 150,
+    "quelle": "praxiszuerichberg.ch/index_en.html, section 'Treatment' (abgerufen 21.09.2026)",
+    "pruefstatus": "sprachlich-angepasst"
+  },
+  {
+    "id": "behandlung-en-verschiedenes",
+    "sprache": "en",
+    "uebersetzungsSchluessel": "behandlung-verschiedenes",
+    "titel": "Other treatments: children, orthodontics, night guards",
+    "anker": "other-treatments",
+    "inhalt": [
+      {
+        "_type": "block",
+        "_key": "e8240568eeb4",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "d68a12bd2684",
+            "text": "We also look after the younger generation within the framework of our children's dentistry programme. In more complex situations, we work together with a specialised paediatric dentist. Unfortunately, we cannot offer orthodontic treatment in our practice. However, we work very closely together with two orthodontists in the near vicinity. Furthermore, we also offer night guards (Michigan-type occlusal splints, NTI splints) in the event of pain related to the masticatory muscles or the jaw joint.",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      }
+    ],
+    "gruppe": "weiteres",
+    "reihenfolge": 160,
+    "quelle": "praxiszuerichberg.ch/index_en.html, section 'Treatment' (abgerufen 21.09.2026)",
+    "pruefstatus": "sprachlich-angepasst"
+  }
+]

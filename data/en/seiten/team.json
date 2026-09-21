@@ -1,0 +1,32 @@
+{
+  "id": "seite-en-team",
+  "sprache": "en",
+  "uebersetzungsSchluessel": "seite-team",
+  "slug": "team",
+  "titel": "Team",
+  "einleitung": "Two dentists and a dental hygienist. The dentists' curricula vitae can be found under their names.",
+  "seoTitel": "Team: PD Dr. Andreas Bindl, Dr. Corinna Fritschi, Ruwen Friedl",
+  "seoBeschreibung": "The team at Praxis am Zürichberg: PD Dr. med. dent. Andreas Bindl, Dr. med. dent. Corinna Fritschi and dental hygienist HF Ruwen Friedl. Curricula vitae and languages.",
+  "bausteine": [
+    {
+      "_type": "teamBaustein",
+      "_key": "team-liste",
+      "mitLebenslauf": true,
+      "team": []
+    },
+    {
+      "_type": "aufrufBaustein",
+      "_key": "team-aufruf",
+      "titel": "Get to know us.",
+      "text": "Call us or write to us.",
+      "knopf": {
+        "titel": "Call 044 261 33 30",
+        "ziel": "tel:+41442613330"
+      },
+      "zweiterKnopf": {
+        "titel": "Contact",
+        "ziel": "/en/contact/"
+      }
+    }
+  ]
+}

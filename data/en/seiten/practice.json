@@ -1,0 +1,278 @@
+{
+  "id": "seite-en-practice",
+  "sprache": "en",
+  "uebersetzungsSchluessel": "seite-praxis",
+  "slug": "practice",
+  "titel": "Dental practice",
+  "einleitung": "Philosophy, history and pricing structure of Praxis am Zürichberg.",
+  "seoTitel": "Practice: philosophy, history, pricing",
+  "seoBeschreibung": "Since 2007, Praxis am Zürichberg continues the former Clinic for Tooth-Coloured and Computer-Aided Restorations of the University of Zurich. Philosophy, history and SSO tariff.",
+  "bausteine": [
+    {
+      "_type": "textBaustein",
+      "_key": "praxis-philosophie",
+      "anker": "philosophy",
+      "titel": "Philosophy",
+      "inhalt": [
+        {
+          "_type": "block",
+          "_key": "70fe605e6152",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "0741128708d9",
+              "text": "Oral health is essential for a feeling of well-being and good quality of life. Therefore the team at Praxis am Zürichberg is fully committed to providing appropriate solutions combined with supportive periodontal treatment to improve dental and periodontal health on a long-term basis.",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        },
+        {
+          "_type": "block",
+          "_key": "7e0753bc94e9",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "499bdf8984e2",
+              "text": "Our portfolio covers general dental care procedures as well as complex rehabilitations including dental implants. We conduct interdisciplinary treatments with selected specialists in the fields of orthodontics, maxillofacial surgery and others from our well-established network.",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        },
+        {
+          "_type": "block",
+          "_key": "cb34672386c2",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "01876783ebd4",
+              "text": "Together with you, we develop a transparent treatment plan that is tailored to your needs and expectations as well as your financial situation. We devise sophisticated solutions that are based on your wishes and the scientific findings of modern dentistry.",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        },
+        {
+          "_type": "block",
+          "_key": "a87cff0d2061",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "0b962ac16039",
+              "text": "Our primary aim is to preserve a healthy oral environment and prevent damage to hard and soft tissues. We offer individual recall visits with our Swiss graduate dental hygienists and regular preventative examinations with your dentist to protect you from further diseases of the teeth, the periodontium and the surrounding structures.",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        },
+        {
+          "_type": "block",
+          "_key": "cad075bd4f10",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "af62053bda7e",
+              "text": "PD Dr. med. dent. A. Bindl and Dr. med. dent. C. Fritschi act as a team and discuss individual treatment strategies and scientific opinions together.",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        }
+      ],
+      "bild": {
+        "bild": "praxis-cerec",
+        "alt": "Treatment station with screen for CEREC planning"
+      },
+      "bildPosition": "rechts"
+    },
+    {
+      "_type": "textBaustein",
+      "_key": "praxis-geschichte",
+      "anker": "history",
+      "titel": "History of the practice",
+      "inhalt": [
+        {
+          "_type": "block",
+          "_key": "4d61690ebe79",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "2fb335b819df",
+              "text": "The Clinic for Tooth-Coloured and Computer-Aided Restorations at the Center of Dental Medicine at the University of Zurich was founded in 1992 by Prof. Dr. W. H. Mörmann as a clinical research facility. Prof. W. Mörmann and Dr. M. Brandestini developed and optimized the Cerec method to series production readiness.",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        },
+        {
+          "_type": "block",
+          "_key": "662d49656c2e",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "8dd729ce3a40",
+              "text": "The Cerec method enables dentists to create ceramic inlays, overlays, partial crowns, crowns and veneers by computer-aided design and manufacturing in a single treatment session. At the beginning of the 1990s, the method had become so sophisticated that it was used to treat patients as a matter of routine. However, clinical studies on the long-term behaviour of these computer-aided restorations had not been carried out. The Clinic for Tooth-Coloured and Computer Restorations was set up with the aim of documenting the long-term clinical behaviour.",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        },
+        {
+          "_type": "block",
+          "_key": "60fb23b01f43",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "3bd170cf6dc5",
+              "text": "In January 2007 PD Dr. med. dent. A. Bindl took over the Clinic for Tooth-Coloured and Computer Restorations and named it Praxis am Zürichberg due to its well-known location.",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        }
+      ],
+      "bild": {
+        "bild": "praxis-mikroskop",
+        "alt": "Operating microscope in the treatment room"
+      },
+      "bildPosition": "links"
+    },
+    {
+      "_type": "textBaustein",
+      "_key": "praxis-preise",
+      "anker": "pricing",
+      "titel": "Pricing structure",
+      "inhalt": [
+        {
+          "_type": "block",
+          "_key": "5506818e3882",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "a280662633dd",
+              "text": "Applied costs are managed according to the tariff of the Swiss Dental Association SSO (",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "6c2ec1eac302",
+              "text": "www.sso.ch",
+              "marks": [
+                "f9cc112b4f91"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "a1f35db4b8e9",
+              "text": "). The SSO dentist's fee schedule can be briefly explained in the following way: Every dental service is assigned a number of points according to time and effort. The sum of these points is then multiplied by the practitioner's tariff value (TPW) to get the explicit costs in Swiss francs. The individual value (TPW) is determined by the owner of the practice.",
+              "marks": []
+            }
+          ],
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "f9cc112b4f91",
+              "href": "https://www.sso.ch",
+              "extern": true
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "ef497d0f9f33",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "576daef00569",
+              "text": "On request, we will provide a written estimate of costs as a guide for your dental service. In complex cases, individual examination records are a prerequisite for treatment planning and cost estimation.",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        },
+        {
+          "_type": "block",
+          "_key": "04094dee1e16",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "c0d8ca00b8ee",
+              "text": "Details on invoicing are given in the ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "1e7946b92c9d",
+              "text": "general terms and conditions (PDF, German)",
+              "marks": [
+                "ba6db6f254c4"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "05bd27e42ae3",
+              "text": ".",
+              "marks": []
+            }
+          ],
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "ba6db6f254c4",
+              "href": "/en/patient-information/",
+              "extern": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_type": "hinweisBaustein",
+      "_key": "praxis-preise-hinweis",
+      "titel": "Tariff point value",
+      "art": "info",
+      "inhalt": [
+        {
+          "_type": "block",
+          "_key": "41b19dbbdcc2",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "54fdf2cce2da",
+              "text": "The previous website and the information sheet \"General terms and conditions\" (2015) list tariff point values (including CHF 3.90 for PD Dr. med. dent. Andreas Bindl). Whether these values still apply will be confirmed by the practice before publication. For questions about costs, please contact the practice directly.",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        }
+      ]
+    },
+    {
+      "_type": "aufrufBaustein",
+      "_key": "praxis-aufruf",
+      "titel": "Questions about treatment or costs?",
+      "text": "We are happy to advise you personally, by phone or at the practice.",
+      "knopf": {
+        "titel": "Call 044 261 33 30",
+        "ziel": "tel:+41442613330"
+      },
+      "zweiterKnopf": {
+        "titel": "Contact",
+        "ziel": "/en/contact/"
+      }
+    }
+  ]
+}

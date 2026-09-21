@@ -1,0 +1,39 @@
+{
+  "id": "seite-en-patient-information",
+  "sprache": "en",
+  "uebersetzungsSchluessel": "seite-downloads",
+  "slug": "patient-information",
+  "titel": "Patient information",
+  "einleitung": "Information sheets from the practice for download: general terms and conditions, instructions after surgical procedures, periodontal treatment, cleaning removable appliances, home bleaching, sonic toothbrushes and a leaflet on dental accidents. All documents are in German.",
+  "seoTitel": "Patient information and downloads (PDF)",
+  "seoBeschreibung": "Information sheets from Praxis am Zürichberg as PDF (German): general terms and conditions, instructions after surgical procedures, periodontal treatment, cleaning removable appliances, bleaching, sonic toothbrushes, dental accident.",
+  "bausteine": [
+    {
+      "_type": "downloadsBaustein",
+      "_key": "downloads-liste",
+      "downloads": []
+    },
+    {
+      "_type": "hinweisBaustein",
+      "_key": "downloads-hinweis",
+      "titel": "About the documents",
+      "art": "info",
+      "inhalt": [
+        {
+          "_type": "block",
+          "_key": "432cbd1303ad",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "88c17f738e1e",
+              "text": "The information sheets come from the practice's previous website (2015) and were adopted unchanged. All documents are in German. The leaflet \"Dental accident\" was published by the Health Directorate of the Canton of Zurich. If you have questions about a document, please contact the practice.",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        }
+      ]
+    }
+  ]
+}

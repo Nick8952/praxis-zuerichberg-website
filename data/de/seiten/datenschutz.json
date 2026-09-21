@@ -1,0 +1,17 @@
+{
+  "id": "seite-de-datenschutz",
+  "sprache": "de",
+  "uebersetzungsSchluessel": "seite-datenschutz",
+  "slug": "datenschutz",
+  "titel": "Datenschutzerklärung",
+  "einleitung": "Welche Daten beim Besuch dieser Demo-Website anfallen, welche nicht, und was Sie selbst entscheiden.",
+  "seoTitel": "Datenschutzerklärung",
+  "seoBeschreibung": "Datenschutzerklärung der Demo-Website für die Praxis am Zürichberg: Hosting auf GitHub Pages, Karte nur nach Einwilligung, keine Gesundheitsdaten per Formular.",
+  "bausteine": [
+    {
+      "_type": "rechtstextBaustein",
+      "_key": "datenschutz-text",
+      "rechtstext": "datenschutz"
+    }
+  ]
+}

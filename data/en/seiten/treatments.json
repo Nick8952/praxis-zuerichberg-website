@@ -1,0 +1,54 @@
+{
+  "id": "seite-en-treatments",
+  "sprache": "en",
+  "uebersetzungsSchluessel": "seite-behandlungen",
+  "slug": "treatments",
+  "titel": "Treatments",
+  "einleitung": "From examination, prophylaxis, tooth-coloured fillings and CEREC restorations to dental implants and prostheses. Click a treatment to open its description.",
+  "seoTitel": "Treatments: computer-aided dentistry, prophylaxis, implants",
+  "seoBeschreibung": "Treatments at Praxis am Zürichberg: examination, pain treatment, prophylaxis and dental hygiene, digital x-rays, teeth whitening, fillings, CEREC inlays and crowns, veneers, root canal treatment, 3D x-ray imaging, dental implants, surgery, prostheses.",
+  "bausteine": [
+    {
+      "_type": "behandlungenBaustein",
+      "_key": "behandlungen-liste",
+      "darstellung": "akkordeon",
+      "behandlungen": []
+    },
+    {
+      "_type": "hinweisBaustein",
+      "_key": "behandlungen-hinweis",
+      "titel": "Please note",
+      "art": "info",
+      "inhalt": [
+        {
+          "_type": "block",
+          "_key": "147298c5a58e",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "588289ea71da",
+              "text": "These descriptions give an overview of what the practice offers. Whether and which treatment is suitable for you is determined by an examination and consultation at the practice. This page does not replace individual dental advice.",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        }
+      ]
+    },
+    {
+      "_type": "aufrufBaustein",
+      "_key": "behandlungen-aufruf",
+      "titel": "In pain?",
+      "text": "Whenever possible, we try to arrange an appointment for pain treatment on the day that you call us.",
+      "knopf": {
+        "titel": "Call 044 261 33 30",
+        "ziel": "tel:+41442613330"
+      },
+      "zweiterKnopf": {
+        "titel": "Contact and directions",
+        "ziel": "/en/contact/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,454 @@
+{
+  "id": "rechtstext-de-datenschutz",
+  "sprache": "de",
+  "uebersetzungsSchluessel": "rechtstext-datenschutz",
+  "art": "datenschutz",
+  "titel": "Datenschutzerklärung",
+  "stand": "2026-09-21",
+  "inhalt": [
+    {
+      "_type": "block",
+      "_key": "47aa9bd15c89",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "f62d9fe7ef5d",
+          "text": "Diese Datenschutzerklärung beschreibt, welche Daten beim Besuch dieser ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "_key": "8a341ab98639",
+          "text": "Demo-Website",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "_key": "fd423ab3ef42",
+          "text": " verarbeitet werden. Die Website ist eine Gestaltungs-Demo und wird nicht von der Praxis am Zürichberg betrieben. Massgebend ist das Schweizer Datenschutzgesetz (DSG); soweit Personen im Europäischen Wirtschaftsraum betroffen sind, gilt ergänzend die Datenschutz-Grundverordnung (DSGVO).",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "758a2e48c37f",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "0ba4dc2de706",
+          "text": "Verantwortliche Stelle",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "216a3a5ee766",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "791e67cd2646",
+          "text": "Nick Holzbecher\nE-Mail: ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "_key": "25a37e3823d8",
+          "text": "holzbechernick@gmail.com",
+          "marks": [
+            "5d6e2aae2ddb"
+          ]
+        }
+      ],
+      "markDefs": [
+        {
+          "_type": "link",
+          "_key": "5d6e2aae2ddb",
+          "href": "mailto:holzbechernick@gmail.com",
+          "extern": false
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "ce0b8729ffb6",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "d510414f7f3d",
+          "text": "Keine Gesundheitsdaten über diese Website",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "0652e1431a20",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "303567a28f8b",
+          "text": "Diese Website erhebt keine Gesundheitsdaten. Es gibt kein Formular für Beschwerden, Diagnosen oder Unterlagen und keine Möglichkeit, Dateien hochzuladen. Bitte übermitteln Sie auch per E-Mail keine medizinischen Angaben: Gewöhnliche E-Mail ist kein sicherer Übertragungskanal für Gesundheitsdaten. Besprechen Sie Ihr Anliegen telefonisch oder in der Praxis.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "418930dc2061",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "5aa65de46654",
+          "text": "Hosting: GitHub Pages",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "459a492b935f",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "a3a031edfc88",
+          "text": "Diese Website wird als statische Seite über ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "_key": "c3b16105a694",
+          "text": "GitHub Pages",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "_key": "c2eaa6ec574c",
+          "text": " ausgeliefert, einen Dienst der GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. Beim Aufruf einer GitHub-Pages-Seite protokolliert GitHub nach eigenen Angaben die IP-Adresse der besuchenden Person zu Sicherheitszwecken, unabhängig davon, ob sie bei GitHub angemeldet ist. Zusätzlich fallen technisch die üblichen Verbindungsdaten an (Zeitpunkt, aufgerufene Adresse, Browser-Kennung). Diese Daten werden von GitHub verarbeitet, möglicherweise auch in den USA; wir haben darauf keinen Zugriff. Angaben zur Speicherdauer und zu den Garantien für die Übermittlung in Drittstaaten finden Sie in der ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "_key": "43b713daa4b2",
+          "text": "Datenschutzerklärung von GitHub",
+          "marks": [
+            "b2f7fa4c0122"
+          ]
+        },
+        {
+          "_type": "span",
+          "_key": "8ba6b67cfb87",
+          "text": ". Grundlage dieser Verarbeitung ist unser berechtigtes Interesse an einer sicheren und zuverlässigen Bereitstellung der Website.",
+          "marks": []
+        }
+      ],
+      "markDefs": [
+        {
+          "_type": "link",
+          "_key": "b2f7fa4c0122",
+          "href": "https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement",
+          "extern": true
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "f6d4ee8fe035",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "3e8faed6c550",
+          "text": "Keine Cookies, kein Tracking",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "9f37877db16b",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "3840a4a899d1",
+          "text": "Diese Website setzt ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "_key": "8a85f03bd279",
+          "text": "keine eigenen Cookies",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "_key": "3f937b7afbeb",
+          "text": " und verwendet ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "_key": "4140f53e23e0",
+          "text": "keine Analyse-, Werbe- oder Social-Media-Dienste",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "_key": "eef0a550320a",
+          "text": ". Schriften werden lokal von dieser Website geladen; es findet kein Abruf bei Google Fonts oder anderen Schriftdiensten statt.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "5d95abc4ba0c",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "e496627af27c",
+          "text": "Einwilligung für die Karte (Google Maps)",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "86cb5e9d0f97",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "150ac587ccc5",
+          "text": "Auf der Kontaktseite können Sie eine Standortkarte von Google Maps (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland) anzeigen lassen. Die Karte wird ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "_key": "4f984bb6e899",
+          "text": "erst geladen, wenn Sie zustimmen",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "_key": "f4482e6faaa9",
+          "text": ", über den Banner beim ersten Besuch, den Knopf «Karte anzeigen» oder die Datenschutz-Einstellungen. Vor Ihrer Zustimmung wird keine Verbindung zu Google aufgebaut. Mit dem Laden erhält Google Ihre IP-Adresse und Browserangaben und kann Cookies setzen; Google verarbeitet Daten auch in den USA. Es gilt die ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "_key": "0e0d5efc4334",
+          "text": "Datenschutzerklärung von Google",
+          "marks": [
+            "b6807596cb67"
+          ]
+        },
+        {
+          "_type": "span",
+          "_key": "91dc898acce9",
+          "text": ".",
+          "marks": []
+        }
+      ],
+      "markDefs": [
+        {
+          "_type": "link",
+          "_key": "b6807596cb67",
+          "href": "https://policies.google.com/privacy",
+          "extern": true
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "4c27921c4664",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "480e101c73c1",
+          "text": "Ihre Entscheidung wird im lokalen Speicher Ihres Browsers gespeichert (Schlüssel «praxis-zuerichberg-einwilligung», mit Datum und Version). Diese Speicherung ist notwendig, damit Sie nicht bei jedem Besuch erneut gefragt werden; sie wird nicht an uns übermittelt. Sie können die Einwilligung jederzeit unter ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "_key": "6971128a670b",
+          "text": "Datenschutz-Einstellungen",
+          "marks": [
+            "9b520609ae1c"
+          ]
+        },
+        {
+          "_type": "span",
+          "_key": "b21fe2923bc5",
+          "text": " ändern oder widerrufen; die Karte wird dann sofort entfernt. Bereits von Google gesetzte Cookies löschen Sie über die Einstellungen Ihres Browsers.",
+          "marks": []
+        }
+      ],
+      "markDefs": [
+        {
+          "_type": "link",
+          "_key": "9b520609ae1c",
+          "href": "/de/datenschutz-einstellungen/",
+          "extern": false
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "f8938d7a4dba",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "fa4c857793a8",
+          "text": "Kontaktaufnahme",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "58f45c386ed1",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "481a6a67922b",
+          "text": "Die Kontaktseite bietet an, eine E-Mail vorzubereiten: Ihre Angaben (Name, Rückrufnummer, Anliegen, organisatorische Nachricht) werden ausschliesslich in Ihrem Browser zu einem E-Mail-Entwurf zusammengesetzt und an Ihr eigenes E-Mail-Programm übergeben. Gesendet wird erst, wenn Sie dies dort selbst auslösen. Diese Website speichert und übermittelt nichts davon. Wenn Sie die Praxis telefonisch oder per E-Mail kontaktieren, verarbeitet die Praxis Ihre Angaben zur Bearbeitung Ihres Anliegens im Rahmen ihres Berufsgeheimnisses. Schreiben Sie der für die Demo verantwortlichen Person, werden Ihre Angaben nur zur Beantwortung verwendet.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "3ecf367589c2",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "abd7b6c3505f",
+          "text": "Externe Links",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "fefd8c99d92a",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "6f872a9ad005",
+          "text": "«Route planen» führt zu Google Maps, weitere Links zu sso.ch und andreasbindl.zenfolio.com. Erst mit dem Klick verlassen Sie diese Website; ab dann gilt die Datenschutzerklärung des jeweiligen Anbieters. Telefonlinks öffnen die Telefon-App Ihres Geräts.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ee1fcc320552",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "7e33e3fa48f9",
+          "text": "Ihre Rechte",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "42e622106997",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "108e2ad8eb47",
+          "text": "Sie haben das Recht auf Auskunft über die Sie betreffenden Personendaten, auf Berichtigung, Löschung oder Einschränkung der Bearbeitung sowie, soweit die DSGVO anwendbar ist, auf Datenübertragbarkeit und Widerspruch. Wenden Sie sich dazu an die oben genannte verantwortliche Stelle. Sie können sich zudem an den Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB) oder an eine Datenschutz-Aufsichtsbehörde in Ihrem Wohnsitzstaat wenden.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "17b3ff3de1a0",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "aae17fd3e89c",
+          "text": "Änderungen",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "521fbdcb2e1e",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "39593cee40f8",
+          "text": "Wird diese Website später mit weiteren Diensten betrieben (zum Beispiel einem Redaktionssystem oder einem anderen Hosting), wird diese Erklärung angepasst. Es gilt jeweils die hier veröffentlichte Fassung.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "f0de9a686577",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "d7f496148ce3",
+          "text": "Hinweis: Dieser Text wurde für die Demo erstellt und ist nicht anwaltlich geprüft.",
+          "marks": [
+            "em"
+          ]
+        }
+      ],
+      "markDefs": []
+    }
+  ]
+}

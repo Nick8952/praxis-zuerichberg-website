@@ -1,0 +1,48 @@
+{
+  "id": "seite-en-contact",
+  "sprache": "en",
+  "uebersetzungsSchluessel": "seite-kontakt",
+  "slug": "contact",
+  "titel": "Contact",
+  "einleitung": "Attenhoferstrasse 8a, 8032 Zurich. The easiest way to make an appointment is by phone.",
+  "seoTitel": "Contact and directions, Attenhoferstrasse 8a, 8032 Zurich",
+  "seoBeschreibung": "Praxis am Zürichberg, Attenhoferstrasse 8a, 8032 Zurich. Phone 044 261 33 30, info@praxiszuerichberg.ch. Tram 5 or 6 to Voltastrasse, two parking spaces in the underground car park.",
+  "bausteine": [
+    {
+      "_type": "kontaktBaustein",
+      "_key": "kontakt-haupt",
+      "mitKarte": true,
+      "mitFormular": true,
+      "anfahrt": [
+        {
+          "_type": "block",
+          "_key": "1dbc68b80a37",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "19bd1718c119",
+              "text": "We recommend taking the no. 5 tram (from Bellevue) or the no. 6 tram (from Central) up to Voltastrasse. In driving direction turn right down the road onto Moussonstrasse and continue straight on (approx. 300 m) along Nägelistrasse until you cross over Zürichbergstrasse onto Attenhoferstrasse; there you will find us on the right-hand side (50 m).",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        },
+        {
+          "_type": "block",
+          "_key": "a5723b361348",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "c8e9c1bb311b",
+              "text": "There are two parking spaces for patients in our underground car park. Please contact the patients' secretary to reserve a space.",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        }
+      ]
+    }
+  ]
+}

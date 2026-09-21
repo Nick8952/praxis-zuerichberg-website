@@ -1,0 +1,205 @@
+[
+  {
+    "id": "team-de-bindl",
+    "sprache": "de",
+    "uebersetzungsSchluessel": "team-bindl",
+    "titelVor": "PD Dr. med. dent.",
+    "vorname": "Andreas",
+    "nachname": "Bindl",
+    "funktion": "Zahnarzt, Mitglied SSO",
+    "sprachen": [
+      "Deutsch",
+      "Englisch"
+    ],
+    "bild": {
+      "bild": "team-bindl",
+      "alt": "Portrait von PD Dr. med. dent. Andreas Bindl"
+    },
+    "lebenslaufEinleitung": "Durch seine langjährige Tätigkeit am Zahnmedizinischen Zentrum der Universität Zürich und aufgrund der Habilitation mit besonderem Schwerpunkt in «Restaurativer Computer-Zahnmedizin» hat sich PD Dr. A. Bindl ein sehr fundiertes Wissen in der modernen Zahnmedizin und Computerzahnmedizin erarbeitet.",
+    "lebenslauf": [
+      {
+        "_type": "block",
+        "_key": "7b3d049c4f86",
+        "style": "h2",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "7c4ee5883e30",
+            "text": "Werdegang",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      },
+      {
+        "_type": "zeitleiste",
+        "_key": "cv-b-de-w",
+        "eintraege": [
+          {
+            "_type": "eintrag",
+            "_key": "cv-b-de-w-0",
+            "zeitraum": "1994",
+            "text": "Dissertation und Erlangung des Doktortitels, Freie Universität Berlin"
+          },
+          {
+            "_type": "eintrag",
+            "_key": "cv-b-de-w-1",
+            "zeitraum": "1994-1997",
+            "text": "Assistent an der Station für Zahnfarbene & Computer Restaurationen (Prof. Dr. W. H. Mörmann), Klinik für Präventivzahnmedizin, Parodontologie und Kariologie des Zentrums für Zahn-, Mund- und Kieferheilkunde der Universität Zürich"
+          },
+          {
+            "_type": "eintrag",
+            "_key": "cv-b-de-w-2",
+            "zeitraum": "seit 1997",
+            "text": "Lehraufträge an der medizinischen Fakultät der Universität Zürich für restaurative Zahnmedizin, Parodontologie und Endodontie & restaurative Computerzahnmedizin"
+          },
+          {
+            "_type": "eintrag",
+            "_key": "cv-b-de-w-3",
+            "zeitraum": "1997-2007",
+            "text": "Oberarzt & Klinikchef an der Station für Zahnfarbene & Computer Restaurationen (Prof. Dr. W. H. Mörmann), Klinik für Präventivzahnmedizin, Parodontologie und Kariologie des Zentrums für Zahn-, Mund- und Kieferheilkunde der Universität Zürich"
+          },
+          {
+            "_type": "eintrag",
+            "_key": "cv-b-de-w-4",
+            "zeitraum": "2006",
+            "text": "Habilitation (Venia Legendi) an der Universität Zürich für das Fach «Zahnmedizin unter besonderer Berücksichtigung der Restaurativen Computer Zahnmedizin»"
+          },
+          {
+            "_type": "eintrag",
+            "_key": "cv-b-de-w-5",
+            "zeitraum": "seit 2007",
+            "text": "Übernahme der Station für Zahnfarbene & Computer Restaurationen, Weiterführung als «Praxis am Zürichberg». Oberarzt (20 % Anstellung) Abteilung für Restaurative Computer Zahnmedizin, Klinik für Präventivzahnmedizin, Parodontologie und Kariologie des Zentrums für Zahnmedizin der Universität Zürich"
+          }
+        ]
+      },
+      {
+        "_type": "block",
+        "_key": "1acbb2147831",
+        "style": "h2",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "d4fdf7b5491b",
+            "text": "Auszeichnungen",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      },
+      {
+        "_type": "zeitleiste",
+        "_key": "cv-b-de-a",
+        "eintraege": [
+          {
+            "_type": "eintrag",
+            "_key": "cv-b-de-a-0",
+            "zeitraum": "2003",
+            "text": "Jahrespreis 2003 der «Deutschen Arbeitsgemeinschaft für Keramik e.V.»"
+          },
+          {
+            "_type": "eintrag",
+            "_key": "cv-b-de-a-1",
+            "zeitraum": "2005",
+            "text": "Best Manuscript of 2005 Award, International Journal of Prosthodontics, Quintessence International"
+          }
+        ]
+      }
+    ],
+    "reihenfolge": 10
+  },
+  {
+    "id": "team-de-fritschi",
+    "sprache": "de",
+    "uebersetzungsSchluessel": "team-fritschi",
+    "titelVor": "Dr. med. dent.",
+    "vorname": "Corinna",
+    "nachname": "Fritschi",
+    "funktion": "Zahnärztin",
+    "sprachen": [
+      "Deutsch",
+      "Englisch"
+    ],
+    "bild": {
+      "bild": "team-fritschi",
+      "alt": "Portrait von Dr. med. dent. Corinna Fritschi"
+    },
+    "lebenslaufEinleitung": "Durch ihre Tätigkeit am Zahnmedizinischen Zentrum der Universität Zürich hat sich Dr. C. Fritschi ein sehr fundiertes Wissen in der modernen Zahnmedizin mit Schwerpunkt in restaurativer Computerzahnmedizin erarbeitet.",
+    "lebenslauf": [
+      {
+        "_type": "block",
+        "_key": "cf32c7349a6c",
+        "style": "h2",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "b67e0cf25219",
+            "text": "Werdegang",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      },
+      {
+        "_type": "zeitleiste",
+        "_key": "cv-f-de-w",
+        "eintraege": [
+          {
+            "_type": "eintrag",
+            "_key": "cv-f-de-w-0",
+            "zeitraum": "2008-2013",
+            "text": "Studium Zahnmedizin, Staatsexamen, Julius-Maximilians-Universität Würzburg"
+          },
+          {
+            "_type": "eintrag",
+            "_key": "cv-f-de-w-1",
+            "zeitraum": "2014-2017",
+            "text": "Assistenzzahnärztin Bereich Computergestützte Restaurative Zahnmedizin, Universität Zürich"
+          },
+          {
+            "_type": "eintrag",
+            "_key": "cv-f-de-w-2",
+            "zeitraum": "2016",
+            "text": "Dissertation und Erlangung des Doktortitels, Universität Zürich"
+          },
+          {
+            "_type": "eintrag",
+            "_key": "cv-f-de-w-3",
+            "zeitraum": "seit 2017",
+            "text": "Zahnärztin in der Praxis am Zürichberg, Zürich"
+          },
+          {
+            "_type": "eintrag",
+            "_key": "cv-f-de-w-4",
+            "zeitraum": "2017",
+            "text": "Zertifikat in Digitaler Volumentomographie (SGDMFR)"
+          },
+          {
+            "_type": "eintrag",
+            "_key": "cv-f-de-w-5",
+            "zeitraum": "seit 2017",
+            "text": "Instruktorin und Gast-Zahnärztin an der Klinik für Zahnerhaltung & Präventivzahnmedizin (Bereich Computergestützte Restaurative Zahnmedizin) des Zahnmedizinischen Zentrums, Universität Zürich"
+          }
+        ]
+      }
+    ],
+    "reihenfolge": 20
+  },
+  {
+    "id": "team-de-friedl",
+    "sprache": "de",
+    "uebersetzungsSchluessel": "team-friedl",
+    "vorname": "Ruwen",
+    "nachname": "Friedl",
+    "funktion": "Dentalhygieniker HF",
+    "sprachen": [
+      "Deutsch",
+      "Englisch"
+    ],
+    "bild": {
+      "bild": "team-friedl",
+      "alt": "Portrait von Ruwen Friedl"
+    },
+    "reihenfolge": 30
+  }
+]

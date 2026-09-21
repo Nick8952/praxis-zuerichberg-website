@@ -1,0 +1,17 @@
+{
+  "id": "seite-en-privacy",
+  "sprache": "en",
+  "uebersetzungsSchluessel": "seite-datenschutz",
+  "slug": "privacy",
+  "titel": "Privacy policy",
+  "einleitung": "Which data is processed when you visit this demo website, which is not, and what you decide yourself.",
+  "seoTitel": "Privacy policy",
+  "seoBeschreibung": "Privacy policy of the demo website for Praxis am Zürichberg: hosting on GitHub Pages, map only after consent, no health data via form.",
+  "bausteine": [
+    {
+      "_type": "rechtstextBaustein",
+      "_key": "datenschutz-text",
+      "rechtstext": "datenschutz"
+    }
+  ]
+}

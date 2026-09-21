@@ -1,0 +1,32 @@
+{
+  "id": "seite-en-privacy-settings",
+  "sprache": "en",
+  "uebersetzungsSchluessel": "seite-datenschutz-einstellungen",
+  "slug": "privacy-settings",
+  "titel": "Privacy settings",
+  "einleitung": "View and change your decision about external content here. Withdrawal takes effect immediately.",
+  "seoTitel": "Privacy settings",
+  "seoBeschreibung": "View, change or withdraw your consent for external content (Google Maps).",
+  "bausteine": [
+    {
+      "_type": "textBaustein",
+      "_key": "ds-einstellungen-text",
+      "inhalt": [
+        {
+          "_type": "block",
+          "_key": "79b0275dc83b",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "86eb69bcb508",
+              "text": "This website sets no cookies of its own and uses no analytics or advertising services. The only content requiring consent is the Google Maps location map on the contact page. The settings below can be reached from every page via the \"Privacy settings\" link in the footer.",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        }
+      ]
+    }
+  ]
+}

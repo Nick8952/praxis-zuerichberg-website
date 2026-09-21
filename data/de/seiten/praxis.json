@@ -1,0 +1,264 @@
+{
+  "id": "seite-de-praxis",
+  "sprache": "de",
+  "uebersetzungsSchluessel": "seite-praxis",
+  "slug": "praxis",
+  "titel": "Praxis",
+  "einleitung": "Philosophie, Geschichte und Preisgestaltung der Praxis am Zürichberg.",
+  "seoTitel": "Praxis: Philosophie, Geschichte, Preisgestaltung",
+  "seoBeschreibung": "Die Praxis am Zürichberg führt seit 2007 die frühere Station für Zahnfarbene und Computer Restaurationen der Universität Zürich weiter. Philosophie, Geschichte und Tarif nach SSO.",
+  "bausteine": [
+    {
+      "_type": "textBaustein",
+      "_key": "praxis-philosophie",
+      "anker": "philosophie",
+      "titel": "Philosophie",
+      "inhalt": [
+        {
+          "_type": "block",
+          "_key": "5c31482de156",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "0898b22898dd",
+              "text": "Gesunde Zähne bedeuten Wohlbefinden und Lebensqualität. Deshalb möchten wir als Team der Praxis am Zürichberg dazu beitragen, Ihre Anliegen und Zahnbeschwerden schonend und dauerhaft zu beseitigen. Unser Spektrum reicht von der allgemeinen zahnärztlichen Behandlung bis zur komplexen Versorgung mit Implantaten.",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        },
+        {
+          "_type": "block",
+          "_key": "f03b406c6669",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "098b59e22826",
+              "text": "Die wichtigste Person in unserer Praxis sind die Patienten. Gemeinsam mit Ihnen entwickeln wir eine patientenindividuelle und transparente Behandlung. Wir erarbeiten Lösungen, die sich an Ihren Wünschen und den wissenschaftlichen Erkenntnissen moderner Zahnmedizin orientieren.",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        },
+        {
+          "_type": "block",
+          "_key": "c28ff09e3a3a",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "d827424165d9",
+              "text": "Oberstes Ziel ist die Schonung und der Erhalt von Hart- und Weichgewebe in der Mundhöhle. Um Sie vor weiteren Erkrankungen Ihrer Zähne, des Zahnhalteapparates und der umliegenden Strukturen zu bewahren, bieten wir Ihnen eine individuelle Prophylaxe (Vorsorge).",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        },
+        {
+          "_type": "block",
+          "_key": "efa9cedb245d",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "0c0e32299e07",
+              "text": "Die Zahnärzte PD Dr. A. Bindl und Dr. med. dent. C. Fritschi verstehen sich als Team, besprechen und planen gemeinsam die individuellen Behandlungsmöglichkeiten.",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        }
+      ],
+      "bild": {
+        "bild": "praxis-cerec",
+        "alt": "Behandlungsplatz mit Bildschirm für die CEREC-Planung"
+      },
+      "bildPosition": "rechts"
+    },
+    {
+      "_type": "textBaustein",
+      "_key": "praxis-geschichte",
+      "anker": "geschichte",
+      "titel": "Geschichte der Praxis",
+      "inhalt": [
+        {
+          "_type": "block",
+          "_key": "a1720752093d",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "990e238e1b34",
+              "text": "Die Station für Zahnfarbene und Computer Restaurationen des Zentrums für Zahn-, Mund- und Kieferheilkunde der Universität Zürich wurde 1992 als klinischer Forschungsbetrieb von Prof. Dr. W. H. Mörmann gegründet. Von Prof. Mörmann und Dr. M. Brandestini wurde die Cerec-Methode entwickelt und zur Serienreife gebracht.",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        },
+        {
+          "_type": "block",
+          "_key": "27df8a3f7b1b",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "9adee366984e",
+              "text": "Die Cerec-Methode erlaubt dem Zahnarzt, in einer Behandlungssitzung per Computer keramische Füllungen, Teilkronen/Kronen und Verblendschalen herzustellen. Anfang der 90er-Jahre war die Methode bereits so weit ausgereift, dass sie routinemässig am Patienten eingesetzt werden konnte. Es fehlten zu dieser Zeit aber klinische Studien über das Langzeitverhalten dieser Computerrestaurationen. Das Ziel der Etablierung der Station für Zahnfarbene und Computer Restaurationen war, das klinische Langzeitverhalten zu dokumentieren.",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        },
+        {
+          "_type": "block",
+          "_key": "d9ed1cdad015",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "737f0f393957",
+              "text": "Per Januar 2007 wurde die Station für Zahnfarbene und Computer Restaurationen von PD Dr. A. Bindl übernommen und als Praxis am Zürichberg weitergeführt.",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        }
+      ],
+      "bild": {
+        "bild": "praxis-mikroskop",
+        "alt": "OP-Mikroskop im Behandlungsraum"
+      },
+      "bildPosition": "links"
+    },
+    {
+      "_type": "textBaustein",
+      "_key": "praxis-preise",
+      "anker": "preisgestaltung",
+      "titel": "Preisgestaltung",
+      "inhalt": [
+        {
+          "_type": "block",
+          "_key": "d945b775ef7c",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "12ad999ede2e",
+              "text": "Der Zahnarzttarif wurde von der Schweizerischen Zahnärzte-Gesellschaft SSO (",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "1922e18af928",
+              "text": "www.sso.ch",
+              "marks": [
+                "d87e82b62af8"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "0ba2f85ba30c",
+              "text": ") festgelegt und erklärt sich folgendermassen: Jeder zahnärztlichen Leistung ist eine Anzahl von Taxpunkten zugeordnet. Diese Anzahl Taxpunkte wird mit dem Taxpunktwert der Praxis multipliziert. Der Taxpunktwert wird vom Praxisinhaber festgelegt; dabei soll die Lage und Infrastruktur der Praxis berücksichtigt werden. Wir verrechnen mit wenigen Ausnahmen (ausserordentlicher Schwierigkeitsgrad) den Mittel- bzw. Versicherungstarif.",
+              "marks": []
+            }
+          ],
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "d87e82b62af8",
+              "href": "https://www.sso.ch",
+              "extern": true
+            }
+          ]
+        },
+        {
+          "_type": "block",
+          "_key": "6bff28e14c3c",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "7ad55a664e36",
+              "text": "Auf Wunsch erstellen wir für jede zahnärztliche Leistung eine schriftliche Kostenorientierung.",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        },
+        {
+          "_type": "block",
+          "_key": "420cd3ccbbd6",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "af2b26eae633",
+              "text": "Details zur Rechnungsstellung finden Sie in den ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "f93171603239",
+              "text": "Allgemeinen Bedingungen (PDF)",
+              "marks": [
+                "2d7aa3a0d3fd"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "3a9203f88986",
+              "text": ".",
+              "marks": []
+            }
+          ],
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "2d7aa3a0d3fd",
+              "href": "/de/patienteninformationen/",
+              "extern": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_type": "hinweisBaustein",
+      "_key": "praxis-preise-hinweis",
+      "titel": "Taxpunktwert",
+      "art": "info",
+      "inhalt": [
+        {
+          "_type": "block",
+          "_key": "5d0da4c0a8da",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "cfcbd9673455",
+              "text": "Auf der bisherigen Website und im Informationsblatt «Allgemeine Bedingungen» (2015) sind Taxpunktwerte genannt (unter anderem CHF 3.90 für PD Dr. med. dent. Andreas Bindl). Ob diese Werte noch gelten, wird vor der Veröffentlichung von der Praxis bestätigt. Bitte erkundigen Sie sich bei Fragen zu den Kosten direkt in der Praxis.",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        }
+      ]
+    },
+    {
+      "_type": "aufrufBaustein",
+      "_key": "praxis-aufruf",
+      "titel": "Fragen zur Behandlung oder zu den Kosten?",
+      "text": "Wir beraten Sie persönlich, am Telefon oder in der Praxis.",
+      "knopf": {
+        "titel": "Anrufen 044 261 33 30",
+        "ziel": "tel:+41442613330"
+      },
+      "zweiterKnopf": {
+        "titel": "Kontakt",
+        "ziel": "/de/kontakt/"
+      }
+    }
+  ]
+}

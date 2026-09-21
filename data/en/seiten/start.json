@@ -1,0 +1,149 @@
+{
+  "id": "seite-en-start",
+  "sprache": "en",
+  "uebersetzungsSchluessel": "seite-start",
+  "slug": "start",
+  "titel": "Dental practice in Zurich",
+  "seoTitel": "Dentist Zurich, Attenhoferstrasse 8a",
+  "seoBeschreibung": "Praxis am Zürichberg, PD Dr. med. dent. Andreas Bindl: general dental care and complex rehabilitations including dental implants, computer-aided dentistry (CEREC), prophylaxis and dental hygiene. Phone 044 261 33 30.",
+  "hero": {
+    "kurzzeile": "PD Dr. med. dent. Andreas Bindl, Dentist, Member SSO",
+    "titel": "Oral health is essential for well-being and quality of life.",
+    "text": "From general dental care to complex rehabilitations including dental implants: gentle, long-lasting and planned together with you.",
+    "knopf": {
+      "titel": "Call 044 261 33 30",
+      "ziel": "tel:+41442613330"
+    },
+    "zweiterKnopf": {
+      "titel": "Contact and directions",
+      "ziel": "/en/contact/"
+    },
+    "bild": {
+      "bild": "panorama-zuerich",
+      "alt": "View from the Zürichberg over the city of Zurich towards the Alps"
+    }
+  },
+  "bausteine": [
+    {
+      "_type": "textBaustein",
+      "_key": "start-philosophie",
+      "anker": "philosophy",
+      "titel": "Together with you, we develop a treatment plan tailored to your needs.",
+      "inhalt": [
+        {
+          "_type": "block",
+          "_key": "4dbe8e0f1d68",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "bffc33cee7e6",
+              "text": "We devise sophisticated solutions that are based on your wishes and the scientific findings of modern dentistry. Our primary aim is to preserve a healthy oral environment and prevent damage to hard and soft tissues.",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        },
+        {
+          "_type": "block",
+          "_key": "91fdf6328487",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "6b5b3f4e3cff",
+              "text": "We offer individual recall visits with our Swiss graduate dental hygienists and regular preventative examinations with your dentist to protect you from further diseases of the teeth, the periodontium and the surrounding structures.",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        },
+        {
+          "_type": "block",
+          "_key": "4f50092e0d6f",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "3ced543671e3",
+              "text": "More about the practice and its history",
+              "marks": [
+                "3397b96d2398"
+              ]
+            }
+          ],
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "3397b96d2398",
+              "href": "/en/practice/",
+              "extern": false
+            }
+          ]
+        }
+      ],
+      "bild": {
+        "bild": "praxis-behandlungsraum",
+        "alt": "Treatment room at Praxis am Zürichberg with daylight"
+      },
+      "bildPosition": "rechts"
+    },
+    {
+      "_type": "behandlungenBaustein",
+      "_key": "start-behandlungen",
+      "titel": "Treatments",
+      "einleitung": "Our portfolio covers general dental care procedures as well as complex rehabilitations including dental implants.",
+      "darstellung": "kurzliste",
+      "behandlungen": [],
+      "weiterLink": {
+        "titel": "All treatments",
+        "ziel": "/en/treatments/"
+      }
+    },
+    {
+      "_type": "teamBaustein",
+      "_key": "start-team",
+      "titel": "Your team",
+      "einleitung": "PD Dr. med. dent. A. Bindl and Dr. med. dent. C. Fritschi act as a team and discuss individual treatment strategies and scientific opinions together.",
+      "mitLebenslauf": false,
+      "team": []
+    },
+    {
+      "_type": "galerieBaustein",
+      "_key": "start-galerie",
+      "titel": "Impressions of the practice",
+      "bilder": [
+        {
+          "bild": "praxis-behandlungsraum",
+          "alt": "Treatment room with dental chair and daylight"
+        },
+        {
+          "bild": "praxis-cerec",
+          "alt": "Treatment station with screen for CEREC planning"
+        },
+        {
+          "bild": "praxis-mikroskop",
+          "alt": "Operating microscope in the treatment room"
+        },
+        {
+          "bild": "praxis-instrumente",
+          "alt": "Sorted polishing instruments in an instrument tray"
+        }
+      ]
+    },
+    {
+      "_type": "aufrufBaustein",
+      "_key": "start-aufruf",
+      "titel": "Make an appointment",
+      "text": "Give us a call. For strong or acute pain we try, whenever possible, to arrange an appointment on the day you call.",
+      "knopf": {
+        "titel": "Call 044 261 33 30",
+        "ziel": "tel:+41442613330"
+      },
+      "zweiterKnopf": {
+        "titel": "Send an email",
+        "ziel": "mailto:info@praxiszuerichberg.ch"
+      }
+    }
+  ]
+}

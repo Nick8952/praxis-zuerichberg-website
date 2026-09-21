@@ -1,0 +1,149 @@
+{
+  "id": "seite-de-start",
+  "sprache": "de",
+  "uebersetzungsSchluessel": "seite-start",
+  "slug": "start",
+  "titel": "Zahnarztpraxis in Zürich",
+  "seoTitel": "Zahnarzt Zürich, Attenhoferstrasse 8a",
+  "seoBeschreibung": "Praxis am Zürichberg, PD Dr. med. dent. Andreas Bindl: allgemeine zahnärztliche Behandlung bis zur komplexen Versorgung mit Implantaten, Computerzahnmedizin (CEREC), Prophylaxe und Dentalhygiene. Telefon 044 261 33 30.",
+  "hero": {
+    "kurzzeile": "PD Dr. med. dent. Andreas Bindl, Zahnarzt, Mitglied SSO",
+    "titel": "Gesunde Zähne bedeuten Wohlbefinden und Lebensqualität.",
+    "text": "Von der allgemeinen zahnärztlichen Behandlung bis zur komplexen Versorgung mit Implantaten: schonend, dauerhaft und gemeinsam mit Ihnen geplant.",
+    "knopf": {
+      "titel": "Anrufen 044 261 33 30",
+      "ziel": "tel:+41442613330"
+    },
+    "zweiterKnopf": {
+      "titel": "Kontakt und Anfahrt",
+      "ziel": "/de/kontakt/"
+    },
+    "bild": {
+      "bild": "panorama-zuerich",
+      "alt": "Blick vom Zürichberg über die Stadt Zürich auf die Alpen"
+    }
+  },
+  "bausteine": [
+    {
+      "_type": "textBaustein",
+      "_key": "start-philosophie",
+      "anker": "philosophie",
+      "titel": "Die wichtigste Person in unserer Praxis sind die Patienten.",
+      "inhalt": [
+        {
+          "_type": "block",
+          "_key": "b1ac47f45fa3",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "b01ebfc66a8f",
+              "text": "Gemeinsam mit Ihnen entwickeln wir eine patientenindividuelle und transparente Behandlung. Wir erarbeiten Lösungen, die sich an Ihren Wünschen und den wissenschaftlichen Erkenntnissen moderner Zahnmedizin orientieren.",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        },
+        {
+          "_type": "block",
+          "_key": "e73a6c5c4d2a",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "05deebf8d777",
+              "text": "Oberstes Ziel ist die Schonung und der Erhalt von Hart- und Weichgewebe in der Mundhöhle. Um Sie vor weiteren Erkrankungen Ihrer Zähne, des Zahnhalteapparates und der umliegenden Strukturen zu bewahren, bieten wir Ihnen eine individuelle Prophylaxe (Vorsorge).",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        },
+        {
+          "_type": "block",
+          "_key": "f387e2016a89",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "f6cbb8382c22",
+              "text": "Mehr zur Praxis und ihrer Geschichte",
+              "marks": [
+                "c0c0d93c08ea"
+              ]
+            }
+          ],
+          "markDefs": [
+            {
+              "_type": "link",
+              "_key": "c0c0d93c08ea",
+              "href": "/de/praxis/",
+              "extern": false
+            }
+          ]
+        }
+      ],
+      "bild": {
+        "bild": "praxis-behandlungsraum",
+        "alt": "Behandlungsraum der Praxis am Zürichberg mit Tageslicht"
+      },
+      "bildPosition": "rechts"
+    },
+    {
+      "_type": "behandlungenBaustein",
+      "_key": "start-behandlungen",
+      "titel": "Behandlungen",
+      "einleitung": "Unser Spektrum reicht von der allgemeinen zahnärztlichen Behandlung bis zur komplexen Versorgung mit Implantaten.",
+      "darstellung": "kurzliste",
+      "behandlungen": [],
+      "weiterLink": {
+        "titel": "Alle Behandlungen",
+        "ziel": "/de/behandlungen/"
+      }
+    },
+    {
+      "_type": "teamBaustein",
+      "_key": "start-team",
+      "titel": "Ihr Team",
+      "einleitung": "Die Zahnärzte PD Dr. A. Bindl und Dr. med. dent. C. Fritschi verstehen sich als Team, besprechen und planen gemeinsam die individuellen Behandlungsmöglichkeiten.",
+      "mitLebenslauf": false,
+      "team": []
+    },
+    {
+      "_type": "galerieBaustein",
+      "_key": "start-galerie",
+      "titel": "Impressionen aus der Praxis",
+      "bilder": [
+        {
+          "bild": "praxis-behandlungsraum",
+          "alt": "Behandlungsraum mit Behandlungsstuhl und Tageslicht"
+        },
+        {
+          "bild": "praxis-cerec",
+          "alt": "Behandlungsplatz mit Bildschirm für die CEREC-Planung"
+        },
+        {
+          "bild": "praxis-mikroskop",
+          "alt": "OP-Mikroskop im Behandlungsraum"
+        },
+        {
+          "bild": "praxis-instrumente",
+          "alt": "Sortierte Polierinstrumente im Instrumentenkasten"
+        }
+      ]
+    },
+    {
+      "_type": "aufrufBaustein",
+      "_key": "start-aufruf",
+      "titel": "Termin vereinbaren",
+      "text": "Rufen Sie uns an. Bei starken oder akuten Schmerzen versuchen wir, soweit möglich, am Tag Ihres Anrufs einen Termin zu vergeben.",
+      "knopf": {
+        "titel": "Anrufen 044 261 33 30",
+        "ziel": "tel:+41442613330"
+      },
+      "zweiterKnopf": {
+        "titel": "E-Mail schreiben",
+        "ziel": "mailto:info@praxiszuerichberg.ch"
+      }
+    }
+  ]
+}

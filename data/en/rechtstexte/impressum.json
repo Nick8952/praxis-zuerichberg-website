@@ -1,0 +1,242 @@
+{
+  "id": "rechtstext-en-impressum",
+  "sprache": "en",
+  "uebersetzungsSchluessel": "rechtstext-impressum",
+  "art": "impressum",
+  "titel": "Legal notice",
+  "stand": "2026-09-21",
+  "inhalt": [
+    {
+      "_type": "block",
+      "_key": "b3ab9796a975",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "e2d644036871",
+          "text": "Responsible for this demo website",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "8cfafa033519",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "7018d6826745",
+          "text": "Nick Holzbecher\nEmail: ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "_key": "34a28f58063a",
+          "text": "holzbechernick@gmail.com",
+          "marks": [
+            "8d9a63115155"
+          ]
+        }
+      ],
+      "markDefs": [
+        {
+          "_type": "link",
+          "_key": "8d9a63115155",
+          "href": "mailto:holzbechernick@gmail.com",
+          "extern": false
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "56df8f8cbe23",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "6ed4b54254b8",
+          "text": "This website is a ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "_key": "620fcc1359ad",
+          "text": "non-binding design demo",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "_key": "e050374afbcd",
+          "text": ": a proposal for what a new website for Praxis am Zürichberg could look like. It was not commissioned, operated or approved by the practice and is not an offer by the practice. The person named above is solely responsible for the content and operation of the demo. For appointments, medical questions and information, please contact the practice directly.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "aa6968a07088",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "ec5b1ccd0626",
+          "text": "Practice presented",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "76da4e6331b0",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "db6711de5f7d",
+          "text": "Praxis am Zürichberg\nPD Dr. med. dent. Andreas Bindl, Dentist, Member SSO\nAttenhoferstrasse 8a\n8032 Zurich, Switzerland\nPhone: ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "_key": "15a0db149353",
+          "text": "044 261 33 30",
+          "marks": [
+            "1ffd05c4811e"
+          ]
+        },
+        {
+          "_type": "span",
+          "_key": "692067907a60",
+          "text": "\nFax: 044 261 33 29\nEmail: ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "_key": "5ed066be345e",
+          "text": "info@praxiszuerichberg.ch",
+          "marks": [
+            "4c141e292ebf"
+          ]
+        }
+      ],
+      "markDefs": [
+        {
+          "_type": "link",
+          "_key": "1ffd05c4811e",
+          "href": "tel:+41442613330",
+          "extern": false
+        },
+        {
+          "_type": "link",
+          "_key": "4c141e292ebf",
+          "href": "mailto:info@praxiszuerichberg.ch",
+          "extern": false
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "052089335947",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "3d1c96125ad2",
+          "text": "These details come from the practice's previous website (www.praxiszuerichberg.ch, legal notice: \"The person responsible for the content of the website is PD Dr. med. dent. Andreas Bindl\"). Legal form, commercial register or UID details and the licence to practise are not stated there and have not been added.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "785f2784d6c0",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "f3b5d1dfee25",
+          "text": "Content and liability",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ab6312ab85d9",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "ed1f1773cc8a",
+          "text": "The texts on treatments, team and practice were taken from the previous website and only linguistically adjusted; medical statements were not changed. They serve general information and do not replace dental advice, examination or treatment. No guarantee is given for accuracy, completeness or currency. Binding information on treatments, costs and appointments is provided exclusively by the practice.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "94165a242403",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "efe89f42408a",
+          "text": "Links",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "325687fb303a",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "f9e1c790dee7",
+          "text": "This website contains links to external websites (Google Maps, sso.ch, andreasbindl.zenfolio.com). We have no influence over their content; the respective provider is responsible.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "58e8e05d0b1b",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "30e4560cfc5b",
+          "text": "Copyright",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "61eb3b41bb6d",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "722f1df00611",
+          "text": "Design and newly written texts of this demo: Nick Holzbecher. Logo, photos (practice rooms, team, panorama) and information sheets come from the previous website of Praxis am Zürichberg; the rights lie with the practice and the respective authors. The leaflet \"Dental accident\" was published by the Health Directorate of the Canton of Zurich. The typeface Source Sans 3 is licensed under the SIL Open Font License 1.1.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    }
+  ]
+}

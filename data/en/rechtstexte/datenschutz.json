@@ -1,0 +1,454 @@
+{
+  "id": "rechtstext-en-datenschutz",
+  "sprache": "en",
+  "uebersetzungsSchluessel": "rechtstext-datenschutz",
+  "art": "datenschutz",
+  "titel": "Privacy policy",
+  "stand": "2026-09-21",
+  "inhalt": [
+    {
+      "_type": "block",
+      "_key": "5fefdd5188ef",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "761ed1e38662",
+          "text": "This privacy policy describes which data is processed when you visit this ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "_key": "f66b40415bac",
+          "text": "demo website",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "_key": "ca41cd839027",
+          "text": ". The website is a design demo and is not operated by Praxis am Zürichberg. The Swiss Federal Act on Data Protection (FADP) applies; where persons in the European Economic Area are concerned, the General Data Protection Regulation (GDPR) applies in addition.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "dffc6e430314",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "7c795aa000f6",
+          "text": "Controller",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "761d35164369",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "a8ade986325e",
+          "text": "Nick Holzbecher\nEmail: ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "_key": "46afa7c6fe66",
+          "text": "holzbechernick@gmail.com",
+          "marks": [
+            "f0323b03867e"
+          ]
+        }
+      ],
+      "markDefs": [
+        {
+          "_type": "link",
+          "_key": "f0323b03867e",
+          "href": "mailto:holzbechernick@gmail.com",
+          "extern": false
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "1a422c9c0cef",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "0760d3713f89",
+          "text": "No health data via this website",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "2276054ea7f8",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "4f2eeff750da",
+          "text": "This website does not collect health data. There is no form for symptoms, diagnoses or documents and no way to upload files. Please do not send medical details by email either: ordinary email is not a secure channel for health data. Discuss your concern by phone or at the practice.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "32e20f78f873",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "5c0b30b1a07c",
+          "text": "Hosting: GitHub Pages",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "d67d72e18a66",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "12d1675bb71b",
+          "text": "This website is delivered as a static site via ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "_key": "c2c347af28c7",
+          "text": "GitHub Pages",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "_key": "bcfacca2afeb",
+          "text": ", a service of GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. According to GitHub, the visitor's IP address is logged for security purposes when a GitHub Pages site is visited, regardless of whether the visitor is signed in to GitHub. The usual connection data (time, requested address, browser identifier) is also generated technically. This data is processed by GitHub, possibly also in the USA; we have no access to it. Information on retention periods and safeguards for transfers to third countries can be found in the ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "_key": "de3838eb5256",
+          "text": "GitHub privacy statement",
+          "marks": [
+            "a26ff5ef8db4"
+          ]
+        },
+        {
+          "_type": "span",
+          "_key": "f56188e2c122",
+          "text": ". The basis for this processing is our legitimate interest in a secure and reliable provision of the website.",
+          "marks": []
+        }
+      ],
+      "markDefs": [
+        {
+          "_type": "link",
+          "_key": "a26ff5ef8db4",
+          "href": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+          "extern": true
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "36fd2b652f2f",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "97ac623aba2a",
+          "text": "No cookies, no tracking",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "da60ef6a9c73",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "c5cda9a2fde7",
+          "text": "This website sets ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "_key": "e34335a1e4ab",
+          "text": "no cookies of its own",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "_key": "68842d5f84ff",
+          "text": " and uses ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "_key": "5cc4bf5f2cad",
+          "text": "no analytics, advertising or social media services",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "_key": "94ca20c4b669",
+          "text": ". Fonts are loaded locally from this website; no request is made to Google Fonts or other font services.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "4d63513fc275",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "8e3269b3ceff",
+          "text": "Consent for the map (Google Maps)",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "03d7c464d8fe",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "45e2648c5d75",
+          "text": "On the contact page you can display a location map from Google Maps (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland). The map is ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "_key": "5091cbf3912e",
+          "text": "only loaded if you consent",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "_key": "7475ff802def",
+          "text": ", via the banner on your first visit, the \"Show map\" button or the privacy settings. No connection to Google is established before your consent. When loaded, Google receives your IP address and browser details and may set cookies; Google also processes data in the USA. The ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "_key": "e4a28a18ffc4",
+          "text": "Google privacy policy",
+          "marks": [
+            "a1a934c5105e"
+          ]
+        },
+        {
+          "_type": "span",
+          "_key": "0b7324ad7381",
+          "text": " applies.",
+          "marks": []
+        }
+      ],
+      "markDefs": [
+        {
+          "_type": "link",
+          "_key": "a1a934c5105e",
+          "href": "https://policies.google.com/privacy",
+          "extern": true
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "f91e5896492e",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "f0bdd97f5631",
+          "text": "Your decision is stored in your browser's local storage (key \"praxis-zuerichberg-einwilligung\", with date and version). This storage is necessary so that you are not asked again on every visit; it is not transmitted to us. You can change or withdraw your consent at any time under ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "_key": "b6c2d5b28d59",
+          "text": "Privacy settings",
+          "marks": [
+            "e0b05792a527"
+          ]
+        },
+        {
+          "_type": "span",
+          "_key": "5b6a44bddd97",
+          "text": "; the map is then removed immediately. Cookies already set by Google can be deleted via your browser settings.",
+          "marks": []
+        }
+      ],
+      "markDefs": [
+        {
+          "_type": "link",
+          "_key": "e0b05792a527",
+          "href": "/en/privacy-settings/",
+          "extern": false
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "40a8030ef595",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "770ddb0d0214",
+          "text": "Contact",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "eb7eb11f4f18",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "6139428d86a9",
+          "text": "The contact page offers to prepare an email: your details (name, call-back number, request, organisational message) are assembled into an email draft exclusively in your browser and handed to your own email program. Nothing is sent until you trigger it there yourself. This website stores and transmits none of it. If you contact the practice by phone or email, the practice processes your details to handle your request within its professional secrecy. If you write to the person responsible for the demo, your details are used only to reply.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "c7aa971e4ae6",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "dee671aa26c1",
+          "text": "External links",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "09cdfacd8c30",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "e2119b69cdd6",
+          "text": "\"Get directions\" leads to Google Maps; further links lead to sso.ch and andreasbindl.zenfolio.com. Only when you click do you leave this website; from then on the respective provider's privacy policy applies. Phone links open your device's phone app.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "32527396fb5a",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "edec6da11b32",
+          "text": "Your rights",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "83dd6d97ffb2",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "7f72d5e9e76c",
+          "text": "You have the right to information about the personal data concerning you, to rectification, erasure or restriction of processing and, where the GDPR applies, to data portability and objection. Please contact the controller named above. You may also contact the Swiss Federal Data Protection and Information Commissioner (FDPIC) or a data protection supervisory authority in your country of residence.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "265e83626c12",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "28e001342463",
+          "text": "Changes",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "31e6fd90c417",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "058aea3a11c5",
+          "text": "If this website is later operated with additional services (for example a content management system or different hosting), this policy will be adapted. The version published here applies.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "e91ac435d61e",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "6a15d1a4085b",
+          "text": "Note: This text was written for the demo and has not been reviewed by a lawyer.",
+          "marks": [
+            "em"
+          ]
+        }
+      ],
+      "markDefs": []
+    }
+  ]
+}

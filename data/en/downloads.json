@@ -1,0 +1,79 @@
+[
+  {
+    "id": "download-en-allgemeine-bedingungen",
+    "sprache": "en",
+    "uebersetzungsSchluessel": "download-allgemeine-bedingungen",
+    "titel": "General terms and conditions",
+    "datei": "/downloads/Allg_Bedingungen.pdf",
+    "dateiname": "Allg_Bedingungen.pdf",
+    "hinweis": "Practice information sheet (2015). Lists tariff point values and a former dentist; to be updated by the practice before publication. German only.",
+    "dokumentSprache": "de",
+    "reihenfolge": 10
+  },
+  {
+    "id": "download-en-post-op",
+    "sprache": "en",
+    "uebersetzungsSchluessel": "download-post-op",
+    "titel": "Instructions after surgical procedures",
+    "datei": "/downloads/Post-OP.pdf",
+    "dateiname": "Post-OP.pdf",
+    "hinweis": "German only.",
+    "dokumentSprache": "de",
+    "reihenfolge": 20
+  },
+  {
+    "id": "download-en-par",
+    "sprache": "en",
+    "uebersetzungsSchluessel": "download-par",
+    "titel": "Supportive periodontal treatment",
+    "datei": "/downloads/PAR.pdf",
+    "dateiname": "PAR.pdf",
+    "hinweis": "German only.",
+    "dokumentSprache": "de",
+    "reihenfolge": 30
+  },
+  {
+    "id": "download-en-prothesenreinigung",
+    "sprache": "en",
+    "uebersetzungsSchluessel": "download-prothesenreinigung",
+    "titel": "Instructions for cleaning removable appliances",
+    "datei": "/downloads/Prothesenreinigung.pdf",
+    "dateiname": "Prothesenreinigung.pdf",
+    "hinweis": "German only.",
+    "dokumentSprache": "de",
+    "reihenfolge": 40
+  },
+  {
+    "id": "download-en-bleaching",
+    "sprache": "en",
+    "uebersetzungsSchluessel": "download-bleaching",
+    "titel": "Instructions for home bleaching",
+    "datei": "/downloads/Bleaching.pdf",
+    "dateiname": "Bleaching.pdf",
+    "hinweis": "German only.",
+    "dokumentSprache": "de",
+    "reihenfolge": 50
+  },
+  {
+    "id": "download-en-schallzahnbuersten",
+    "sprache": "en",
+    "uebersetzungsSchluessel": "download-schallzahnbuersten",
+    "titel": "Sonic toothbrushes",
+    "datei": "/downloads/Schallzahnbuersten.pdf",
+    "dateiname": "Schallzahnbuersten.pdf",
+    "hinweis": "German only.",
+    "dokumentSprache": "de",
+    "reihenfolge": 60
+  },
+  {
+    "id": "download-en-zahnunfall",
+    "sprache": "en",
+    "uebersetzungsSchluessel": "download-zahnunfall",
+    "titel": "Dental accident",
+    "datei": "/downloads/Zahnunfall.pdf",
+    "dateiname": "Zahnunfall.pdf",
+    "hinweis": "Leaflet by the Health Directorate of the Canton of Zurich (not written by the practice). German only.",
+    "dokumentSprache": "de",
+    "reihenfolge": 70
+  }
+]

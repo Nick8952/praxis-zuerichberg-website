@@ -1,0 +1,205 @@
+[
+  {
+    "id": "team-en-bindl",
+    "sprache": "en",
+    "uebersetzungsSchluessel": "team-bindl",
+    "titelVor": "PD Dr. med. dent.",
+    "vorname": "Andreas",
+    "nachname": "Bindl",
+    "funktion": "Dentist, Member SSO",
+    "sprachen": [
+      "German",
+      "English"
+    ],
+    "bild": {
+      "bild": "team-bindl",
+      "alt": "Portrait of PD Dr. med. dent. Andreas Bindl"
+    },
+    "lebenslaufEinleitung": "Due to his many years of experience working at the Center of Dental Medicine at the University of Zurich and his postdoctoral qualification focussing on restorative computer-aided dentistry, PD Dr. A. Bindl has developed extensive knowledge of modern dentistry and computer-aided dentistry.",
+    "lebenslauf": [
+      {
+        "_type": "block",
+        "_key": "010eb7bcbf90",
+        "style": "h2",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "2160c6a9f721",
+            "text": "Career",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      },
+      {
+        "_type": "zeitleiste",
+        "_key": "cv-b-en-w",
+        "eintraege": [
+          {
+            "_type": "eintrag",
+            "_key": "cv-b-en-w-0",
+            "zeitraum": "1994",
+            "text": "Dissertation and doctorate, Freie Universität Berlin"
+          },
+          {
+            "_type": "eintrag",
+            "_key": "cv-b-en-w-1",
+            "zeitraum": "1994-1997",
+            "text": "Assistant at the Clinic for Tooth-Coloured and Computer Restorations (Prof. Dr. W. H. Mörmann), Clinic of Preventive Dentistry, Periodontology and Cariology at the Center of Dental Medicine at the University of Zurich"
+          },
+          {
+            "_type": "eintrag",
+            "_key": "cv-b-en-w-2",
+            "zeitraum": "since 1997",
+            "text": "Lectureships at the medical faculty of the University of Zurich for restorative dentistry, periodontics and endodontics & restorative computer-aided dentistry"
+          },
+          {
+            "_type": "eintrag",
+            "_key": "cv-b-en-w-3",
+            "zeitraum": "1997-2007",
+            "text": "Senior Physician and Head of the Clinic for Tooth-Coloured and Computer Restorations (Prof. Dr. W. H. Mörmann), Clinic of Preventive Dentistry, Periodontology and Cariology at the Center of Dental Medicine at the University of Zurich"
+          },
+          {
+            "_type": "eintrag",
+            "_key": "cv-b-en-w-4",
+            "zeitraum": "2006",
+            "text": "Postdoctoral qualification (authorization to teach at a university) at the University of Zurich for \"Dentistry with special focus on restorative computer-aided dentistry\""
+          },
+          {
+            "_type": "eintrag",
+            "_key": "cv-b-en-w-5",
+            "zeitraum": "since 2007",
+            "text": "Takeover of the Clinic for Tooth-Coloured and Computer Restorations, running it as the \"Praxis am Zürichberg\". Senior Physician (20% post) at the department for restorative computer-aided dentistry, Clinic of Preventive Dentistry, Periodontology and Cariology at the Center of Dental Medicine at the University of Zurich"
+          }
+        ]
+      },
+      {
+        "_type": "block",
+        "_key": "54f565f574c6",
+        "style": "h2",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "996036ac3c3e",
+            "text": "Awards",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      },
+      {
+        "_type": "zeitleiste",
+        "_key": "cv-b-en-a",
+        "eintraege": [
+          {
+            "_type": "eintrag",
+            "_key": "cv-b-en-a-0",
+            "zeitraum": "2003",
+            "text": "Annual award 2003 from the \"Deutsche Arbeitsgemeinschaft für Keramik e.V.\" (German Ceramics Working Group)"
+          },
+          {
+            "_type": "eintrag",
+            "_key": "cv-b-en-a-1",
+            "zeitraum": "2005",
+            "text": "Best Manuscript of 2005 Award, International Journal of Prosthodontics, Quintessence International"
+          }
+        ]
+      }
+    ],
+    "reihenfolge": 10
+  },
+  {
+    "id": "team-en-fritschi",
+    "sprache": "en",
+    "uebersetzungsSchluessel": "team-fritschi",
+    "titelVor": "Dr. med. dent.",
+    "vorname": "Corinna",
+    "nachname": "Fritschi",
+    "funktion": "Dentist",
+    "sprachen": [
+      "German",
+      "English"
+    ],
+    "bild": {
+      "bild": "team-fritschi",
+      "alt": "Portrait of Dr. med. dent. Corinna Fritschi"
+    },
+    "lebenslaufEinleitung": "Dr. C. Fritschi has acquired a very profound knowledge in modern dentistry with a focus on restorative computer dentistry through her work at the Dental Center of the University of Zurich.",
+    "lebenslauf": [
+      {
+        "_type": "block",
+        "_key": "81b7bf93b62d",
+        "style": "h2",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "0d607f366c48",
+            "text": "Career",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      },
+      {
+        "_type": "zeitleiste",
+        "_key": "cv-f-en-w",
+        "eintraege": [
+          {
+            "_type": "eintrag",
+            "_key": "cv-f-en-w-0",
+            "zeitraum": "2008-2013",
+            "text": "Study of dentistry, state examination, Julius-Maximilians-University of Würzburg"
+          },
+          {
+            "_type": "eintrag",
+            "_key": "cv-f-en-w-1",
+            "zeitraum": "2014-2017",
+            "text": "Assistant dentist in the field of computer-assisted restorative dentistry, University of Zurich"
+          },
+          {
+            "_type": "eintrag",
+            "_key": "cv-f-en-w-2",
+            "zeitraum": "2016",
+            "text": "Doctoral thesis and attainment of a doctorate, University of Zurich"
+          },
+          {
+            "_type": "eintrag",
+            "_key": "cv-f-en-w-3",
+            "zeitraum": "since 2017",
+            "text": "Dentist at Praxis am Zürichberg, Zurich"
+          },
+          {
+            "_type": "eintrag",
+            "_key": "cv-f-en-w-4",
+            "zeitraum": "2017",
+            "text": "Certificate in Digital Volume Tomography (SGDMFR)"
+          },
+          {
+            "_type": "eintrag",
+            "_key": "cv-f-en-w-5",
+            "zeitraum": "since 2017",
+            "text": "Instructor and visiting dentist at the Clinic for Restorative & Preventive Dentistry (Department of Computer-assisted Restorative Dentistry) of the Dental Center, University of Zurich"
+          }
+        ]
+      }
+    ],
+    "reihenfolge": 20
+  },
+  {
+    "id": "team-en-friedl",
+    "sprache": "en",
+    "uebersetzungsSchluessel": "team-friedl",
+    "vorname": "Ruwen",
+    "nachname": "Friedl",
+    "funktion": "Dental hygienist HF",
+    "sprachen": [
+      "German",
+      "English"
+    ],
+    "bild": {
+      "bild": "team-friedl",
+      "alt": "Portrait of Ruwen Friedl"
+    },
+    "reihenfolge": 30
+  }
+]

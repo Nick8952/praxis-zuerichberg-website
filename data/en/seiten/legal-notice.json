@@ -1,0 +1,17 @@
+{
+  "id": "seite-en-legal-notice",
+  "sprache": "en",
+  "uebersetzungsSchluessel": "seite-impressum",
+  "slug": "legal-notice",
+  "titel": "Legal notice",
+  "einleitung": "Details of the person responsible for this demo and of the practice presented.",
+  "seoTitel": "Legal notice",
+  "seoBeschreibung": "Legal notice of the demo website for Praxis am Zürichberg, Zurich.",
+  "bausteine": [
+    {
+      "_type": "rechtstextBaustein",
+      "_key": "impressum-text",
+      "rechtstext": "impressum"
+    }
+  ]
+}

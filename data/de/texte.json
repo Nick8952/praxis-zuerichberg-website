@@ -1,0 +1,122 @@
+{
+  "sprache": "de",
+  "navigation": [
+    {
+      "titel": "Praxis",
+      "ziel": "/de/praxis/"
+    },
+    {
+      "titel": "Behandlungen",
+      "ziel": "/de/behandlungen/"
+    },
+    {
+      "titel": "Team",
+      "ziel": "/de/team/"
+    },
+    {
+      "titel": "Patienteninformationen",
+      "ziel": "/de/patienteninformationen/"
+    },
+    {
+      "titel": "Kontakt",
+      "ziel": "/de/kontakt/"
+    }
+  ],
+  "rechtslinks": [
+    {
+      "titel": "Impressum",
+      "ziel": "/de/impressum/"
+    },
+    {
+      "titel": "Datenschutz",
+      "ziel": "/de/datenschutz/"
+    }
+  ],
+  "seo": {
+    "titelZusatz": "Praxis am Zürichberg, Zahnarzt Zürich",
+    "beschreibung": "Zahnarztpraxis von PD Dr. med. dent. Andreas Bindl an der Attenhoferstrasse 8a in Zürich: allgemeine Zahnmedizin, Computerzahnmedizin (CEREC), Implantate, Prophylaxe und Dentalhygiene."
+  },
+  "demoHinweis": "Unverbindliche Gestaltungs-Demo. Kein offizieller Auftritt der Praxis am Zürichberg.",
+  "ui": {
+    "zumInhalt": "Zum Inhalt springen",
+    "menueOeffnen": "Menü öffnen",
+    "menueSchliessen": "Menü schliessen",
+    "sprache": "English",
+    "sprachwechselFehlt": "Diese Seite gibt es nur auf Deutsch. Zur englischen Startseite",
+    "anrufen": "Anrufen",
+    "emailSchreiben": "E-Mail schreiben",
+    "routePlanen": "Route planen",
+    "adresseKopieren": "Adresse kopieren",
+    "kopiert": "Kopiert",
+    "kopierenFehler": "Kopieren nicht möglich. Bitte Adresse markieren.",
+    "alleOeffnen": "Alle öffnen",
+    "alleSchliessen": "Alle schliessen",
+    "lebenslauf": "Lebenslauf",
+    "sprachen": "Sprachen",
+    "download": "PDF öffnen",
+    "dateiGroesse": "PDF",
+    "zeitenErfragen": "Öffnungszeiten und Termine bitte telefonisch erfragen.",
+    "kontaktSeite": "Zur Kontaktseite",
+    "startseite": "Startseite",
+    "nichtGefundenTitel": "Diese Seite gibt es nicht",
+    "nichtGefundenText": "Die Adresse ist falsch geschrieben oder die Seite wurde verschoben.",
+    "datenschutzEinstellungen": "Datenschutz-Einstellungen"
+  },
+  "einwilligung": {
+    "bannerTitel": "Externe Inhalte",
+    "bannerText": "Diese Website setzt keine eigenen Cookies. Die Standortkarte von Google Maps lädt erst mit Ihrer Zustimmung; Google erhält dann Ihre IP-Adresse und kann Cookies setzen.",
+    "alleAkzeptieren": "Alle akzeptieren",
+    "nurNotwendige": "Nur notwendige",
+    "einstellungen": "Einstellungen",
+    "dialogTitel": "Cookie- und Datenschutz-Einstellungen",
+    "dialogText": "Wählen Sie, welche externen Inhalte geladen werden dürfen. Nichts ist vorausgewählt.",
+    "auswahlSpeichern": "Auswahl speichern",
+    "schliessen": "Schliessen ohne zu speichern",
+    "notwendigTitel": "Notwendig",
+    "notwendigText": "Speichert nur Ihre Entscheidung zu dieser Einwilligung im lokalen Speicher Ihres Browsers (Schlüssel «praxis-zuerichberg-einwilligung»). Keine Cookies, keine Übermittlung.",
+    "immerAktiv": "immer aktiv",
+    "karteTitel": "Karte (Google Maps)",
+    "karteAnbieter": "Anbieter: Google Ireland Limited",
+    "karteText": "Zeigt den Standort Attenhoferstrasse 8a, Zürich als eingebettete Karte. Beim Laden werden IP-Adresse und Browserangaben an Google übermittelt; Google kann Cookies setzen.",
+    "kartePlatzhalter": "Die Karte wird erst nach Ihrer Zustimmung geladen. Alternativ öffnen Sie die Route direkt bei Google Maps.",
+    "karteAnzeigen": "Karte anzeigen",
+    "karteAusblenden": "Karte wieder ausblenden",
+    "widerrufen": "Einwilligung widerrufen und löschen",
+    "keineEntscheidung": "Sie haben noch keine Entscheidung gespeichert. Externe Inhalte werden nicht geladen.",
+    "entscheidungVom": "Ihre Entscheidung vom",
+    "fussnote": "Bereits von Google gesetzte Cookies kann diese Website nicht löschen; das geht über die Einstellungen Ihres Browsers.",
+    "gespeichert": "Auswahl gespeichert.",
+    "alleErlaubt": "Alle externen Inhalte erlaubt.",
+    "nurNotwendigeGespeichert": "Nur notwendige. Keine externen Inhalte.",
+    "widerrufenMeldung": "Einwilligung widerrufen und gespeicherte Entscheidung gelöscht. Die Karte wird entfernt.",
+    "datenschutzerklaerung": "Datenschutzerklärung"
+  },
+  "formular": {
+    "titel": "Kontakt aufnehmen",
+    "einleitung": "Für Termine rufen Sie uns am besten an. Wenn Sie lieber schreiben, bereiten Sie hier eine E-Mail vor: Der Text wird in Ihr E-Mail-Programm übernommen und erst dort von Ihnen gesendet.",
+    "warnung": "Bitte übermitteln Sie per E-Mail keine medizinischen Angaben (Beschwerden, Diagnosen, Röntgenbilder, Versicherungsnummern). E-Mail ist kein sicherer Kanal für Gesundheitsdaten. Besprechen Sie Ihr Anliegen am Telefon oder in der Praxis.",
+    "name": "Ihr Name",
+    "rueckruf": "Telefonnummer für den Rückruf",
+    "kontaktwunsch": "Ihr Anliegen",
+    "kontaktwunschOptionen": [
+      {
+        "wert": "termin",
+        "titel": "Terminanfrage"
+      },
+      {
+        "wert": "rueckruf",
+        "titel": "Bitte um Rückruf"
+      },
+      {
+        "wert": "frage",
+        "titel": "Allgemeine Frage zur Praxis"
+      }
+    ],
+    "nachricht": "Nachricht (organisatorisch)",
+    "nachrichtHilfe": "Zum Beispiel Wunschtermine oder Erreichbarkeit. Keine Gesundheitsdaten.",
+    "pflicht": "Pflichtfeld",
+    "fehlerName": "Bitte geben Sie Ihren Namen an.",
+    "emailVorbereiten": "E-Mail vorbereiten",
+    "hinweisNachher": "Öffnet Ihr E-Mail-Programm mit dem vorbereiteten Text. Gesendet wird erst, wenn Sie dort auf «Senden» klicken. Es wird nichts auf dieser Website gespeichert."
+  }
+}

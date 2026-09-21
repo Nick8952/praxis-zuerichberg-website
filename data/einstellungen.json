@@ -1,0 +1,89 @@
+{
+  "praxisname": "Praxis am Zürichberg",
+  "inhaberTitel": "PD Dr. med. dent.",
+  "inhaberName": "Andreas Bindl",
+  "inhaber": "PD Dr. med. dent. Andreas Bindl",
+  "mitgliedschaft": {
+    "titel": "Mitglied SSO (Schweizerische Zahnärzte-Gesellschaft)",
+    "url": "https://www.sso.ch",
+    "logo": {
+      "bild": "sso",
+      "alt": "Signet Mitglied SSO, Schweizerische Zahnärzte-Gesellschaft"
+    }
+  },
+  "adresse": {
+    "strasse": "Attenhoferstrasse 8a",
+    "plz": "8032",
+    "ort": "Zürich",
+    "land": "Schweiz"
+  },
+  "telefon": "044 261 33 30",
+  "fax": "044 261 33 29",
+  "email": "info@praxiszuerichberg.ch",
+  "routenlink": "https://www.google.com/maps/dir/?api=1&destination=Attenhoferstrasse+8a%2C+8032+Z%C3%BCrich",
+  "kartenEinbettung": "https://www.google.com/maps?q=Attenhoferstrasse%208a%2C%208032%20Z%C3%BCrich&z=16&output=embed",
+  "geo": {
+    "breite": 47.373906,
+    "laenge": 8.556847
+  },
+  "oeffnungszeiten": [
+    {
+      "_key": "mo-fr",
+      "tage": {
+        "de": "Montag bis Freitag",
+        "en": "Monday to Friday"
+      },
+      "zeiten": {
+        "de": "08.00 bis 12.00 und 13.00 bis 17.00 Uhr",
+        "en": "8 am to 12 pm and 1 pm to 5 pm"
+      },
+      "wochentage": [
+        "Montag",
+        "Dienstag",
+        "Mittwoch",
+        "Donnerstag",
+        "Freitag"
+      ],
+      "intervalle": [
+        {
+          "_key": "vormittag",
+          "von": "08:00",
+          "bis": "12:00"
+        },
+        {
+          "_key": "nachmittag",
+          "von": "13:00",
+          "bis": "17:00"
+        }
+      ]
+    },
+    {
+      "_key": "sa-so",
+      "tage": {
+        "de": "Samstag und Sonntag",
+        "en": "Saturday and Sunday"
+      },
+      "zeiten": {
+        "de": "geschlossen",
+        "en": "closed"
+      },
+      "wochentage": [
+        "Samstag",
+        "Sonntag"
+      ],
+      "geschlossen": true
+    }
+  ],
+  "oeffnungszeitenHinweis": {
+    "de": "Zeiten gemäss Google-Unternehmensprofil der Praxis, noch nicht von der Praxis für diese Website bestätigt. Bitte rufen Sie vor einem Besuch an.",
+    "en": "Hours according to the practice's Google business profile, not yet confirmed by the practice for this website. Please call before visiting."
+  },
+  "logo": {
+    "bild": "logo",
+    "alt": "Praxis am Zürichberg, PD Dr. med. dent. Andreas Bindl, Zahnarzt"
+  },
+  "seoBild": {
+    "bild": "praxis-behandlungsraum",
+    "alt": "Behandlungsraum der Praxis am Zürichberg"
+  }
+}

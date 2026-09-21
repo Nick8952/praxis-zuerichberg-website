@@ -1,0 +1,242 @@
+{
+  "id": "rechtstext-de-impressum",
+  "sprache": "de",
+  "uebersetzungsSchluessel": "rechtstext-impressum",
+  "art": "impressum",
+  "titel": "Impressum",
+  "stand": "2026-09-21",
+  "inhalt": [
+    {
+      "_type": "block",
+      "_key": "cc9a9a6fea1d",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "bc9bc4edc50a",
+          "text": "Verantwortlich für diese Demo-Website",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "e6cfff14bd68",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "8c001ebe7fa5",
+          "text": "Nick Holzbecher\nE-Mail: ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "_key": "328d6f6f3925",
+          "text": "holzbechernick@gmail.com",
+          "marks": [
+            "f666121b8a09"
+          ]
+        }
+      ],
+      "markDefs": [
+        {
+          "_type": "link",
+          "_key": "f666121b8a09",
+          "href": "mailto:holzbechernick@gmail.com",
+          "extern": false
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "47d593ea4955",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "e8302aa9a262",
+          "text": "Diese Website ist eine ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "_key": "54278a824d2a",
+          "text": "unverbindliche Gestaltungs-Demo",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "_key": "c39aa15a6b1b",
+          "text": ": ein Vorschlag, wie ein neuer Webauftritt der Praxis am Zürichberg aussehen könnte. Sie wurde nicht von der Praxis in Auftrag gegeben, betrieben oder freigegeben und ist kein Angebot der Praxis. Verantwortlich für Inhalt und Betrieb der Demo ist ausschliesslich die oben genannte Person. Für Termine, medizinische Fragen und Auskünfte wenden Sie sich bitte direkt an die Praxis.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "38c0ee587bf4",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "f886e91c0156",
+          "text": "Dargestellte Praxis",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "8e55a63e0ce3",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "262c2cb1583e",
+          "text": "Praxis am Zürichberg\nPD Dr. med. dent. Andreas Bindl, Zahnarzt, Mitglied SSO\nAttenhoferstrasse 8a\n8032 Zürich\nTelefon: ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "_key": "0a7fa5b95526",
+          "text": "044 261 33 30",
+          "marks": [
+            "93f2c4642c05"
+          ]
+        },
+        {
+          "_type": "span",
+          "_key": "e25c7933dd6f",
+          "text": "\nFax: 044 261 33 29\nE-Mail: ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "_key": "f17aaa3a0264",
+          "text": "info@praxiszuerichberg.ch",
+          "marks": [
+            "4b33e070a88e"
+          ]
+        }
+      ],
+      "markDefs": [
+        {
+          "_type": "link",
+          "_key": "93f2c4642c05",
+          "href": "tel:+41442613330",
+          "extern": false
+        },
+        {
+          "_type": "link",
+          "_key": "4b33e070a88e",
+          "href": "mailto:info@praxiszuerichberg.ch",
+          "extern": false
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "d463974da539",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "f2183f9782df",
+          "text": "Die Angaben stammen aus dem bisherigen Webauftritt der Praxis (www.praxiszuerichberg.ch, Impressum: «Verantwortlich für den Inhalt der Seiten: PD Dr. med. dent. Andreas Bindl»). Rechtsform, Handelsregister- oder UID-Angaben sowie Berufsausübungsbewilligung sind dort nicht genannt und wurden nicht ergänzt.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "6be26671526f",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "11a47bc260d5",
+          "text": "Inhalte und Haftung",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "f8ed2d942216",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "497d7285b70f",
+          "text": "Die Texte zu Behandlungen, Team und Praxis wurden vom bisherigen Webauftritt übernommen und nur sprachlich angepasst; medizinische Aussagen wurden nicht verändert. Sie dienen der allgemeinen Information und ersetzen keine zahnärztliche Beratung, Untersuchung oder Behandlung. Für Richtigkeit, Vollständigkeit und Aktualität wird keine Gewähr übernommen. Verbindliche Auskünfte zu Behandlungen, Kosten und Terminen erteilt ausschliesslich die Praxis.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "9fb969c58dd1",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "75d0f6a83fd5",
+          "text": "Links",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "d569c3aab9ed",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "2bac7df069ed",
+          "text": "Diese Website enthält Links zu externen Websites (Google Maps, sso.ch, andreasbindl.zenfolio.com). Auf deren Inhalte haben wir keinen Einfluss; verantwortlich ist der jeweilige Anbieter.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "764012fd9ea3",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "48a39b1df67d",
+          "text": "Urheberrechte",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "6fbdc65ded8d",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "710cbf04bc37",
+          "text": "Gestaltung und neu verfasste Texte dieser Demo: Nick Holzbecher. Logo, Fotos (Praxisräume, Team, Panorama) und Informationsblätter stammen vom bisherigen Webauftritt der Praxis am Zürichberg; die Rechte liegen bei der Praxis bzw. den Urhebern. Das Faltblatt «Zahnunfall» wurde von der Gesundheitsdirektion des Kantons Zürich herausgegeben. Die Schrift Source Sans 3 steht unter der SIL Open Font License 1.1.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    }
+  ]
+}

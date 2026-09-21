@@ -1,0 +1,274 @@
+@import "tailwindcss";
+
+/* ------------------------------------------------------------------
+   Designsystem «Horizont» – Praxis am Zürichberg
+   Abgeleitet aus der bestehenden Marke: Logo (Wortmarke in Source Sans, Lime «praxis»,
+   graue Bergsilhouette des Zürichbergs), alte Website (Aubergine #663d4a als Hauptfarbe,
+   Lime #cbd300 als Akzent, kühle Graus) und den Praxisfotos (helle, weisse Räume, Holz).
+   Design-Read: Redesign-preserve, trust-first Gesundheitsseite für Patientinnen und Patienten
+   (auch ältere, auch mit Schmerzen unterwegs). Dials: VARIANCE 4 · MOTION 2 · DENSITY 4.
+   Thema: hell, fest (keine Abschnitte im Dunkelmodus). Eine Schriftfamilie: Source Sans 3.
+   ------------------------------------------------------------------ */
+@theme static {
+  --color-aubergine: #663d4a; /* Marke, Titel, Knöpfe; 9.0:1 auf Weiss */
+  --color-aubergine-dunkel: #4f2d38;
+  --color-aubergine-hell: #f4eef0; /* getönte Fläche */
+  --color-lime: #cbd300; /* Akzent nur grafisch (Horizontlinie, Marker) – nie als Text auf Weiss */
+  --color-lime-dunkel: #7f8400; /* Lime als Text: 4.6:1 auf Weiss */
+  --color-tinte: #2a2429;
+  --color-grau: #5f6672; /* Zweittext: 5.9:1 auf Weiss, 5.2:1 auf Nebel */
+  --color-weiss: #ffffff;
+  --color-nebel: #f4f4f6;
+  --color-linie: #dcdde1;
+  --color-rahmen: #7b818c; /* Formularränder: 3.6:1 auf Weiss */
+  --color-fokus: #1d5fd1;
+  --color-fehler: #a3282f;
+
+  --font-sans: "Source Sans 3", "Source Sans Fallback", system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+
+  --text-display-xl: clamp(2.25rem, 1.4rem + 2.8vw, 3.75rem);
+  --text-display-lg: clamp(1.875rem, 1.3rem + 1.8vw, 2.75rem);
+  --text-display-md: clamp(1.375rem, 1.15rem + 0.9vw, 1.875rem);
+  --text-lead: clamp(1.125rem, 1.05rem + 0.3vw, 1.3125rem);
+
+  --spacing-abschnitt: clamp(4rem, 2.5rem + 4.5vw, 7rem);
+  --spacing-rand: clamp(1rem, 0.5rem + 2.5vw, 2.5rem);
+  --container-seite: 72rem;
+
+  --radius-klein: 6px;
+  --radius-gross: 12px;
+  --ease-aus: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@font-face {
+  font-family: "Source Sans 3";
+  src: url("./fonts/SourceSans3-Variable.woff2") format("woff2");
+  font-weight: 200 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Sans 3";
+  src: url("./fonts/SourceSans3-Italic-Variable.woff2") format("woff2");
+  font-weight: 200 900;
+  font-style: italic;
+  font-display: swap;
+}
+/* Metrisch angenäherter Ersatz, bis die Schrift geladen ist (weniger Layoutsprung) */
+@font-face {
+  font-family: "Source Sans Fallback";
+  src: local("Arial"), local("Helvetica Neue"), local("Helvetica");
+  size-adjust: 94%;
+  ascent-override: 96%;
+  descent-override: 28%;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+    scroll-padding-top: 5.5rem;
+  }
+  body {
+    @apply bg-weiss text-tinte font-sans antialiased;
+    font-size: 1.125rem; /* 18 px: gut lesbar, auch für ältere Menschen */
+    line-height: 1.6;
+  }
+  ::selection {
+    background: var(--color-aubergine);
+    color: var(--color-weiss);
+  }
+  :focus-visible {
+    outline: 3px solid var(--color-fokus);
+    outline-offset: 3px;
+    border-radius: 3px;
+  }
+  .auf-dunkel :focus-visible,
+  .auf-dunkel:focus-visible {
+    outline-color: var(--color-lime);
+  }
+  h1, h2, h3, h4 {
+    color: var(--color-aubergine);
+    font-weight: 600;
+    letter-spacing: -0.012em;
+    line-height: 1.12;
+    text-wrap: balance;
+  }
+  p { text-wrap: pretty; }
+  /* Lange deutsche Wörter («Patienteninformationen») in Titeln auf schmalen Geräten trennen */
+  @media (max-width: 30rem) {
+    h1 { hyphens: auto; hyphenate-limit-chars: 14 6 6; overflow-wrap: anywhere; }
+  }
+  strong { font-weight: 600; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+  }
+}
+
+@utility container-seite {
+  width: 100%;
+  max-width: var(--container-seite);
+  margin-inline: auto;
+  padding-inline: var(--spacing-rand);
+}
+
+/* Kleine Zeile über Titeln – sparsam (höchstens eine pro drei Abschnitte) */
+@utility etikett {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-grau);
+}
+
+/* Knöpfe (Touch-Ziele ≥ 44 px, eine Rundung für alles: 6 px) */
+@utility knopf {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  min-height: 3rem;
+  padding: 0.7rem 1.4rem;
+  font-weight: 600;
+  font-size: 1.0625rem;
+  line-height: 1.2;
+  border: 2px solid transparent;
+  border-radius: var(--radius-klein);
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 180ms var(--ease-aus), color 180ms var(--ease-aus), border-color 180ms var(--ease-aus), transform 120ms var(--ease-aus);
+}
+@utility knopf-primaer {
+  background: var(--color-aubergine);
+  color: var(--color-weiss);
+  border-color: var(--color-aubergine);
+}
+.knopf-primaer:hover { background: var(--color-aubergine-dunkel); border-color: var(--color-aubergine-dunkel); }
+@utility knopf-sekundaer {
+  background: transparent;
+  color: var(--color-aubergine);
+  border-color: var(--color-aubergine);
+}
+.knopf-sekundaer:hover { background: var(--color-aubergine-hell); }
+@utility knopf-hell {
+  background: var(--color-weiss);
+  color: var(--color-aubergine);
+  border-color: var(--color-weiss);
+}
+.knopf-hell:hover { background: var(--color-nebel); }
+@utility knopf-umriss-hell {
+  background: transparent;
+  color: var(--color-weiss);
+  border-color: rgb(255 255 255 / 0.7);
+}
+.knopf-umriss-hell:hover { background: rgb(255 255 255 / 0.12); border-color: var(--color-weiss); }
+.knopf:active { transform: translateY(1px); }
+.knopf[disabled] { opacity: 0.6; cursor: not-allowed; }
+
+/* Textlinks */
+.textlink {
+  color: var(--color-aubergine);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1.5px;
+  text-decoration-color: var(--color-lime);
+}
+.textlink:hover { color: var(--color-aubergine-dunkel); text-decoration-thickness: 2.5px; }
+
+/* Fliesstext (Portable Text) */
+.fliesstext { max-width: 42rem; }
+.fliesstext > * + * { margin-top: 1em; }
+.fliesstext h2 { font-size: var(--text-display-md); margin-top: 2em; }
+.fliesstext h3 { font-size: 1.3125rem; margin-top: 1.6em; }
+.fliesstext ul, .fliesstext ol { padding-left: 1.4em; }
+.fliesstext ul { list-style: disc; }
+.fliesstext ol { list-style: decimal; }
+.fliesstext li + li { margin-top: 0.35em; }
+.fliesstext li::marker { color: var(--color-aubergine); }
+.fliesstext a { color: var(--color-aubergine); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; text-decoration-color: var(--color-lime); }
+.fliesstext a:hover { text-decoration-thickness: 2.5px; }
+.fliesstext em { font-style: italic; }
+/* Lebenslauf-Tabellen: Jahr links, Text rechts */
+.fliesstext table { border-collapse: collapse; width: 100%; }
+.fliesstext td { vertical-align: top; padding: 0.35rem 0; border-top: 1px solid var(--color-linie); }
+.fliesstext td:first-child { width: 7rem; font-weight: 600; color: var(--color-aubergine); white-space: nowrap; padding-right: 1rem; }
+
+/* Formular */
+.feld {
+  width: 100%;
+  min-height: 3rem;
+  padding: 0.7rem 0.9rem;
+  background: var(--color-weiss);
+  color: var(--color-tinte);
+  border: 1.5px solid var(--color-rahmen);
+  border-radius: var(--radius-klein);
+  font: inherit;
+  line-height: 1.4;
+}
+.feld:focus { border-color: var(--color-aubergine); }
+.feld::placeholder { color: #737983; }
+.feld[aria-invalid="true"] { border-color: var(--color-fehler); }
+
+/* Horizont: die Bergsilhouette aus dem Logo als Trennlinie (Signatur) */
+.horizont {
+  display: block;
+  width: 100%;
+  height: auto;
+  color: var(--color-lime);
+}
+
+/* Akkordeon (Behandlungen, Lebensläufe): natives details/summary */
+.akkordeon { border-top: 1px solid var(--color-linie); }
+.akkordeon:last-child { border-bottom: 1px solid var(--color-linie); }
+.akkordeon > summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: 3.5rem;
+  padding: 0.9rem 0.25rem;
+  font-weight: 600;
+  font-size: 1.1875rem;
+  color: var(--color-aubergine);
+  transition: background-color 160ms var(--ease-aus);
+}
+.akkordeon > summary::-webkit-details-marker { display: none; }
+.akkordeon > summary:hover { background: var(--color-nebel); }
+.akkordeon > summary .zeichen {
+  flex: none;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  border: 2px solid var(--color-aubergine);
+  display: grid;
+  place-items: center;
+  transition: transform 200ms var(--ease-aus), background-color 160ms var(--ease-aus);
+}
+.akkordeon[open] > summary .zeichen { transform: rotate(45deg); background: var(--color-lime); border-color: var(--color-lime); }
+.akkordeon[open] > summary { border-left: 4px solid var(--color-lime); padding-left: calc(0.25rem + 0.5rem); }
+.akkordeon > .inhalt { padding: 0.25rem 0.25rem 1.5rem; }
+
+/* Bewegung: Erscheinen beim Scrollen (CSS-only), Hero-Auftauchen – aus bei reduzierter Bewegung */
+@keyframes erscheinen {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes auftauchen {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: none; }
+}
+.erscheinen {
+  animation: erscheinen 600ms var(--ease-aus) both;
+  animation-timeline: view();
+  animation-range: entry 0% entry 25%;
+}
+.auftauchen { animation: auftauchen 500ms var(--ease-aus) both; }
+.auftauchen-2 { animation-delay: 150ms; }
+.auftauchen-3 { animation-delay: 300ms; }
+@media (prefers-reduced-motion: reduce) {
+  .erscheinen, .auftauchen { animation: none !important; opacity: 1 !important; transform: none !important; }
+  .knopf, .akkordeon > summary, .akkordeon > summary .zeichen { transition: none; }
+}

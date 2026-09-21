@@ -1,0 +1,54 @@
+{
+  "id": "seite-de-behandlungen",
+  "sprache": "de",
+  "uebersetzungsSchluessel": "seite-behandlungen",
+  "slug": "behandlungen",
+  "titel": "Behandlungen",
+  "einleitung": "Von der Untersuchung über Prophylaxe, zahnfarbene Füllungen und CEREC-Restaurationen bis zu Implantaten und Zahnersatz. Klicken Sie auf eine Behandlung, um die Beschreibung zu öffnen.",
+  "seoTitel": "Behandlungen: Computerzahnmedizin, Prophylaxe, Implantate",
+  "seoBeschreibung": "Behandlungen der Praxis am Zürichberg: Untersuchung, Schmerzbehandlung, Prophylaxe und Dentalhygiene, digitales Röntgen, Bleaching, Füllungen, CEREC-Inlays und -Kronen, Veneers, Wurzelbehandlung, 3D-Röntgen, Implantate, Chirurgie, Zahnersatz.",
+  "bausteine": [
+    {
+      "_type": "behandlungenBaustein",
+      "_key": "behandlungen-liste",
+      "darstellung": "akkordeon",
+      "behandlungen": []
+    },
+    {
+      "_type": "hinweisBaustein",
+      "_key": "behandlungen-hinweis",
+      "titel": "Hinweis",
+      "art": "info",
+      "inhalt": [
+        {
+          "_type": "block",
+          "_key": "a64ccfc03e23",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "7e6704d1ba38",
+              "text": "Die Beschreibungen geben einen Überblick über das Angebot der Praxis. Ob und welche Behandlung für Sie geeignet ist, klären Untersuchung und Beratung in der Praxis. Diese Seite ersetzt keine individuelle zahnärztliche Beratung.",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        }
+      ]
+    },
+    {
+      "_type": "aufrufBaustein",
+      "_key": "behandlungen-aufruf",
+      "titel": "Schmerzen?",
+      "text": "Soweit es uns möglich ist, versuchen wir, am Tag Ihres Anrufs einen Termin für die Schmerzbehandlung zu vergeben.",
+      "knopf": {
+        "titel": "Anrufen 044 261 33 30",
+        "ziel": "tel:+41442613330"
+      },
+      "zweiterKnopf": {
+        "titel": "Kontakt und Anfahrt",
+        "ziel": "/de/kontakt/"
+      }
+    }
+  ]
+}

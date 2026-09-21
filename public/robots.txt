@@ -1,0 +1,4 @@
+# Demo-Website: alle Seiten tragen <meta name="robots" content="noindex, nofollow">.
+# Crawler dürfen die Seiten abrufen, damit sie den Hinweis lesen – deshalb hier kein Disallow.
+User-agent: *
+Allow: /

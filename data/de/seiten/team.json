@@ -1,0 +1,32 @@
+{
+  "id": "seite-de-team",
+  "sprache": "de",
+  "uebersetzungsSchluessel": "seite-team",
+  "slug": "team",
+  "titel": "Team",
+  "einleitung": "Zwei Zahnärzte und ein Dentalhygieniker. Die Lebensläufe der Zahnärzte finden Sie unter dem jeweiligen Namen.",
+  "seoTitel": "Team: PD Dr. Andreas Bindl, Dr. Corinna Fritschi, Ruwen Friedl",
+  "seoBeschreibung": "Das Team der Praxis am Zürichberg: PD Dr. med. dent. Andreas Bindl, Dr. med. dent. Corinna Fritschi und Dentalhygieniker HF Ruwen Friedl. Lebensläufe und Sprachen.",
+  "bausteine": [
+    {
+      "_type": "teamBaustein",
+      "_key": "team-liste",
+      "mitLebenslauf": true,
+      "team": []
+    },
+    {
+      "_type": "aufrufBaustein",
+      "_key": "team-aufruf",
+      "titel": "Lernen Sie uns kennen.",
+      "text": "Rufen Sie an oder schreiben Sie uns.",
+      "knopf": {
+        "titel": "Anrufen 044 261 33 30",
+        "ziel": "tel:+41442613330"
+      },
+      "zweiterKnopf": {
+        "titel": "Kontakt",
+        "ziel": "/de/kontakt/"
+      }
+    }
+  ]
+}

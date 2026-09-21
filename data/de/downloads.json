@@ -1,0 +1,74 @@
+[
+  {
+    "id": "download-de-allgemeine-bedingungen",
+    "sprache": "de",
+    "uebersetzungsSchluessel": "download-allgemeine-bedingungen",
+    "titel": "Allgemeine Bedingungen",
+    "datei": "/downloads/Allg_Bedingungen.pdf",
+    "dateiname": "Allg_Bedingungen.pdf",
+    "hinweis": "Informationsblatt der Praxis (Stand 2015). Nennt Taxpunktwerte und einen früheren Zahnarzt; vor Veröffentlichung von der Praxis zu aktualisieren.",
+    "dokumentSprache": "de",
+    "reihenfolge": 10
+  },
+  {
+    "id": "download-de-post-op",
+    "sprache": "de",
+    "uebersetzungsSchluessel": "download-post-op",
+    "titel": "Verhalten nach chirurgischen Eingriffen",
+    "datei": "/downloads/Post-OP.pdf",
+    "dateiname": "Post-OP.pdf",
+    "dokumentSprache": "de",
+    "reihenfolge": 20
+  },
+  {
+    "id": "download-de-par",
+    "sprache": "de",
+    "uebersetzungsSchluessel": "download-par",
+    "titel": "Parodontitisbehandlung",
+    "datei": "/downloads/PAR.pdf",
+    "dateiname": "PAR.pdf",
+    "dokumentSprache": "de",
+    "reihenfolge": 30
+  },
+  {
+    "id": "download-de-prothesenreinigung",
+    "sprache": "de",
+    "uebersetzungsSchluessel": "download-prothesenreinigung",
+    "titel": "Reinigung abnehmbarer Zahnersatz, Knirsch-Schiene, Sportschutz",
+    "datei": "/downloads/Prothesenreinigung.pdf",
+    "dateiname": "Prothesenreinigung.pdf",
+    "dokumentSprache": "de",
+    "reihenfolge": 40
+  },
+  {
+    "id": "download-de-bleaching",
+    "sprache": "de",
+    "uebersetzungsSchluessel": "download-bleaching",
+    "titel": "Bleaching von Zähnen",
+    "datei": "/downloads/Bleaching.pdf",
+    "dateiname": "Bleaching.pdf",
+    "dokumentSprache": "de",
+    "reihenfolge": 50
+  },
+  {
+    "id": "download-de-schallzahnbuersten",
+    "sprache": "de",
+    "uebersetzungsSchluessel": "download-schallzahnbuersten",
+    "titel": "Schallzahnbürsten",
+    "datei": "/downloads/Schallzahnbuersten.pdf",
+    "dateiname": "Schallzahnbuersten.pdf",
+    "dokumentSprache": "de",
+    "reihenfolge": 60
+  },
+  {
+    "id": "download-de-zahnunfall",
+    "sprache": "de",
+    "uebersetzungsSchluessel": "download-zahnunfall",
+    "titel": "Zahnunfall",
+    "datei": "/downloads/Zahnunfall.pdf",
+    "dateiname": "Zahnunfall.pdf",
+    "hinweis": "Faltblatt der Gesundheitsdirektion Kanton Zürich (nicht von der Praxis verfasst).",
+    "dokumentSprache": "de",
+    "reihenfolge": 70
+  }
+]

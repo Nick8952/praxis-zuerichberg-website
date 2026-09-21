@@ -1,0 +1,560 @@
+[
+  {
+    "id": "behandlung-de-digitale-zahnmedizin",
+    "sprache": "de",
+    "uebersetzungsSchluessel": "behandlung-digitale-zahnmedizin",
+    "titel": "Computerzahnmedizin, digitale Zahnmedizin",
+    "anker": "computerzahnmedizin",
+    "inhalt": [
+      {
+        "_type": "block",
+        "_key": "df0a5820fd7b",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "63c3bb3b8344",
+            "text": "Der Einsatz der Computer-Technologie in der Zahnmedizin hat seit Jahren eine immer grösser werdende Bedeutung. Besonders in folgenden Bereichen können Software- und Computer-Technologie hilfreich eingesetzt werden:",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      },
+      {
+        "_type": "block",
+        "_key": "91c76b7257e7",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "532e312c33d0",
+            "text": "Optische Erfassung von Situationen (Zahndefekte, Lückensituationen und Weichgewebe) in der Mundhöhle mithilfe von intraoralen 3D-Scannern (z. B. Cerec-Kamera)",
+            "marks": []
+          }
+        ],
+        "markDefs": [],
+        "listItem": "bullet",
+        "level": 1
+      },
+      {
+        "_type": "block",
+        "_key": "b9bf9402e22f",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "778cd8c9f7f7",
+            "text": "Herstellung von computergefertigten Restaurationen aus unterschiedlichen Keramikmaterialien",
+            "marks": []
+          }
+        ],
+        "markDefs": [],
+        "listItem": "bullet",
+        "level": 1
+      },
+      {
+        "_type": "block",
+        "_key": "702b1fe7557f",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "7bd95561881c",
+            "text": "Digitale Volumentomographie (digitales 3D-Röntgen) zur Diagnostik, digitales 2D-Röntgen",
+            "marks": []
+          }
+        ],
+        "markDefs": [],
+        "listItem": "bullet",
+        "level": 1
+      },
+      {
+        "_type": "block",
+        "_key": "c01e4b679257",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "e335818bed87",
+            "text": "Planung der korrekten Position und Dimension von Implantaten (virtuelle Implantatplanung)",
+            "marks": []
+          }
+        ],
+        "markDefs": [],
+        "listItem": "bullet",
+        "level": 1
+      },
+      {
+        "_type": "block",
+        "_key": "67700fb1ab58",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "909860e55b89",
+            "text": "Herstellung von Bohrschablonen zum Setzen von Implantaten: Mit Hilfe der Bohrschablone wird die vorgängige virtuelle Implantatplanung umgesetzt",
+            "marks": []
+          }
+        ],
+        "markDefs": [],
+        "listItem": "bullet",
+        "level": 1
+      },
+      {
+        "_type": "block",
+        "_key": "560465ab7c59",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "9753ae51060e",
+            "text": "Dokumentation: Mit Hilfe der digitalen Photographie können bestimmte Behandlungsschritte oder Heilungsverläufe dokumentiert werden",
+            "marks": []
+          }
+        ],
+        "markDefs": [],
+        "listItem": "bullet",
+        "level": 1
+      },
+      {
+        "_type": "block",
+        "_key": "9e5762f0ea3d",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "d4b7cc9cd20e",
+            "text": "Verlaufskontrollen können basierend auf intraoralen Scans vorgenommen werden. Diese Scans werden zu unterschiedlichen Zeitpunkten aufgenommen, softwaretechnisch übereinander gelagert und Unterschiede dargestellt.",
+            "marks": []
+          }
+        ],
+        "markDefs": [],
+        "listItem": "bullet",
+        "level": 1
+      }
+    ],
+    "gruppe": "diagnostik",
+    "reihenfolge": 10,
+    "quelle": "praxiszuerichberg.ch/index.html, Abschnitt «Behandlung» (abgerufen 21.09.2026)",
+    "pruefstatus": "sprachlich-angepasst"
+  },
+  {
+    "id": "behandlung-de-untersuchung",
+    "sprache": "de",
+    "uebersetzungsSchluessel": "behandlung-untersuchung",
+    "titel": "Untersuchung, Befundung, Diagnostik",
+    "anker": "untersuchung-befundung-diagnostik",
+    "inhalt": [
+      {
+        "_type": "block",
+        "_key": "4cdcb1238f56",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "0bc30206571a",
+            "text": "Die Grundlage jeder Behandlung: die Durchführung einer Untersuchung und Befundung. Dann kann festgestellt werden, ob Erkrankungen an den Zähnen (Karies), dem Zahnhalteapparat, dem Zahnfleisch und in der Mundhöhle vorliegen. Dafür werden unterstützend digitale Röntgenbilder (Einzelbilder, Panoramaschichtaufnahmen oder dreidimensionale Volumentomographiebilder) erstellt.",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      }
+    ],
+    "gruppe": "diagnostik",
+    "reihenfolge": 20,
+    "quelle": "praxiszuerichberg.ch/index.html, Abschnitt «Behandlung» (abgerufen 21.09.2026)",
+    "pruefstatus": "sprachlich-angepasst"
+  },
+  {
+    "id": "behandlung-de-schmerzbehandlung",
+    "sprache": "de",
+    "uebersetzungsSchluessel": "behandlung-schmerzbehandlung",
+    "titel": "Schmerzbehandlung",
+    "anker": "schmerzbehandlung",
+    "inhalt": [
+      {
+        "_type": "block",
+        "_key": "4856e0ebbe71",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "d7a7b15d52e0",
+            "text": "Vor allem starke und akute Schmerzen sind unangenehm. Basierend auf der Untersuchung und Befundung suchen wir die Ursache für das Schmerzgeschehen. Dann kann die notwendige Behandlung vorgenommen werden. Soweit es uns möglich ist, versuchen wir immer am Tag Ihres Anrufes, einen Termin für die Schmerzbehandlung zu vergeben.",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      }
+    ],
+    "gruppe": "diagnostik",
+    "reihenfolge": 30,
+    "quelle": "praxiszuerichberg.ch/index.html, Abschnitt «Behandlung» (abgerufen 21.09.2026)",
+    "pruefstatus": "sprachlich-angepasst"
+  },
+  {
+    "id": "behandlung-de-prophylaxe",
+    "sprache": "de",
+    "uebersetzungsSchluessel": "behandlung-prophylaxe",
+    "titel": "Prophylaxe (Vorsorge) & Dentalhygiene",
+    "anker": "prophylaxe-dentalhygiene",
+    "inhalt": [
+      {
+        "_type": "block",
+        "_key": "e790fed9dc7d",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "3735d96dd417",
+            "text": "Oberstes Ziel ist die Schonung und der Erhalt von Hart- und Weichgewebe in der Mundhöhle. Um Sie vor weiteren Erkrankungen Ihrer Zähne, des Zahnhalteapparates und der umliegenden Strukturen zu bewahren, bieten wir Ihnen eine individuelle Prophylaxe (Vorsorge). Die Dentalhygienikerin reinigt und poliert Ihre Zähne, ausserdem instruiert sie patientenindividuell, wie Sie die häusliche Zahnreinigung idealerweise durchführen. Bei Parodontitis (Entzündung des Zahnhalteapparates mit Taschenbildung) reinigt die DH die betroffenen Zahnfleischtaschen.",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      }
+    ],
+    "gruppe": "vorsorge",
+    "reihenfolge": 40,
+    "quelle": "praxiszuerichberg.ch/index.html, Abschnitt «Behandlung» (abgerufen 21.09.2026)",
+    "pruefstatus": "sprachlich-angepasst"
+  },
+  {
+    "id": "behandlung-de-digitales-roentgen",
+    "sprache": "de",
+    "uebersetzungsSchluessel": "behandlung-digitales-roentgen",
+    "titel": "Digitales Röntgen",
+    "anker": "digitales-roentgen",
+    "inhalt": [
+      {
+        "_type": "block",
+        "_key": "1a832a2e2901",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "18a0563aa4b0",
+            "text": "Digital erstellte Röntgenbilder können im Vergleich zu konventionellen Röntgenbildern mit geringerer Strahlenbelastung angefertigt werden. Für die Entwicklung sind keine Chemikalien (Umweltschutz!) erforderlich. Sie sind nach der Anfertigung sofort verfügbar und können sicher archiviert werden. Panoramaschichtaufnahmen (grosse Übersichtsbilder) werden auch digital angefertigt.",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      }
+    ],
+    "gruppe": "diagnostik",
+    "reihenfolge": 50,
+    "quelle": "praxiszuerichberg.ch/index.html, Abschnitt «Behandlung» (abgerufen 21.09.2026)",
+    "pruefstatus": "sprachlich-angepasst"
+  },
+  {
+    "id": "behandlung-de-bleaching",
+    "sprache": "de",
+    "uebersetzungsSchluessel": "behandlung-bleaching",
+    "titel": "Ästhetische Zahnmedizin, Bleaching",
+    "anker": "aesthetische-zahnmedizin-bleaching",
+    "inhalt": [
+      {
+        "_type": "block",
+        "_key": "6d39d95382a0",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "d2ce14aa98ac",
+            "text": "Mit Bleaching können Zähne ohne Schädigung aufgehellt werden. Die Zähne wirken wieder hell und frisch. Manchmal stören nicht nur die dunkle Farbe von Zähnen, sondern auch deren Form oder Lücken zwischen den Zähnen. Durch Ansetzen von zahnfarbenen Füllungsmaterialien können kleine Fehlstellungen behoben und Lücken geschlossen werden.",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      }
+    ],
+    "gruppe": "restaurativ",
+    "reihenfolge": 60,
+    "quelle": "praxiszuerichberg.ch/index.html, Abschnitt «Behandlung» (abgerufen 21.09.2026)",
+    "pruefstatus": "sprachlich-angepasst"
+  },
+  {
+    "id": "behandlung-de-fuellungen",
+    "sprache": "de",
+    "uebersetzungsSchluessel": "behandlung-fuellungen",
+    "titel": "Minimalinvasive Füllungen (zahnfarben)",
+    "anker": "minimalinvasive-fuellungen",
+    "inhalt": [
+      {
+        "_type": "block",
+        "_key": "a0e93ed7630d",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "af052e104280",
+            "text": "Müssen kleine Karies-Defekte behandelt werden, erfolgt dies so schonend wie möglich. Die Füllung wird nur so gross wie nötig (minimalinvasiv) angefertigt. Das ideale Füllungsmaterial dafür ist zahnfarbenes Kompositmaterial, welches in plastischer Form in den Defekt gebracht und dann mit blauem Licht ausgehärtet wird. Das Füllungsmaterial wird adhäsiv mit dem natürlichen Zahn verbunden.",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      }
+    ],
+    "gruppe": "restaurativ",
+    "reihenfolge": 70,
+    "quelle": "praxiszuerichberg.ch/index.html, Abschnitt «Behandlung» (abgerufen 21.09.2026)",
+    "pruefstatus": "sprachlich-angepasst"
+  },
+  {
+    "id": "behandlung-de-cerec",
+    "sprache": "de",
+    "uebersetzungsSchluessel": "behandlung-cerec",
+    "titel": "Computer-Inlays, -Teilkronen, -Kronen",
+    "anker": "computer-inlays-teilkronen-kronen",
+    "inhalt": [
+      {
+        "_type": "block",
+        "_key": "82fd2c5a917d",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "b14ef0bbf68a",
+            "text": "Bei ausgedehnteren Defekten im Zahn wird sinnvollerweise ein zahnfarbenes Werkstück aus Keramik hergestellt. Konventionell wird ein Abdruck angefertigt und ein zahntechnisches Labor zur Herstellung des Werkstücks beauftragt. Bis das Werkstück fertiggestellt ist, muss der Zahn mit einem Provisorium versorgt werden.",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      },
+      {
+        "_type": "block",
+        "_key": "11cfae193285",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "5698ce1184ba",
+            "text": "Mit der CEREC-Methode kann der zu versorgende Zahn anstelle eines Abdrucks mit einer 3D-Kamera im Patientenmund erfasst werden. Mit einer intelligenten Software wird ein 3D-Modell des Zahnes errechnet und das Werkstück passgenau gestaltet. In derselben Sitzung wird das Werkstück in einem Schleifgerät aus einem Keramikblock herausgeschliffen und am Zahn eingesetzt.",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      }
+    ],
+    "gruppe": "restaurativ",
+    "reihenfolge": 80,
+    "quelle": "praxiszuerichberg.ch/index.html, Abschnitt «Behandlung» (abgerufen 21.09.2026)",
+    "pruefstatus": "sprachlich-angepasst"
+  },
+  {
+    "id": "behandlung-de-veneers",
+    "sprache": "de",
+    "uebersetzungsSchluessel": "behandlung-veneers",
+    "titel": "Veneers (Verblendschalen)",
+    "anker": "veneers",
+    "inhalt": [
+      {
+        "_type": "block",
+        "_key": "bfe3977b9bff",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "8934c978f4e8",
+            "text": "Müssen ausgeprägte Defekte an den Frontzähnen versorgt werden oder sollen Stellungskorrekturen der Frontzähne ausgeglichen werden, kann dies mit Veneers erfolgen. Diese Veneers können auch mit der CEREC-Methode hergestellt werden. Je nach Patientensituation müssen diese CEREC-Veneers im zahntechnischen Labor manchmal zusätzlich farblich individualisiert werden.",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      }
+    ],
+    "gruppe": "restaurativ",
+    "reihenfolge": 90,
+    "quelle": "praxiszuerichberg.ch/index.html, Abschnitt «Behandlung» (abgerufen 21.09.2026)",
+    "pruefstatus": "sprachlich-angepasst"
+  },
+  {
+    "id": "behandlung-de-endodontie",
+    "sprache": "de",
+    "uebersetzungsSchluessel": "behandlung-endodontie",
+    "titel": "Wurzelbehandlungen (Endodontie)",
+    "anker": "wurzelbehandlungen",
+    "inhalt": [
+      {
+        "_type": "block",
+        "_key": "7973cd77eaeb",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "9c72ace04ad3",
+            "text": "Ist die Pulpa (Weich- und Nervengewebe im Inneren eines Zahnes) entzündet oder infiziert, muss eine Wurzelbehandlung durchgeführt werden (z. B. im Rahmen einer akuten Schmerzbehandlung). Dabei wird das Pulpagewebe entfernt und die Wurzelkanäle mit speziellen Instrumenten aufbereitet, gereinigt, desinfiziert und wieder gefüllt. Im Rahmen einer Revision wird eine vorhandene, eventuell infizierte und undichte Wurzelbehandlung erneuert und verbessert. Der Einsatz des OP-Mikroskops hilft, die kleinen anatomischen Strukturen im Inneren eines Zahnes visuell darzustellen.",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      }
+    ],
+    "gruppe": "restaurativ",
+    "reihenfolge": 100,
+    "quelle": "praxiszuerichberg.ch/index.html, Abschnitt «Behandlung» (abgerufen 21.09.2026)",
+    "pruefstatus": "sprachlich-angepasst"
+  },
+  {
+    "id": "behandlung-de-dvt",
+    "sprache": "de",
+    "uebersetzungsSchluessel": "behandlung-dvt",
+    "titel": "3D-Röntgen (digitale Volumentomographie)",
+    "anker": "3d-roentgen",
+    "inhalt": [
+      {
+        "_type": "block",
+        "_key": "df2991b5f360",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "a837ebdf8f08",
+            "text": "Die klassische Röntgentechnik stellt anatomische Strukturen nur zweidimensional dar (z. B. zweidimensionales Orthopantomogramm = Panorama-Röntgenbild). Die 3D-Röntgendiagnostik erlaubt eine dreidimensionale Darstellung und damit eine sichere Abklärung beispielsweise von entzündlichen Prozessen, die Beurteilung der Lage von Weisheitszähnen sowie die genaue Beurteilung der Knochenverhältnisse, welche für die Planung von Implantaten unerlässlich ist. Mit unseren beiden digitalen 3D-Volumentomographie-Geräten GALILEOS und ORTHOPHOS XG 3D können wir Ihnen eine dreidimensionale Darstellung von Knochenstrukturen anbieten.",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      }
+    ],
+    "gruppe": "diagnostik",
+    "reihenfolge": 110,
+    "quelle": "praxiszuerichberg.ch/index.html, Abschnitt «Behandlung» (abgerufen 21.09.2026)",
+    "pruefstatus": "sprachlich-angepasst"
+  },
+  {
+    "id": "behandlung-de-implantate",
+    "sprache": "de",
+    "uebersetzungsSchluessel": "behandlung-implantate",
+    "titel": "Implantatplanung & Implantatversorgung",
+    "anker": "implantate",
+    "inhalt": [
+      {
+        "_type": "block",
+        "_key": "b82732c3d409",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "697889997dab",
+            "text": "Ein zahnärztliches Implantat wird in den Knochen geschraubt, heilt biologisch fest ein und ersetzt die natürliche Zahnwurzel. Auf einem eingeheilten Implantat kann eine einzelne Zahnkrone, eine Brücke oder Prothesen verankert werden. Implantate müssen sorgfältig geplant und vorbereitet werden. Bei der Planung kann eine 3D-Röntgendiagnostik hilfreich sein, vor allem bei komplexeren Situationen.",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      }
+    ],
+    "gruppe": "chirurgie",
+    "reihenfolge": 120,
+    "quelle": "praxiszuerichberg.ch/index.html, Abschnitt «Behandlung» (abgerufen 21.09.2026)",
+    "pruefstatus": "sprachlich-angepasst"
+  },
+  {
+    "id": "behandlung-de-chirurgie",
+    "sprache": "de",
+    "uebersetzungsSchluessel": "behandlung-chirurgie",
+    "titel": "Zahnärztliche Chirurgie",
+    "anker": "zahnaerztliche-chirurgie",
+    "inhalt": [
+      {
+        "_type": "block",
+        "_key": "c517ab35b840",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "f4ea90a2aaaf",
+            "text": "Tief zerstörte oder frakturierte Zähne müssen entfernt werden, da ansonsten Entzündungen im Kieferbereich entstehen. In gewissen Fällen müssen Weisheitszähne chirurgisch entfernt werden. Zur zahnärztlichen Chirurgie gehören ebenfalls Aufbaumassnahmen von Knochendefekten zur Schaffung idealer Verhältnisse für zahnärztliche Implantate (Knochenaufbau) sowie chirurgische Behandlungsmethoden zur Behebung von Zahnbetterkrankungen (Parodontitis).",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      }
+    ],
+    "gruppe": "chirurgie",
+    "reihenfolge": 130,
+    "quelle": "praxiszuerichberg.ch/index.html, Abschnitt «Behandlung» (abgerufen 21.09.2026)",
+    "pruefstatus": "sprachlich-angepasst"
+  },
+  {
+    "id": "behandlung-de-festsitzende-prothetik",
+    "sprache": "de",
+    "uebersetzungsSchluessel": "behandlung-festsitzende-prothetik",
+    "titel": "Festsitzende Prothetik (Zahnersatz)",
+    "anker": "festsitzende-prothetik",
+    "inhalt": [
+      {
+        "_type": "block",
+        "_key": "89bdce46964d",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "d58ab6daf085",
+            "text": "Müssen fehlende Zähne ersetzt werden, kann dies auch mit festsitzenden Brücken erfolgen (als Alternative zu Implantaten). Diese werden in der Regel aus hochfestem Zirkonoxid angefertigt. Auf herkömmlichem Wege wird ein Abdruck der Mundsituation angefertigt und dieser zum Zahntechniker geschickt. In vielen Fällen können wir die Situation für eine Brücke im Mund mit der CEREC-Kamera erfassen und die Daten per Internet zum Zahntechniker übermitteln.",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      }
+    ],
+    "gruppe": "chirurgie",
+    "reihenfolge": 140,
+    "quelle": "praxiszuerichberg.ch/index.html, Abschnitt «Behandlung» (abgerufen 21.09.2026)",
+    "pruefstatus": "sprachlich-angepasst"
+  },
+  {
+    "id": "behandlung-de-abnehmbare-prothetik",
+    "sprache": "de",
+    "uebersetzungsSchluessel": "behandlung-abnehmbare-prothetik",
+    "titel": "Abnehmbare Prothetik (Zahnersatz)",
+    "anker": "abnehmbare-prothetik",
+    "inhalt": [
+      {
+        "_type": "block",
+        "_key": "b3ee41c71b24",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "21d27a590a71",
+            "text": "Unter abnehmbarer Prothetik versteht man Teilprothesen und Totalprothesen, diese können auch zur Verbesserung des Prothesenhaltes an Implantaten verankert werden. Der Prothesenhalt kann ungenügend sein, wenn der zahnlose Kiefer wenig ausgeprägt ist.",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      }
+    ],
+    "gruppe": "chirurgie",
+    "reihenfolge": 150,
+    "quelle": "praxiszuerichberg.ch/index.html, Abschnitt «Behandlung» (abgerufen 21.09.2026)",
+    "pruefstatus": "sprachlich-angepasst"
+  },
+  {
+    "id": "behandlung-de-verschiedenes",
+    "sprache": "de",
+    "uebersetzungsSchluessel": "behandlung-verschiedenes",
+    "titel": "Verschiedenes: Kinder, Kieferorthopädie, Aufbissschienen",
+    "anker": "verschiedenes",
+    "inhalt": [
+      {
+        "_type": "block",
+        "_key": "61e49247ad9d",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "_key": "bd5d7d1282a1",
+            "text": "Wir kümmern uns im Rahmen der Kinderzahnmedizin auch um Ihren Nachwuchs. In komplexeren Situationen arbeiten wir mit einer erfahrenen Kinderzahnärztin zusammen. Kieferorthopädie können wir in unserer Praxis leider nicht anbieten. Wir arbeiten aber sehr eng mit zwei Kieferorthopäden in unserer Nähe zusammen. Des Weiteren bieten wir bei Beschwerden oder Schmerzen in der Kaumuskulatur oder im Kiefergelenk Aufbissschienen an (Michiganschienen, NTI-Aufbissschienen in der Front).",
+            "marks": []
+          }
+        ],
+        "markDefs": []
+      }
+    ],
+    "gruppe": "weiteres",
+    "reihenfolge": 160,
+    "quelle": "praxiszuerichberg.ch/index.html, Abschnitt «Behandlung» (abgerufen 21.09.2026)",
+    "pruefstatus": "sprachlich-angepasst"
+  }
+]

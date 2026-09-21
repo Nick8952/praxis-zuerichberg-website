@@ -1,0 +1,122 @@
+{
+  "sprache": "en",
+  "navigation": [
+    {
+      "titel": "Practice",
+      "ziel": "/en/practice/"
+    },
+    {
+      "titel": "Treatments",
+      "ziel": "/en/treatments/"
+    },
+    {
+      "titel": "Team",
+      "ziel": "/en/team/"
+    },
+    {
+      "titel": "Patient information",
+      "ziel": "/en/patient-information/"
+    },
+    {
+      "titel": "Contact",
+      "ziel": "/en/contact/"
+    }
+  ],
+  "rechtslinks": [
+    {
+      "titel": "Legal notice",
+      "ziel": "/en/legal-notice/"
+    },
+    {
+      "titel": "Privacy",
+      "ziel": "/en/privacy/"
+    }
+  ],
+  "seo": {
+    "titelZusatz": "Praxis am Zürichberg, Dentist Zurich",
+    "beschreibung": "Dental practice of PD Dr. med. dent. Andreas Bindl at Attenhoferstrasse 8a in Zurich: general dentistry, computer-aided dentistry (CEREC), dental implants, prophylaxis and dental hygiene."
+  },
+  "demoHinweis": "Non-binding design demo. Not an official website of Praxis am Zürichberg.",
+  "ui": {
+    "zumInhalt": "Skip to content",
+    "menueOeffnen": "Open menu",
+    "menueSchliessen": "Close menu",
+    "sprache": "Deutsch",
+    "sprachwechselFehlt": "This page is only available in English. Go to the German home page",
+    "anrufen": "Call",
+    "emailSchreiben": "Send an email",
+    "routePlanen": "Get directions",
+    "adresseKopieren": "Copy address",
+    "kopiert": "Copied",
+    "kopierenFehler": "Copying is not possible. Please select the address.",
+    "alleOeffnen": "Open all",
+    "alleSchliessen": "Close all",
+    "lebenslauf": "Curriculum vitae",
+    "sprachen": "Languages",
+    "download": "Open PDF",
+    "dateiGroesse": "PDF",
+    "zeitenErfragen": "Please call for opening hours and appointments.",
+    "kontaktSeite": "Go to contact page",
+    "startseite": "Home",
+    "nichtGefundenTitel": "This page does not exist",
+    "nichtGefundenText": "The address may be misspelled or the page has moved.",
+    "datenschutzEinstellungen": "Privacy settings"
+  },
+  "einwilligung": {
+    "bannerTitel": "External content",
+    "bannerText": "This website sets no cookies of its own. The Google Maps location map only loads with your consent; Google then receives your IP address and may set cookies.",
+    "alleAkzeptieren": "Accept all",
+    "nurNotwendige": "Necessary only",
+    "einstellungen": "Settings",
+    "dialogTitel": "Cookie and privacy settings",
+    "dialogText": "Choose which external content may be loaded. Nothing is preselected.",
+    "auswahlSpeichern": "Save selection",
+    "schliessen": "Close without saving",
+    "notwendigTitel": "Necessary",
+    "notwendigText": "Only stores your decision about this consent in your browser's local storage (key \"praxis-zuerichberg-einwilligung\"). No cookies, no transmission.",
+    "immerAktiv": "always active",
+    "karteTitel": "Map (Google Maps)",
+    "karteAnbieter": "Provider: Google Ireland Limited",
+    "karteText": "Shows the location Attenhoferstrasse 8a, Zurich as an embedded map. When loaded, your IP address and browser details are sent to Google; Google may set cookies.",
+    "kartePlatzhalter": "The map loads only after your consent. Alternatively, open the directions directly on Google Maps.",
+    "karteAnzeigen": "Show map",
+    "karteAusblenden": "Hide map again",
+    "widerrufen": "Withdraw consent and delete",
+    "keineEntscheidung": "You have not saved a decision yet. External content is not loaded.",
+    "entscheidungVom": "Your decision from",
+    "fussnote": "Cookies already set by Google cannot be deleted by this website; use your browser settings for that.",
+    "gespeichert": "Selection saved.",
+    "alleErlaubt": "All external content allowed.",
+    "nurNotwendigeGespeichert": "Necessary only. No external content.",
+    "widerrufenMeldung": "Consent withdrawn and stored decision deleted. The map is removed.",
+    "datenschutzerklaerung": "Privacy policy"
+  },
+  "formular": {
+    "titel": "Get in touch",
+    "einleitung": "For appointments, the quickest way is to call us. If you prefer to write, prepare an email here: the text is handed to your email program and only sent when you send it there.",
+    "warnung": "Please do not send medical details by email (symptoms, diagnoses, x-rays, insurance numbers). Email is not a secure channel for health data. Discuss your concern by phone or at the practice.",
+    "name": "Your name",
+    "rueckruf": "Phone number for a call back",
+    "kontaktwunsch": "Your request",
+    "kontaktwunschOptionen": [
+      {
+        "wert": "termin",
+        "titel": "Appointment request"
+      },
+      {
+        "wert": "rueckruf",
+        "titel": "Please call me back"
+      },
+      {
+        "wert": "frage",
+        "titel": "General question about the practice"
+      }
+    ],
+    "nachricht": "Message (organisational)",
+    "nachrichtHilfe": "For example preferred dates or availability. No health data.",
+    "pflicht": "Required",
+    "fehlerName": "Please enter your name.",
+    "emailVorbereiten": "Prepare email",
+    "hinweisNachher": "Opens your email program with the prepared text. Nothing is sent until you click \"Send\" there. Nothing is stored on this website."
+  }
+}

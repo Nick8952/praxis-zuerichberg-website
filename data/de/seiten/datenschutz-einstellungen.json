@@ -1,0 +1,32 @@
+{
+  "id": "seite-de-datenschutz-einstellungen",
+  "sprache": "de",
+  "uebersetzungsSchluessel": "seite-datenschutz-einstellungen",
+  "slug": "datenschutz-einstellungen",
+  "titel": "Datenschutz-Einstellungen",
+  "einleitung": "Hier sehen und ändern Sie Ihre Entscheidung zu externen Inhalten. Ein Widerruf wirkt sofort.",
+  "seoTitel": "Datenschutz-Einstellungen",
+  "seoBeschreibung": "Einwilligung für externe Inhalte (Google Maps) ansehen, ändern oder widerrufen.",
+  "bausteine": [
+    {
+      "_type": "textBaustein",
+      "_key": "ds-einstellungen-text",
+      "inhalt": [
+        {
+          "_type": "block",
+          "_key": "122ef186de18",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "e58d0f0ed284",
+              "text": "Diese Website setzt keine eigenen Cookies und nutzt keine Analyse- oder Werbedienste. Einwilligungspflichtig ist nur die Standortkarte von Google Maps auf der Kontaktseite. Die Einstellungen darunter sind auf jeder Seite über den Link «Datenschutz-Einstellungen» im Seitenfuss erreichbar.",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "seite-de-kontakt",
+  "sprache": "de",
+  "uebersetzungsSchluessel": "seite-kontakt",
+  "slug": "kontakt",
+  "titel": "Kontakt",
+  "einleitung": "Attenhoferstrasse 8a, 8032 Zürich. Termine vereinbaren Sie am einfachsten telefonisch.",
+  "seoTitel": "Kontakt und Anfahrt, Attenhoferstrasse 8a, 8032 Zürich",
+  "seoBeschreibung": "Praxis am Zürichberg, Attenhoferstrasse 8a, 8032 Zürich. Telefon 044 261 33 30, info@praxiszuerichberg.ch. Anfahrt mit Tram 5 oder 6 bis Voltastrasse, zwei Parkplätze in der Tiefgarage.",
+  "bausteine": [
+    {
+      "_type": "kontaktBaustein",
+      "_key": "kontakt-haupt",
+      "mitKarte": true,
+      "mitFormular": true,
+      "anfahrt": [
+        {
+          "_type": "block",
+          "_key": "62800169ad4a",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "24e1db35b994",
+              "text": "Wir empfehlen die Anfahrt mit der Tramlinie 5 (aus Richtung Bellevue) oder der Tramlinie 6 (aus Richtung Central) bis zur Haltestelle Voltastrasse. In die Moussonstrasse rechts einbiegen und geradeaus durch die Nägelistrasse in die Attenhoferstrasse gehen (zirka 300 m). Dabei wird die Zürichbergstrasse überquert.",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        },
+        {
+          "_type": "block",
+          "_key": "0ba351cd4bf7",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "75e57dd9fac0",
+              "text": "In unserer Tiefgarage haben wir für unsere Patienten zwei Parkplätze. Wir bitten Sie, eine Reservierung in unserem Patientensekretariat vorzunehmen.",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        }
+      ]
+    }
+  ]
+}

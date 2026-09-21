@@ -1,0 +1,103 @@
+// Prüft den fertigen statischen Export (out/) so, wie er auf GitHub Pages liegt:
+//  - jede Seite hat index.html + 404.html vorhanden
+//  - alle internen href/src beginnen mit dem Unterpfad und zeigen auf vorhandene Dateien
+//  - keine externen Ressourcen (Skripte, Stylesheets, Bilder, Schriften) von fremden Hosts
+//  - jede Seite trägt <meta name="robots" content="noindex"> solange INDEXIERUNG nicht gesetzt ist – und keins mit INDEXIERUNG=1
+//  - Sprachseiten: <html lang> passt zum Ordner (de → de-CH, en → en), Canonical absolut, hreflang inkl. x-default
+// Aufruf: npm run export:pruefen   (nach npm run build:pages)
+import { readdir, readFile, stat } from "node:fs/promises";
+import path from "node:path";
+
+const WURZEL = path.resolve(import.meta.dirname, "..", "out");
+const basePath = (process.env.BASE_PATH ?? "/praxis-zuerichberg-website").replace(/\/$/, "");
+const indexierung = process.env.INDEXIERUNG === "1";
+const fehler = [];
+
+async function htmlDateien(ordner) {
+  const liste = [];
+  for (const e of await readdir(ordner, { withFileTypes: true })) {
+    const p = path.join(ordner, e.name);
+    if (e.isDirectory()) liste.push(...(await htmlDateien(p)));
+    else if (e.name.endsWith(".html")) liste.push(p);
+  }
+  return liste;
+}
+async function existiert(p) {
+  try { await stat(p); return true; } catch { return false; }
+}
+
+let seiten;
+try {
+  seiten = await htmlDateien(WURZEL);
+} catch {
+  console.error("✗ out/ fehlt – zuerst `npm run build:pages` ausführen.");
+  process.exit(1);
+}
+if (!seiten.length) { console.error("✗ out/ enthält keine HTML-Dateien."); process.exit(1); }
+// Erwartete Seiten aus den Inhaltsdateien beider Sprachen ableiten (kein fester Slug-Katalog).
+const erwarteteSeiten = ["index.html", "404.html"];
+for (const sprache of ["de", "en"]) {
+  for (const f of (await readdir(path.join(WURZEL, "..", "data", sprache, "seiten"))).filter((x) => x.endsWith(".json"))) {
+    const slug = f.replace(/\.json$/, "");
+    erwarteteSeiten.push(slug === "start" ? `${sprache}/index.html` : `${sprache}/${slug}/index.html`);
+  }
+}
+for (const s of erwarteteSeiten) if (!(await existiert(path.join(WURZEL, s)))) fehler.push(`Seite fehlt im Export: ${s}`);
+if (!(await existiert(path.join(WURZEL, "404.html")))) fehler.push("out/404.html fehlt");
+let geprueft = 0;
+for (const datei of seiten) {
+  const html = await readFile(datei, "utf8");
+  const rel = path.relative(WURZEL, datei);
+  const hatNoindex = /<meta name="robots" content="noindex/.test(html);
+  if (!indexierung && !hatNoindex) fehler.push(`${rel}: kein noindex`);
+  if (indexierung && hatNoindex) fehler.push(`${rel}: noindex trotz INDEXIERUNG=1`);
+  const sprachOrdner = rel.match(/^(de|en)[\/]/)?.[1];
+  if (sprachOrdner) {
+    const erwartetLang = sprachOrdner === "de" ? "de-CH" : "en";
+    if (!new RegExp(`<html[^>]*\\blang="${erwartetLang}"`).test(html)) fehler.push(`${rel}: <html lang> ist nicht "${erwartetLang}"`);
+    const canonical = html.match(/<link rel="canonical" href="([^"]+)"/)?.[1];
+    if (!canonical) fehler.push(`${rel}: kein Canonical`);
+    else if (!/^https?:\/\//.test(canonical)) fehler.push(`${rel}: Canonical nicht absolut: ${canonical}`);
+    if (!/hrefLang="x-default"|hreflang="x-default"/.test(html)) fehler.push(`${rel}: hreflang x-default fehlt`);
+    if (!/hrefLang="de-CH"|hreflang="de-CH"/.test(html) && !/hrefLang="en"|hreflang="en"/.test(html)) fehler.push(`${rel}: keine hreflang-Angaben`);
+  } else if (rel === "index.html") {
+    const canonical = html.match(/<link rel="canonical" href="([^"]+)"/)?.[1];
+    if (!canonical || !/^https?:\/\//.test(canonical)) fehler.push(`${rel}: Wurzel-Canonical nicht absolut (scripts/wurzel-schreiben.mjs?)`);
+  }
+  // Next setzt selbst <link rel="preconnect" href="/"> (eigener Ursprung) – unproblematisch.
+  const ohnePreconnect = html.replace(/<link rel="preconnect"[^>]*>/g, "");
+  // Ressourcen-Tags (Skript, Stylesheet, Bild, Schrift, iframe …) dürfen keine fremden Hosts laden; <a href> nach aussen ist erlaubt.
+  for (const tag of ohnePreconnect.matchAll(/<(script|link|img|source|video|audio|iframe|embed|object)\b[^>]*>/g)) {
+    // <link rel="canonical|alternate"> verweist nur, lädt nichts – absolute Site-URL ist dort gewollt.
+    if (tag[1] === "link" && /rel="(canonical|alternate|next|prev)"/.test(tag[0])) continue;
+    for (const attr of tag[0].matchAll(/(?:src|href|srcset|data)="([^"]+)"/g)) {
+      for (const u of attr[1].split(",").map((s) => s.trim().split(" ")[0])) {
+        if (/^(https?:)?\/\//.test(u)) fehler.push(`${rel}: externe Ressource in <${tag[1]}>: ${u}`);
+      }
+    }
+  }
+  for (const imp of ohnePreconnect.matchAll(/@import\s+(?:url\()?["']?((?:https?:)?\/\/[^"')\s]+)/g)) fehler.push(`${rel}: externer CSS-Import ${imp[1]}`);
+  for (const m of ohnePreconnect.matchAll(/(?:href|src|srcset)="([^"]+)"/g)) {
+    for (const rohUrl of m[1].split(",").map((s) => s.trim().split(" ")[0])) {
+      if (!rohUrl || rohUrl.startsWith("#") || /^(mailto:|tel:|data:)/.test(rohUrl)) continue;
+      if (/^(https?:)?\/\//.test(rohUrl)) continue; // externe Links: oben geprüft, hier nur interne Ziele
+      const url = rohUrl.split("?")[0].split("#")[0];
+      let ziel;
+      if (url.startsWith("./") || url.startsWith("../")) {
+        // relative Verweise (Wurzel-Weiterleitung public/index.html) – relativ zur Datei auflösen
+        ziel = path.resolve(path.dirname(datei), url);
+      } else {
+        if (!url.startsWith(basePath + "/") && url !== basePath) { fehler.push(`${rel}: Pfad ohne Unterpfad: ${rohUrl}`); continue; }
+        ziel = path.join(WURZEL, url.slice(basePath.length));
+      }
+      if (url.endsWith("/")) ziel = path.join(ziel, "index.html");
+      if (!(await existiert(ziel)) && !(await existiert(ziel + ".html")) && !(await existiert(ziel + ".txt"))) fehler.push(`${rel}: Ziel fehlt: ${rohUrl}`);
+      geprueft++;
+    }
+  }
+}
+if (fehler.length) {
+  console.error(`✗ ${fehler.length} Problem(e) im Export:\n` + [...new Set(fehler)].map((f) => `  - ${f}`).join("\n"));
+  process.exit(1);
+}
+console.log(`✓ Export in Ordnung: ${seiten.length} HTML-Dateien, ${geprueft} interne Verweise unter ${basePath}, noindex ${indexierung ? "aus (Indexierung erlaubt)" : "auf allen Seiten"}.`);

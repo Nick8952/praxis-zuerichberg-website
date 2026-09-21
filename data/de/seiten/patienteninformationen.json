@@ -1,0 +1,39 @@
+{
+  "id": "seite-de-patienteninformationen",
+  "sprache": "de",
+  "uebersetzungsSchluessel": "seite-downloads",
+  "slug": "patienteninformationen",
+  "titel": "Patienteninformationen",
+  "einleitung": "Informationsblätter der Praxis zum Herunterladen: Allgemeine Bedingungen, Verhalten nach Eingriffen, Parodontitisbehandlung, Prothesenreinigung, Bleaching, Schallzahnbürsten und ein Faltblatt zum Zahnunfall.",
+  "seoTitel": "Patienteninformationen und Downloads (PDF)",
+  "seoBeschreibung": "Informationsblätter der Praxis am Zürichberg als PDF: Allgemeine Bedingungen, Verhalten nach chirurgischen Eingriffen, Parodontitisbehandlung, Reinigung von Zahnersatz, Bleaching, Schallzahnbürsten, Zahnunfall.",
+  "bausteine": [
+    {
+      "_type": "downloadsBaustein",
+      "_key": "downloads-liste",
+      "downloads": []
+    },
+    {
+      "_type": "hinweisBaustein",
+      "_key": "downloads-hinweis",
+      "titel": "Zu den Dokumenten",
+      "art": "info",
+      "inhalt": [
+        {
+          "_type": "block",
+          "_key": "cdc0206baa70",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "9ea56fa6c8f8",
+              "text": "Die Informationsblätter stammen von der bisherigen Website der Praxis (Stand 2015) und wurden unverändert übernommen. Das Faltblatt «Zahnunfall» wurde von der Gesundheitsdirektion des Kantons Zürich herausgegeben. Bei Fragen zu einem Merkblatt wenden Sie sich bitte an die Praxis.",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        }
+      ]
+    }
+  ]
+}
