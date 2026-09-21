@@ -17,9 +17,15 @@ Ablauf unten beschrieben, damit er wiederholbar ist.
 | `npm run seed -- --probe` | 77 Dokumente (1 Einstellungen, 2 Texte, 18 Seiten, 32 Behandlungen, 6 Team, 14 Downloads, 4 Rechtstexte) + 10 Bilder + 7 PDFs ohne Schreibzugriff zusammengestellt |
 | `npm run build:vercel` (Platzhalter-Projekt-ID, lokale Inhalte) | kompiliert: `/de`, `/en`, 16 Unterseiten, `/api/revalidate`, `/api/vorschau/*` (dynamisch), `/studio/[[...tool]]` – nur lokal, nicht auf Vercel |
 
-## GitHub Pages (live)
+## GitHub Pages (live, 21.09.2026)
 
-Siehe Abschnitt «Live-Prüfung» am Ende (nach dem Deployment ergänzt).
+- Workflow `.github/workflows/pages.yml` (Inhalte → Lint → Typecheck → Build → Export-Check → Deploy) erfolgreich; Pages per API mit `build_type=workflow` aktiviert.
+- Direktaufruf ohne Login (anonymes `curl`): `/` 200 (Meta-Refresh → `/de/`), `/de/`, `/en/`, `/de/behandlungen/`, `/en/treatments/`,
+  `/de/patienteninformationen/`, `/en/privacy-settings/`, `/downloads/PAR.pdf` → 200; `/gibtsnicht/` → 404 mit der gestalteten zweisprachigen Seite.
+- Browser (Chrome headless, 390 px): `/` landet auf `/de/`; `<html lang>` de-CH/en korrekt; `/en/treatments/#root-canal-treatment` öffnet genau ein Akkordeon;
+  Schrift Source Sans 3 lokal geladen; **vor Einwilligung nur Host `nick8952.github.io`**, 0 Cookies, 0 localStorage; nach «Alle akzeptieren»
+  Google-Maps-Iframe + Hosts www.google.com/maps.gstatic.com/maps.googleapis.com; Widerruf im Footer → 0 Iframes, Speicher gelöscht, Banner zurück;
+  keine Konsolenfehler.
 
 ## Layout (360 / 390 / 768 / 1440)
 
