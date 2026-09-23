@@ -19,9 +19,11 @@ liegen bei der Praxis am Zürichberg bzw. den beauftragten Fotografen – vor ei
 | `praxis/img_teaser_5.jpg` | /images/img_teaser_5.jpg (1700 × 1223) | OP-Mikroskop | 2018 |
 | `praxis/img_teaser_6.jpg` | /images/img_teaser_6.jpg (1700 × 1223) | Polierinstrumente im Kasten | 2018 |
 | `praxis/img_teaser_7.jpg` | /images/img_teaser_7.jpg (1700 × 1130) | Empfang, Mitarbeiterin am Telefon (Person nicht namentlich bekannt) | 2018 |
-| `praxis/bg_page_2.jpg` | /images/bg_page_2.jpg (1980 × 598) | Panorama über Zürich mit Alpen (Blick vom Zürichberg) | Hintergrundbild der alten Seite |
-| `praxis/bg_page_4.jpg` | /images/bg_page_4.jpg (1980 × 600) | Gleisfeld bei Nacht | Hintergrundbild der alten Seite; in der Demo nicht verwendet (kein Praxisbezug) |
-| `praxis/bg_page_5.jpg` | /images/bg_page_5.jpg (1980 × 600) | Arbeitsplatz mit Bildschirm | Hintergrundbild der alten Seite |
+| `praxis/bg_page_2.jpg` | /images/bg_page_2.jpg (1980 × 598) | Behandlungsraum mit Behandlungsleuchte und CEREC-Bildschirmen (Schlüssel `panorama-arbeitsplatz`) | Hintergrundbild der alten Seite; **Hero der Demo** |
+| `praxis/bg_page_4.jpg` | /images/bg_page_4.jpg (1980 × 600) | Panorama über Zürich mit Alpen, Winter (Schlüssel `panorama-zuerich`) | Hintergrundbild der alten Seite; in der Demo derzeit nicht verwendet |
+| `praxis/bg_page_5.jpg` | /images/bg_page_5.jpg (1980 × 600) | Gleisfeld bei Nacht (Schlüssel `panorama-gleise`) | Hintergrundbild der alten Seite; in der Demo nicht verwendet (kein Praxisbezug) |
 | `pdf/*.pdf` | /pdf/… | 7 Patienteninformationen/AGB | unverändert übernommen; Metadaten-Titel «Thomas Muster» in 6 Dateien (Vorlagenfehler), `Zahnunfall.pdf` ist ein Faltblatt der Gesundheitsdirektion Kanton Zürich |
 
 Nicht heruntergeladen (Entscheid Nick): `galerie_1…7.jpg` (private Landschaftsfotos von Dr. Bindl) – nur Link auf andreasbindl.zenfolio.com.
+
+**Korrektur 23.09.2026:** Die Beschreibungen und Schlüssel von `bg_page_2/4/5` waren am 21.09. vertauscht (Hero-Alt-Text «Blick über Zürich» zeigte in Wahrheit den Behandlungsraum). Zuordnung in `scripts/bilder-optimieren.mjs` und Alt-Texte in `data/*/seiten/start.json` berichtigt. Das Hero-Hintergrundbild der alten Seite (`images/bg_page_1-new-black.jpg`, verschneites Stadtpanorama) wurde nicht übernommen.

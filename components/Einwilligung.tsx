@@ -112,7 +112,9 @@ export function Einwilligungsbanner({ sprache, t }: { sprache: Sprache; t: T }) 
   const { einwilligung, geladen, setzen } = useEinwilligung();
   const [dialog, setDialog] = useState(false);
   const dialogRef = useRef<HTMLDialogElement>(null);
+  const bannerRef = useRef<HTMLElement>(null);
   const titelId = useId();
+  const bannerSichtbar = geladen && !einwilligung && !dialog;
 
   useEffect(() => {
     const el = dialogRef.current;
@@ -121,12 +123,27 @@ export function Einwilligungsbanner({ sprache, t }: { sprache: Sprache; t: T }) 
     if (!dialog && el.open) el.close();
   }, [dialog]);
 
+  // Bannerhöhe als Platz unten reservieren (globals.css: scroll-padding-bottom + body-Abstand), solange er sichtbar ist.
+  useEffect(() => {
+    const el = bannerRef.current;
+    const wurzel = document.documentElement;
+    if (!bannerSichtbar || !el) return;
+    const messen = () => wurzel.style.setProperty("--banner-hoehe", `${el.offsetHeight}px`);
+    messen();
+    const beobachter = new ResizeObserver(messen);
+    beobachter.observe(el);
+    return () => {
+      beobachter.disconnect();
+      wurzel.style.removeProperty("--banner-hoehe");
+    };
+  }, [bannerSichtbar]);
+
   if (!geladen || einwilligung) return null;
 
   return (
     <>
       {!dialog && (
-        <section className="fixed inset-x-0 bottom-0 z-50 border-t-4 border-lime bg-weiss shadow-[0_-8px_30px_-12px_rgb(42_36_41/0.35)]" aria-labelledby={`${titelId}-banner`}>
+        <section ref={bannerRef} className="fixed inset-x-0 bottom-0 z-50 border-t-4 border-lime bg-weiss shadow-[0_-8px_30px_-12px_rgb(42_36_41/0.35)]" aria-labelledby={`${titelId}-banner`}>
           <div className="container-seite grid gap-4 py-5 md:grid-cols-[minmax(0,1fr)_auto] md:items-center">
             <div>
               <h2 id={`${titelId}-banner`} className="text-lg">
@@ -143,7 +160,7 @@ export function Einwilligungsbanner({ sprache, t }: { sprache: Sprache; t: T }) 
               <button type="button" className="knopf knopf-primaer" onClick={() => setzen({ ...KEINE })}>
                 {t.nurNotwendige}
               </button>
-              <button type="button" className="knopf knopf-sekundaer" onClick={() => setDialog(true)} aria-haspopup="dialog">
+              <button type="button" className="knopf knopf-primaer" onClick={() => setDialog(true)} aria-haspopup="dialog">
                 {t.einstellungen}
               </button>
             </div>

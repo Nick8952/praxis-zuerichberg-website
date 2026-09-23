@@ -1,11 +1,56 @@
-# Prüfbericht – praxis-zuerichberg-website (Stand 21.09.2026)
+# Prüfbericht – praxis-zuerichberg-website (Stand 21.09.2026, Nachprüfung 23.09.2026)
 
 Alle Browser-Tests sind **Geräte-Emulation** (Chrome headless via puppeteer-core gegen `npm run vorschau:pages`, Viewports 360/390/768/1440,
 `isMobile` + `hasTouch` bei < 500 px). **Keine Tests auf echten Geräten (iOS Safari, Android Chrome) und kein echter Screenreader
 (VoiceOver/NVDA)** – offen. Prüfskripte lagen im Scratchpad der Erstellungssitzung (`pzb-pruefen.mjs`, `pzb-shots2.mjs`, `pzb-widerruf.mjs`);
 Ablauf unten beschrieben, damit er wiederholbar ist.
 
-## Build und Export
+## Nachprüfung 23.09.2026 (Auftrag erneut vollständig gegengeprüft)
+
+Wieder **Geräte-Emulation** (Chrome headless, puppeteer-core im Scratchpad, `npm run vorschau:pages` auf Port 4390) – keine echten Geräte,
+kein echter Screenreader.
+
+**Originalseite erneut abgerufen:** Struktur unverändert (Einseiter `index.html`/`index_en.html`, keine weiteren Seiten, `sitemap.xml`/Impressum-
+URLs 404); Kerndaten bestätigt (Name, PD Dr. med. dent. Andreas Bindl, Attenhoferstrasse 8a, 8032 Zürich, 044 261 33 30, Fax 044 261 33 29,
+info@praxiszuerichberg.ch); alle 7 PDFs **byte-gleich** (SHA-1) mit `public/downloads/`. Programmatischer Satz-Abgleich (DE 139 / EN 146 Sätze,
+Trigramm-Abdeckung): alle Sätze in der Demo vorhanden; Abweichungen nur dokumentierte Korrekturen, Satzteilungen und die bewusst
+weggelassenen Taxpunktwerte/Dr. Deak.
+
+**Gefunden und behoben**
+
+| Befund | Wirkung | Behebung | Nachweis |
+|---|---|---|---|
+| Fixierter Einwilligungsbanner verdeckte bei 360 px **17 Fokusziele vollständig** und die Fusszeilen-Links (Impressum/Datenschutz/Einstellungen lagen bei 661 px, Banner ab 416 px) | WCAG 2.4.11, Rechtstexte nicht erreichbar, solange keine Wahl getroffen | Banner misst seine Höhe (`ResizeObserver`) → `--banner-hoehe` → `scroll-padding-bottom` + `body` `padding-bottom`; wird beim Schliessen entfernt | Tab-Durchlauf 360 px: «Fokus komplett verdeckt: nie»; Fusszeile 337 px < Banner 416 px; alte Live-Version reproduziert den Fehler |
+| Hero-Bild: Alt-Text «Blick vom Zürichberg über Zürich auf die Alpen», gezeigt wurde aber der **Behandlungsraum** (`bg_page_2/4/5` beim Import vertauscht) | falsche Bildbeschreibung für Screenreader, falsche Herkunftsliste | Zuordnung in `scripts/bilder-optimieren.mjs` berichtigt, Hero nutzt `panorama-arbeitsplatz` mit korrektem Alt-Text (DE/EN), `HERKUNFT.md` + Inventur korrigiert | Kontaktbogen aller Originale geprüft; Datei-Hashes bestätigen die Vertauschung |
+| Hero-Unterzeile «…: schonend, dauerhaft und gemeinsam mit Ihnen geplant» | medizinische Verstärkung (neu verfasst, nicht dokumentiert) | neutrale Zeile: Adresse + wörtliches Spektrum; Vorher/Nachher in `MEDIZINISCHE-TEXTE.md` | Suchlauf nach Versprechens-Wörtern: übrige Treffer sind Originaltext |
+| Grosse Browserschrift (Chrome «sehr gross» 24 px / 32 px) auf 390 px: Kontaktliste, Downloads, Lebensläufe, Behandlungs-Kurzliste, E-Mail-Adresse liefen seitlich über (bis 550 px) | WCAG 1.4.4/1.4.10 für ältere Menschen | `body { overflow-wrap: anywhere }` (wirkt nur, wenn ein Wort nicht passt), Lebenslauf-Tabelle stapelt unter 22rem | CDP `Page.setFontSizes` 24/32 px bei 390 und 1440 px sowie 320 px: 0 Überlauf auf 7 Seiten |
+| Codex-Befunde (siehe unten) | | umgesetzt | |
+
+**Erneut bestanden** (nach allen Änderungen): `inhalt:pruefen`, `lint`, `typecheck`, `build:pages` **ohne Env**, `export:pruefen` (22 HTML, 847 Verweise);
+18 Seiten × 360/390/768/1440: kein horizontaler Überlauf, genau eine `h1`, `noindex`, keine kaputten Bilder/fehlenden Alt-Texte, 0 externe Hosts,
+0 Konsolenfehler, 0 Cookies/localStorage vor Einwilligung; Touch-Ziele ≥ 44 px (einzige Ausnahme weiterhin die 24-px-Checkbox im 44-px-Label).
+Einwilligung: Dialog mit Fokus auf «Schliessen ohne zu speichern», nichts vorausgewählt, Esc; «Nur notwendige» → kein Iframe/keine Requests;
+«Alle akzeptieren» → Karte + Google-Hosts; Reload behält Wahl; Footer-Widerruf entfernt Iframe und Speicher, Banner kehrt zurück; Kategorie
+einzeln wählen → Karte. Formular (Pflichtfeld/`role=alert`/`aria-invalid`, kein Upload, «E-Mail vorbereiten»), Sprachwechsel auf 4 Seitenpaaren,
+Hash-Akkordeon, Mobilmenü (Esc → Fokus zurück). `build:vercel` mit Platzhalter-ID kompiliert, `seed --probe` läuft.
+Abhängigkeiten: Next 16.3.5 → 16.3.6, Sanity 6.13 → 6.16 (Patch/Minor); `npm audit`-Befunde nur in der Sanity-CLI-Kette (siehe `UEBERGABE.md`).
+
+**Codex Runde 3 (Implementierung, nur Lesezugriff):** keine Blocker; 6 «Wichtig», 3 «Klein». Umgesetzt: gleichwertige Banner-Knöpfe (alle drei
+gleich gestaltet); ungeprüfte Rechtsgrundlage «berechtigtes Interesse» aus der Datenschutzerklärung entfernt (DE/EN); Hinweise auf einen
+Zenfolio-Link entfernt, den es in der Demo nicht gibt (Impressum/Datenschutz DE/EN); JSON-LD-Bild-URL im Sanity-Modus (absolute CDN-URL nicht
+doppelt präfixieren); Lebensläufe: Zwischentitel als `h4` unter dem Namen (`h3`), Zeitraum als `<th scope="row">`; Sanity-Linkregel auch für Links
+im Fliesstext; `memberOf` (SSO) aus dem Praxis-JSON-LD entfernt (belegt ist nur «Andreas Bindl, Mitglied SSO», steht in seiner `jobTitle`).
+Dokumentiert statt behoben: keine CSP auf GitHub Pages möglich → Header-Vorgabe für Vercel in `UMSTELLUNG-VERCEL.md`. Befund «noch nicht deployt»
+erledigt sich mit dem Push.
+
+**Codex Runde 4 (Review der Korrekturen, nur Lesezugriff):** keine Blocker, keine wichtigen Regressionen; bestätigt: Befunde 2–6 und Klein 1/3
+korrekt behoben, Banner-Effekt räumt sauber auf, keine SSR-/Hydration-Probleme, Tabellen-Semantik, JSON-LD, Sanity-Validierung, Texte und
+Hero-Alt-Text sachlich plausibel. Ein kleiner Hinweis: globales `overflow-wrap: anywhere` kann Navigation/Knöpfe mitten im Wort umbrechen →
+für `header nav` zurückgesetzt; für `.knopf` **bewusst nicht**, weil der Test mit 32-px-Browserschrift zeigte, dass der Knopf «Adresse kopieren»
+sonst die Kontaktseite auf 434 px verbreitert (seitliches Scrollen wiegt schwerer als ein Wortumbruch im Knopf bei Extremgrösse). Danach alle
+Tests erneut grün.
+
+## Build und Export (21.09.2026)
 
 | Prüfung | Ergebnis |
 |---|---|

@@ -9,7 +9,7 @@
   "hero": {
     "kurzzeile": "PD Dr. med. dent. Andreas Bindl, Dentist, Member SSO",
     "titel": "Oral health is essential for well-being and quality of life.",
-    "text": "From general dental care to complex rehabilitations including dental implants: gentle, long-lasting and planned together with you.",
+    "text": "Dental practice at Attenhoferstrasse 8a in Zurich – from general dental care to complex rehabilitations including dental implants.",
     "knopf": {
       "titel": "Call 044 261 33 30",
       "ziel": "tel:+41442613330"
@@ -19,8 +19,8 @@
       "ziel": "/en/contact/"
     },
     "bild": {
-      "bild": "panorama-zuerich",
-      "alt": "View from the Zürichberg over the city of Zurich towards the Alps"
+      "bild": "panorama-arbeitsplatz",
+      "alt": "Treatment room at Praxis am Zürichberg with dental light and screens for CEREC planning"
     }
   },
   "bausteine": [

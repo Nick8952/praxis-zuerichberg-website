@@ -42,6 +42,11 @@ Im Code als «VORBEREITET» kommentiert (`lib/content/sanity.ts`, `server-routes
   «keine Gesundheitsdaten über diese Website», Betroffenenrechte nach DSG. Beim Umzug auf Vercel/Sanity neu fassen (`docs/UMSTELLUNG-VERCEL.md`).
 - Heilmittel-/Werberecht: Texte enthalten keine Heilversprechen; «Mitglied SSO» und Titel nur von der Website übernommen.
 - Urheberrecht an Fotos/Logo/PDFs vor Go-Live klären.
+- **Rechtsgrundlagen** in der Datenschutzerklärung: bewusst **keine** genannt (die frühere Formulierung «berechtigtes Interesse» für die
+  GitHub-Protokolle wurde am 23.09. entfernt, weil sie ungeprüft war). Ob und welche Rechtsgrundlagen (DSG/DSGVO) für die produktive
+  Praxis-Website anzugeben sind, klärt die Praxis bzw. ihre Rechtsberatung.
+- **Content-Security-Policy**: GitHub Pages erlaubt keine eigenen HTTP-Header → keine CSP in der Demo. Beim Wechsel auf Vercel CSP-Header
+  setzen (`frame-src https://www.google.com` nur für die Karte, Next-Inline-Skripte per Nonce/Hash) – siehe `docs/UMSTELLUNG-VERCEL.md`.
 
 ## Unabhängige Übergabe an die Praxis
 
@@ -49,6 +54,9 @@ Im Code als «VORBEREITET» kommentiert (`lib/content/sanity.ts`, `server-routes
 - **Inhalte**: heute `data/**/*.json` (Backup = Git-Historie). Nach Sanity-Einrichtung: `npx sanity@latest dataset export production` regelmässig
   als Backup; Praxis als Sanity-Editor, Projekt übertragbar.
 - **Hosting**: GitHub Pages (kostenlos, statisch) oder später Vercel (für eine Praxis Pro-Plan prüfen) mit Kundendomain.
+- **Abhängigkeiten (Stand 23.09.2026)**: Next 16.3.6, Sanity 6.16. `npm audit` meldet 15 Befunde (3 hoch) ausschliesslich in der Sanity-CLI-/Build-
+  Werkzeugkette (adm-zip, js-yaml, smol-toml, uuid über `@sanity/cli`); der statische GitHub-Pages-Export enthält davon nichts. Der von npm
+  vorgeschlagene «Fix» wäre ein Major-Downgrade (sanity 5) – nicht angewendet; bei der Sanity-Einrichtung auf aktuelle Sanity-Version prüfen.
 - **Wartung**: `npm outdated` / `npm update` quartalsweise; Next.js-Major-Updates gezielt mit Build + Prüfskripten. Node ≥ 20.9.
   Prüfbefehle: `npm run inhalt:pruefen && npm run lint && npm run typecheck && npm run build:pages && npm run export:pruefen`.
 - **Backup**: Repo klonen genügt (Originale in `assets/originale/`, PDFs in `public/downloads/`).

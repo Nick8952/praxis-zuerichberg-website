@@ -37,7 +37,8 @@ Zugänge verlangen – das macht Nick selbst (`docs/SANITY-VERCEL-EINRICHTUNG.md
   `data/<sprache>/texte.json` (Navigation, UI, Einwilligung, Formular), `seiten/<slug>.json`, `behandlungen.json` (16, mit `quelle`/`pruefstatus`),
   `team.json`, `downloads.json`, `rechtstexte/{impressum,datenschutz}.json`. Bausteine: text, hinweis, behandlungen, team, downloads, galerie,
   bild, kontakt, aufruf, rechtstext (`components/Bausteine.tsx`). Neuer Baustein = Typ + Sanity-Schema + Fall im Renderer + `inhalt-pruefen` + Seed.
-- **Bilder**: Originale in `assets/originale/` (Herkunft + Freigabe: `HERKUNFT.md`), `npm run bilder` → `public/images/` + `data/bilder.json`.
+- **Bilder**: Originale in `assets/originale/` (Herkunft + Freigabe: `HERKUNFT.md`), `npm run bilder` → `public/images/` + `data/bilder.json`. Hero = `panorama-arbeitsplatz` (`bg_page_2.jpg`, Behandlungsraum); `panorama-zuerich` =
+  `bg_page_4.jpg`, `panorama-gleise` = `bg_page_5.jpg` (am 23.09. berichtigt – Alt-Texte immer gegen das Bild prüfen, nicht gegen den Dateinamen).
   Ausgabe über `components/Bild.tsx` (`<img srcset>`). Unterpfad nur über `lib/assets.ts#assetUrl`. **Keine Stock-/KI-Bilder als Praxis- oder Teambilder,
   keine Patientenbilder**; die private Landschaftsgalerie von Dr. Bindl wurde bewusst nicht übernommen.
 - **Server-Routen** (Studio, Webhook, Vorschau) in `server-routes/app/`, werden nur beim Vercel-Build nach `app/` kopiert (`scripts/vercel-routen.mjs`).
@@ -78,6 +79,8 @@ fehlender Inhalt und lazy-Bilder bleiben leer.
   keine Countdowns, keine Autoplay-Karussells.
 - Touch-Ziele ≥ 44 px (Ausnahme: Links im Fliesstext; Checkbox 24 px in 44-px-Label), sichtbarer Fokus (3 px), Icons nur als Inline-SVG
   (`components/Icons.tsx`), keine Emojis. Lange deutsche Titel dürfen unter 480 px getrennt werden (`hyphens: auto`, ab 14 Zeichen).
+  `body { overflow-wrap: anywhere }` hält die Seite bei grosser Browserschrift (Chrome «sehr gross») ohne Seitwärtsscrollen; Lebenslauf-Tabellen
+  (`th scope=row` + `td`) stapeln unter 22rem. Rich Text unter einer `h3` mit `unterUeberschrift3` rendern (h2→h4). Prüfen mit CDP `Page.setFontSizes`.
 
 ## Medizinische Inhalte und Sprachversionen
 
@@ -96,13 +99,15 @@ fehlender Inhalt und lazy-Bilder bleiben leer.
 Google-Maps-Karte (`components/Karte.tsx`) lädt **erst nach Einwilligung**; vorher kein Request, kein preconnect, kein Vorschaubild.
 Einwilligung: Banner «Alle akzeptieren / Nur notwendige / Einstellungen» (nichts vorausgewählt), Dialog per `<dialog>`, Speicherung nur in
 `localStorage` (`praxis-zuerichberg-einwilligung`, `lib/einwilligung.ts`, Version 1), Widerruf im Footer / auf `datenschutz-einstellungen`
-(`components/Widerruf.tsx`) entfernt das Iframe sofort. Keine Cookies, keine Analytics. Kommt ein weiterer Dienst dazu: Kategorie in `KATEGORIEN` + Texte + Datenschutzerklärung.
+(`components/Widerruf.tsx`) entfernt das Iframe sofort. Der fixierte Banner reserviert seine Höhe (`--banner-hoehe` → `scroll-padding-bottom` +
+`body`-Abstand), damit Fokus und Fusszeile nie darunter verschwinden – bei neuen fixierten Elementen dasselbe Muster verwenden. Die drei
+Banner-Knöpfe sind absichtlich gleich gestaltet (gleichwertig). Rechtstexte nennen keine ungeprüften Rechtsgrundlagen und nur Links, die es gibt. Keine Cookies, keine Analytics. Kommt ein weiterer Dienst dazu: Kategorie in `KATEGORIEN` + Texte + Datenschutzerklärung.
 
 ## SEO
 
 Alle Seiten `noindex, nofollow` (Demo); `robots.txt` erlaubt das Crawlen. Indexierung erst mit `INDEXIERUNG=1` + `SITE_URL` auf der Kundendomain.
 Individuelle Title/Description je Seite und Sprache (`seoTitel`/`seoBeschreibung`), Canonical absolut, `hreflang` de-CH/en/x-default (→ de),
-JSON-LD `Dentist` (`lib/seo.ts`) nur mit belegten Angaben (Adresse, Telefon, Geo, Team, SSO; Öffnungszeiten aus `intervalle` **erst**, wenn
+JSON-LD `Dentist` (`lib/seo.ts`) nur mit belegten Angaben (Adresse, Telefon, Geo, Team; «Mitglied SSO» nur in Bindls `jobTitle`, **kein** `memberOf` am Praxisobjekt; Öffnungszeiten aus `intervalle` **erst**, wenn
 `oeffnungszeitenHinweis` leer ist = von der Praxis bestätigt) – **kein** `founder` (Übernahme 2007), **kein** `aggregateRating`/`review`. Favicon `app/icon.svg`, gestaltete 404.
 
 ## Deployment GitHub Pages

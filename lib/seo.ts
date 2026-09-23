@@ -55,7 +55,8 @@ const SCHEMA_WOCHENTAG: Record<string, string> = {
 };
 
 /**
- * Strukturierte Daten «Dentist» – ausschliesslich belegte Angaben (Name, Adresse, Telefon, E-Mail, Team, SSO).
+ * Strukturierte Daten «Dentist» – ausschliesslich belegte Angaben (Name, Adresse, Telefon, E-Mail, Team).
+ * Kein `memberOf` am Praxisobjekt: das Original belegt «Mitglied SSO» nur für Andreas Bindl (steht in seiner `jobTitle`), Codex-Befund 23.09.
  * Öffnungszeiten nur, wenn sie von der Praxis bestätigt sind (kein `oeffnungszeitenHinweis` mehr) – unbestätigte
  * Google-Zeiten bleiben sichtbar mit Herkunftshinweis, gelangen aber nicht ins JSON-LD (Codex-Befund).
  * Kein `founder`: PD Dr. Bindl hat die Praxis 2007 übernommen, gegründet wurde die Station 1992 (Prof. Mörmann);
@@ -75,16 +76,20 @@ export function praxisJsonLd(e: Einstellungen, sprache: Sprache, team: Teammitgl
     telephone: telefonInternational(e.telefon),
     faxNumber: e.fax ? telefonInternational(e.fax) : undefined,
     email: sauber(e.email),
-    image: e.seoBild ? `${siteUrl}${e.seoBild.quellen[e.seoBild.quellen.length - 1].url}` : undefined,
+    image: e.seoBild ? absoluteUrl(e.seoBild.quellen[e.seoBild.quellen.length - 1].url) : undefined,
     address: { "@type": "PostalAddress", streetAddress: sauber(e.adresse.strasse), postalCode: sauber(e.adresse.plz), addressLocality: sauber(e.adresse.ort), addressCountry: "CH" },
     geo: e.geo ? { "@type": "GeoCoordinates", latitude: e.geo.breite, longitude: e.geo.laenge } : undefined,
     openingHoursSpecification: zeiten.length ? zeiten : undefined,
     employee: team.length
       ? team.map((p) => ({ "@type": "Person", name: [p.titelVor, p.vorname, p.nachname].filter(Boolean).map(sauber).join(" "), honorificPrefix: sauber(p.titelVor), givenName: sauber(p.vorname), familyName: sauber(p.nachname), jobTitle: sauber(p.funktion), knowsLanguage: p.sprachen.map(sauber) }))
       : undefined,
-    memberOf: e.mitgliedschaft ? { "@type": "Organization", name: sauber(e.mitgliedschaft.titel), url: e.mitgliedschaft.url } : undefined,
     inLanguage: SPRACH_CODE[sprache],
   };
+}
+
+/** Lokale Bildpfade (/praxis-…/images/…) absolut machen; Sanity-CDN-URLs sind bereits absolut. */
+function absoluteUrl(url: string): string {
+  return /^https?:\/\//.test(url) ? url : `${siteUrl}${url}`;
 }
 
 /** «044 261 33 30», «+41 44 …», «0041 44 …» → «+41442613330» (E.164). */

@@ -17,6 +17,13 @@ export const bildTyp = defineType({
   ],
 });
 
+/** Gemeinsame Regel für Linkziele (Link-Objekt und Links im Fliesstext) – blockiert javascript:, data: und //… */
+function linkZielPruefen(wert: unknown): true | string {
+  if (typeof wert !== "string") return true;
+  const ok = /^\/(?!\/)/.test(wert) || /^(https?:\/\/[^\s]+|mailto:[^\s]+|tel:\+?[\d\s()-]+)$/.test(wert);
+  return ok || "Erlaubt sind interne Pfade (/…), https://…, mailto:… und tel:…";
+}
+
 export const linkTyp = defineType({
   name: "link",
   title: "Link",
@@ -28,12 +35,7 @@ export const linkTyp = defineType({
       title: "Ziel",
       type: "string",
       description: "Interner Pfad mit Sprache (z. B. /de/kontakt/), externe Adresse (https://…), tel:… oder mailto:…",
-      validation: (r) =>
-        r.required().custom((wert) => {
-          if (typeof wert !== "string") return true;
-          const ok = /^\/(?!\/)/.test(wert) || /^(https?:\/\/[^\s]+|mailto:[^\s]+|tel:\+?[\d\s()-]+)$/.test(wert);
-          return ok || "Erlaubt sind interne Pfade (/…), https://…, mailto:… und tel:…";
-        }),
+      validation: (r) => r.required().custom(linkZielPruefen),
     }),
     defineField({ name: "extern", title: "In neuem Tab öffnen", type: "boolean", initialValue: false }),
   ],
@@ -68,7 +70,7 @@ export const richTextTyp = defineType({
             title: "Link",
             type: "object",
             fields: [
-              defineField({ name: "href", title: "Adresse", type: "string", validation: (r) => r.required() }),
+              defineField({ name: "href", title: "Adresse", type: "string", validation: (r) => r.required().custom(linkZielPruefen) }),
               defineField({ name: "extern", title: "In neuem Tab öffnen", type: "boolean", initialValue: false }),
             ],
           },

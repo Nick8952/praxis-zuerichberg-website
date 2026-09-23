@@ -58,3 +58,10 @@ gegen echte Dienste geprüft.
 - [ ] Alle Seiten beider Sprachen direkt aufrufen/neu laden, 404, Weiterleitungen, Sprachwechsel, Hash-Links auf Behandlungen.
 - [ ] Studio-Login der Praxis, Publish → Website aktualisiert (Sekunden).
 - [ ] Tastatur, Screenreader, Mobil auf echten Geräten; Karte nach Einwilligung; Widerruf.
+
+## Sicherheits-Header (erst auf Vercel möglich)
+
+GitHub Pages kann keine eigenen Header setzen. Auf Vercel in `next.config.ts` (`headers()`) ergänzen: `Content-Security-Policy` mit
+`default-src 'self'`, `frame-src https://www.google.com` (nur Karte nach Einwilligung), `img-src 'self' https://cdn.sanity.io data:`,
+Next-Inline-Skripte per Nonce (Proxy) oder Hash; `/studio` braucht eine eigene, lockerere Policy. Dazu `Referrer-Policy`,
+`X-Content-Type-Options: nosniff`, `Permissions-Policy`. Nach dem Setzen Karte, Studio und Vorschau erneut testen.

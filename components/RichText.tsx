@@ -22,7 +22,7 @@ const komponenten: PortableTextComponents = {
         <tbody>
           {value.eintraege.map((e) => (
             <tr key={e._key}>
-              <td>{e.zeitraum}</td>
+              <th scope="row">{e.zeitraum}</th>
               <td>{e.text}</td>
             </tr>
           ))}
@@ -36,10 +36,20 @@ const komponenten: PortableTextComponents = {
   },
 };
 
-export function RichText({ inhalt, className }: { inhalt: RichTextTyp; className?: string }) {
+// Lebensläufe stehen unter einer h3 (Name in der Teamkarte): dort werden h2/h3 des Rich Texts zu h4/h5,
+// damit die Überschriftenhierarchie für Screenreader stimmt (WCAG 1.3.1).
+const unterKarte: PortableTextComponents = {
+  ...komponenten,
+  block: {
+    h2: ({ children }) => <h4>{children}</h4>,
+    h3: ({ children }) => <h5>{children}</h5>,
+  },
+};
+
+export function RichText({ inhalt, className, unterUeberschrift3 = false }: { inhalt: RichTextTyp; className?: string; unterUeberschrift3?: boolean }) {
   return (
     <div className={`fliesstext ${className ?? ""}`}>
-      <PortableText value={inhalt} components={komponenten} />
+      <PortableText value={inhalt} components={unterUeberschrift3 ? unterKarte : komponenten} />
     </div>
   );
 }

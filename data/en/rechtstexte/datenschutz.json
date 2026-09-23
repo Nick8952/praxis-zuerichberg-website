@@ -155,7 +155,7 @@
         {
           "_type": "span",
           "_key": "f56188e2c122",
-          "text": ". The basis for this processing is our legitimate interest in a secure and reliable provision of the website.",
+          "text": ".",
           "marks": []
         }
       ],
@@ -372,7 +372,7 @@
         {
           "_type": "span",
           "_key": "e2119b69cdd6",
-          "text": "\"Get directions\" leads to Google Maps; further links lead to sso.ch and andreasbindl.zenfolio.com. Only when you click do you leave this website; from then on the respective provider's privacy policy applies. Phone links open your device's phone app.",
+          "text": "\"Get directions\" leads to Google Maps; a further link leads to sso.ch. Only when you click do you leave this website; from then on the respective provider's privacy policy applies. Phone links open your device's phone app.",
           "marks": []
         }
       ],

@@ -35,7 +35,7 @@ export function Team({ team, mitLebenslauf, t }: { team: Teammitglied[]; mitLebe
                   </summary>
                   <div className="inhalt">
                     {p.lebenslaufEinleitung && <p className="mb-4 text-grau">{p.lebenslaufEinleitung}</p>}
-                    {p.lebenslauf && <RichText inhalt={p.lebenslauf} className="text-[1rem]" />}
+                    {p.lebenslauf && <RichText inhalt={p.lebenslauf} className="text-[1rem]" unterUeberschrift3 />}
                   </div>
                 </details>
               )}

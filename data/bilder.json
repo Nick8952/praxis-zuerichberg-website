@@ -209,61 +209,61 @@
   },
   "panorama-zuerich": {
     "id": "panorama-zuerich",
-    "original": "assets/originale/praxis/bg_page_2.jpg",
-    "breite": 1980,
-    "hoehe": 598,
-    "quellen": [
-      {
-        "breite": 640,
-        "url": "/images/panorama-zuerich-640-932aac06.webp"
-      },
-      {
-        "breite": 1280,
-        "url": "/images/panorama-zuerich-1280-699e6222.webp"
-      },
-      {
-        "breite": 1980,
-        "url": "/images/panorama-zuerich-1980-86c50369.webp"
-      }
-    ]
-  },
-  "panorama-gleise": {
-    "id": "panorama-gleise",
     "original": "assets/originale/praxis/bg_page_4.jpg",
     "breite": 1980,
     "hoehe": 600,
     "quellen": [
       {
         "breite": 640,
-        "url": "/images/panorama-gleise-640-5d547bf7.webp"
+        "url": "/images/panorama-zuerich-640-5d547bf7.webp"
       },
       {
         "breite": 1280,
-        "url": "/images/panorama-gleise-1280-e653dcbe.webp"
+        "url": "/images/panorama-zuerich-1280-e653dcbe.webp"
       },
       {
         "breite": 1980,
-        "url": "/images/panorama-gleise-1980-54d0ecfe.webp"
+        "url": "/images/panorama-zuerich-1980-54d0ecfe.webp"
       }
     ]
   },
-  "panorama-arbeitsplatz": {
-    "id": "panorama-arbeitsplatz",
+  "panorama-gleise": {
+    "id": "panorama-gleise",
     "original": "assets/originale/praxis/bg_page_5.jpg",
     "breite": 1980,
     "hoehe": 600,
     "quellen": [
       {
         "breite": 640,
-        "url": "/images/panorama-arbeitsplatz-640-75125abf.webp"
+        "url": "/images/panorama-gleise-640-75125abf.webp"
       },
       {
         "breite": 1280,
-        "url": "/images/panorama-arbeitsplatz-1280-22248eb3.webp"
+        "url": "/images/panorama-gleise-1280-22248eb3.webp"
       },
       {
         "breite": 1980,
-        "url": "/images/panorama-arbeitsplatz-1980-1fc07c3a.webp"
+        "url": "/images/panorama-gleise-1980-1fc07c3a.webp"
+      }
+    ]
+  },
+  "panorama-arbeitsplatz": {
+    "id": "panorama-arbeitsplatz",
+    "original": "assets/originale/praxis/bg_page_2.jpg",
+    "breite": 1980,
+    "hoehe": 598,
+    "quellen": [
+      {
+        "breite": 640,
+        "url": "/images/panorama-arbeitsplatz-640-932aac06.webp"
+      },
+      {
+        "breite": 1280,
+        "url": "/images/panorama-arbeitsplatz-1280-699e6222.webp"
+      },
+      {
+        "breite": 1980,
+        "url": "/images/panorama-arbeitsplatz-1980-86c50369.webp"
       }
     ]
   }

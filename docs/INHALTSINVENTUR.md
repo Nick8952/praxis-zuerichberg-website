@@ -1,6 +1,6 @@
-# Inhaltsinventur – praxiszuerichberg.ch → Demo (Stand 21.09.2026)
+# Inhaltsinventur – praxiszuerichberg.ch → Demo (Stand 21.09.2026, nachgeprüft 23.09.2026)
 
-Quelle: https://www.praxiszuerichberg.ch/ (abgerufen 21.09.2026, gespeicherte Rohfassungen `index.html`/`index_en.html` im Scratchpad
+Quelle: https://www.praxiszuerichberg.ch/ (abgerufen 21.09.2026, erneut 23.09.2026: Struktur, Kerndaten und alle 7 PDFs byte-gleich, Satz-für-Satz-Abgleich DE/EN ohne fehlende Inhalte; gespeicherte Rohfassungen `index.html`/`index_en.html` im Scratchpad
 der Erstellungssitzung; Text-Extrakte wurden programmatisch mit den Demo-Inhalten verglichen, siehe `docs/MEDIZINISCHE-TEXTE.md`).
 Die alte Website ist ein **Einseiter** (`index.html`, Abschnitte `#div_page_1…8`, Menü per JavaScript) mit englischer Kopie
 `index_en.html`. Weitere Quellen: öffentliches Google-Unternehmensprofil (Öffnungszeiten, Koordinaten), sso.ch (nur Link).
@@ -14,7 +14,7 @@ Inhalt gleich · **ergänzt** = neu verfasst, nicht aus der Quelle · **weggelas
 | Quelle (URL/Abschnitt) | Sprache | Inhalt | Zielseite Demo | Status |
 |---|---|---|---|---|
 | `index.html` `<title>` | DE | «Praxis am Zürichberg - PD Dr. med. dent. Andreas Bindl - Zahnarztpraxis - Zürich» | `seo.titelZusatz`, Start-`seoTitel` | umgestellt (kürzer, je Seite eigener Titel) |
-| `#div_page_1` (Hero) | DE/EN | h1 «Praxis am Zürichberg», h2 «PD Dr. med. dent. Andreas Bindl Zahnarzt, Mitglied SSO» / «…Dentist, Member SSO», Hintergrund Panorama Zürich | `/de/`, `/en/` Hero (Kurzzeile + Panorama) | übernommen; Hero-Satz «Gesunde Zähne bedeuten Wohlbefinden und Lebensqualität.» stammt aus «Philosophie» |
+| `#div_page_1` (Hero) | DE/EN | h1 «Praxis am Zürichberg», h2 «PD Dr. med. dent. Andreas Bindl Zahnarzt, Mitglied SSO» / «…Dentist, Member SSO», Hintergrund `bg_page_1-new-black.jpg` (verschneites Stadtpanorama) | `/de/`, `/en/` Hero (Kurzzeile + Behandlungsraum `bg_page_2.jpg`) | übernommen, Hintergrundbild **nicht** übernommen (Praxisraum statt Stadtansicht); Hero-Unterzeile seit 23.09. neutral (Adresse + wörtliches Spektrum, siehe MEDIZINISCHE-TEXTE); Hero-Satz «Gesunde Zähne bedeuten Wohlbefinden und Lebensqualität.» stammt aus «Philosophie» |
 | `#div_page_2` Praxis › Philosophie | DE/EN | 4 Absätze (Gesunde Zähne…, Die wichtigste Person…, Oberstes Ziel…, Die Zahnärzte … als Team) | `/de/praxis/` (Baustein «Philosophie») + Auszug auf `/de/`; EN analog | übernommen |
 | Praxis › Geschichte der Praxis | DE/EN | Station für Zahnfarbene und Computer-Restaurationen (1992, Prof. Mörmann, Cerec), Übernahme 2007 durch PD Dr. Bindl | `/de/praxis/` (Baustein «Geschichte der Praxis») | übernommen |
 | Praxis › Preisgestaltung | DE/EN | SSO-Tarif, Taxpunkte, Taxpunktwert, Kostenorientierung; nennt **Taxpunktwerte pro Zahnarzt** (u. a. CHF 3.90 Bindl, CHF 3.70 Dr. Alexander Deak – EN) und «darf höchstens Fr. 5.80 betragen» (DE) | `/de/praxis/` (Baustein «Preisgestaltung» + Hinweisbox «Taxpunktwert») | umgestellt: Erklärung übernommen, **Personen/Beträge weggelassen** (Entscheid Nick: «Preise ohne Personen»; Dr. Deak nicht mehr im Team), Hinweisbox ergänzt → **offen** |
@@ -27,7 +27,7 @@ Inhalt gleich · **ergänzt** = neu verfasst, nicht aus der Quelle · **weggelas
 | `#div_page_6` Kontakt › Adresse | DE/EN | Attenhoferstrasse 8a, 8032 Zürich, T 044 261 33 30, F 044 261 33 29, info@praxiszuerichberg.ch (zweiter Link mit Umlaut-Domain `info@praxiszürichberg.ch`), SSO-Signet | `/de/kontakt/`, Footer, JSON-LD | übernommen; Umlaut-Variante **weggelassen** (nur ASCII-Adresse) |
 | Kontakt › Anfahrt | DE/EN | Tram 5/6 bis Voltastrasse, Fussweg ca. 300 m, 2 Parkplätze in der Tiefgarage (Reservation) | `/de/kontakt/` «Anfahrt» | übernommen |
 | Kontakt › Karte | DE/EN | Google-Maps-Einbettung (alte Site: sofort geladen) | `/de/kontakt/` Karte nur nach Einwilligung | umgestellt (Datenschutz) |
-| `#div_page_7` Bildergalerie | DE/EN | 7 private Landschaftsfotos (Mythen, Urner Boden, Gotthard, Furka, Aletsch, Gottschalkenberg) + Link andreasbindl.zenfolio.com | – | **weggelassen** (Entscheid Nick; Link im Impressum-Abschnitt «Urheberrechte» erwähnt) |
+| `#div_page_7` Bildergalerie | DE/EN | 7 private Landschaftsfotos (Mythen, Urner Boden, Gotthard, Furka, Aletsch, Gottschalkenberg) + Link andreasbindl.zenfolio.com | – | **weggelassen** (Entscheid Nick; auch der Zenfolio-Link wird nicht übernommen – seit 23.09. auch nicht mehr in Impressum/Datenschutz erwähnt) |
 | Praxisfotos `img_teaser_1…7.jpg` (2018) | – | Schild, 2 Behandlungsräume, CEREC-Platz, Mikroskop, Instrumente, Empfang | Start (Galerie), Praxis, Hero/Team-Seiten | übernommen (Rechte: `assets/originale/HERKUNFT.md`, **offen** bis Praxis bestätigt) |
 | Social-Icons Google/Facebook | – | Links waren leer (`href=""`) | – | weggelassen |
 | Sprachumschalter | DE/EN | Link `index_en.html` / `index.html` | `components/Sprachwechsel.tsx` (Seitenpaar) | umgestellt |

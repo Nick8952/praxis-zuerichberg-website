@@ -21,6 +21,7 @@ entfernte Menü-Reste (`[LINK javascript:void(0)]`) sind keine Textänderungen u
 | Behandlungen (DE/EN) | – | Hinweisbox unter den Akkordeons: «Die Beschreibungen geben einen Überblick … Diese Seite ersetzt keine individuelle zahnärztliche Beratung.» | Schutzhinweis, neu verfasst |
 | Kontakt (DE/EN) | – | Öffnungszeiten (Google-Profil) mit Hinweis «noch nicht von der Praxis bestätigt» | siehe Inventur |
 | Start (DE/EN) | – | Aufruf «Termin vereinbaren … Bei starken oder akuten Schmerzen versuchen wir, soweit möglich, am Tag Ihres Anrufs einen Termin zu vergeben.» | Umformulierung des Originalsatzes aus «Schmerzbehandlung» («Soweit möglich, versuchen wir … am Tag Ihres Anrufs einen Termin zu geben»); kein Versprechen («versuchen», «soweit möglich») |
+| Start › Hero-Unterzeile (DE/EN) | – (keine Unterzeile im Original) | **bis 21.09.:** «Von der allgemeinen zahnärztlichen Behandlung bis zur komplexen Versorgung mit Implantaten: schonend, dauerhaft und gemeinsam mit Ihnen geplant.» → **seit 23.09.:** «Zahnarztpraxis an der Attenhoferstrasse 8a in Zürich – von der allgemeinen zahnärztlichen Behandlung bis zur komplexen Versorgung mit Implantaten.» / EN analog | Nachprüfung 23.09.: die frühere Zeile übertrug «schonend und dauerhaft» (Philosophie: Zahnbeschwerden beseitigen) auf das ganze Behandlungsspektrum – eine Verstärkung. Ersetzt durch Adresse + wörtliches Spektrum aus «Behandlung». |
 
 ## B. Orthografie/Typografie ohne Sinnänderung (zur Kenntnis)
 

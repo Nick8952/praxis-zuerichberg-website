@@ -68,9 +68,16 @@
     scroll-behavior: smooth;
     -webkit-text-size-adjust: 100%;
     scroll-padding-top: 5.5rem;
+    /* Offener Einwilligungsbanner (fixiert unten): Fokus darf nicht darunter verschwinden (WCAG 2.4.11),
+       Fusszeile bleibt erreichbar. --banner-hoehe setzt Einwilligung.tsx, sonst 0. */
+    scroll-padding-bottom: var(--banner-hoehe, 0px);
   }
   body {
     @apply bg-weiss text-tinte font-sans antialiased;
+    padding-bottom: var(--banner-hoehe, 0px);
+    /* Grössere Browserschrift auf dem Handy: lange Wörter/E-Mail-Adressen umbrechen statt die Seite zu verbreitern
+       (WCAG 1.4.4/1.4.10). Wirkt nur, wenn ein Wort nicht in die Zeile passt – bei Normalgrösse keine Änderung. */
+    overflow-wrap: anywhere;
     font-size: 1.125rem; /* 18 px: gut lesbar, auch für ältere Menschen */
     line-height: 1.6;
   }
@@ -87,7 +94,7 @@
   .auf-dunkel:focus-visible {
     outline-color: var(--color-lime);
   }
-  h1, h2, h3, h4 {
+  h1, h2, h3, h4, h5 {
     color: var(--color-aubergine);
     font-weight: 600;
     letter-spacing: -0.012em;
@@ -99,6 +106,8 @@
   @media (max-width: 30rem) {
     h1 { hyphens: auto; hyphenate-limit-chars: 14 6 6; overflow-wrap: anywhere; }
   }
+  /* Navigation: Einträge als Ganzes umbrechen, nie mitten im Wort */
+  header nav { overflow-wrap: normal; }
   strong { font-weight: 600; }
   @media (prefers-reduced-motion: reduce) {
     html { scroll-behavior: auto; }
@@ -136,6 +145,8 @@
   border-radius: var(--radius-klein);
   cursor: pointer;
   text-decoration: none;
+  /* Bewusst KEIN overflow-wrap: normal – in verschachtelten Flex-Zeilen würde der Knopf sonst bei sehr grosser Browserschrift
+     die volle Beschriftungsbreite erzwingen und die Seite seitlich scrollen lassen (Test 23.09., Kontakt «Adresse kopieren»). */
   transition: background-color 180ms var(--ease-aus), color 180ms var(--ease-aus), border-color 180ms var(--ease-aus), transform 120ms var(--ease-aus);
 }
 @utility knopf-primaer {
@@ -180,7 +191,8 @@
 .fliesstext { max-width: 42rem; }
 .fliesstext > * + * { margin-top: 1em; }
 .fliesstext h2 { font-size: var(--text-display-md); margin-top: 2em; }
-.fliesstext h3 { font-size: 1.3125rem; margin-top: 1.6em; }
+.fliesstext h3, .fliesstext h4 { font-size: 1.3125rem; margin-top: 1.6em; }
+.fliesstext h5 { font-size: 1.125rem; margin-top: 1.4em; }
 .fliesstext ul, .fliesstext ol { padding-left: 1.4em; }
 .fliesstext ul { list-style: disc; }
 .fliesstext ol { list-style: decimal; }
@@ -191,8 +203,15 @@
 .fliesstext em { font-style: italic; }
 /* Lebenslauf-Tabellen: Jahr links, Text rechts */
 .fliesstext table { border-collapse: collapse; width: 100%; }
-.fliesstext td { vertical-align: top; padding: 0.35rem 0; border-top: 1px solid var(--color-linie); }
-.fliesstext td:first-child { width: 7rem; font-weight: 600; color: var(--color-aubergine); white-space: nowrap; padding-right: 1rem; }
+.fliesstext :is(td, th) { vertical-align: top; padding: 0.35rem 0; border-top: 1px solid var(--color-linie); text-align: left; }
+/* Zeitraum als Zeilenüberschrift (th scope=row) */
+.fliesstext th[scope="row"] { width: 7rem; font-weight: 600; color: var(--color-aubergine); white-space: nowrap; padding-right: 1rem; }
+/* Sehr schmale Zeile (grosse Browserschrift auf dem Handy): Zeitraum über den Text stellen */
+@media (max-width: 22rem) {
+  .fliesstext :is(th, td) { display: block; }
+  .fliesstext th[scope="row"] { width: auto; padding-bottom: 0; }
+  .fliesstext td { border-top: 0; padding-top: 0.1rem; }
+}
 
 /* Formular */
 .feld {

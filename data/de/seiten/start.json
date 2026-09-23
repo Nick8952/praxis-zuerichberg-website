@@ -9,7 +9,7 @@
   "hero": {
     "kurzzeile": "PD Dr. med. dent. Andreas Bindl, Zahnarzt, Mitglied SSO",
     "titel": "Gesunde Zähne bedeuten Wohlbefinden und Lebensqualität.",
-    "text": "Von der allgemeinen zahnärztlichen Behandlung bis zur komplexen Versorgung mit Implantaten: schonend, dauerhaft und gemeinsam mit Ihnen geplant.",
+    "text": "Zahnarztpraxis an der Attenhoferstrasse 8a in Zürich – von der allgemeinen zahnärztlichen Behandlung bis zur komplexen Versorgung mit Implantaten.",
     "knopf": {
       "titel": "Anrufen 044 261 33 30",
       "ziel": "tel:+41442613330"
@@ -19,8 +19,8 @@
       "ziel": "/de/kontakt/"
     },
     "bild": {
-      "bild": "panorama-zuerich",
-      "alt": "Blick vom Zürichberg über die Stadt Zürich auf die Alpen"
+      "bild": "panorama-arbeitsplatz",
+      "alt": "Behandlungsraum der Praxis am Zürichberg mit Behandlungsleuchte und Bildschirmen für die CEREC-Planung"
     }
   },
   "bausteine": [

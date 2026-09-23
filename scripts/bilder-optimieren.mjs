@@ -28,9 +28,9 @@ const BILDER = {
   "praxis-mikroskop": { datei: "praxis/img_teaser_5.jpg" },
   "praxis-instrumente": { datei: "praxis/img_teaser_6.jpg" },
   "praxis-empfang": { datei: "praxis/img_teaser_7.jpg" },
-  "panorama-zuerich": { datei: "praxis/bg_page_2.jpg", breiten: [640, 1280, 1980] },
-  "panorama-gleise": { datei: "praxis/bg_page_4.jpg", breiten: [640, 1280, 1980] },
-  "panorama-arbeitsplatz": { datei: "praxis/bg_page_5.jpg", breiten: [640, 1280, 1980] },
+  "panorama-zuerich": { datei: "praxis/bg_page_4.jpg", breiten: [640, 1280, 1980] },
+  "panorama-gleise": { datei: "praxis/bg_page_5.jpg", breiten: [640, 1280, 1980] },
+  "panorama-arbeitsplatz": { datei: "praxis/bg_page_2.jpg", breiten: [640, 1280, 1980] },
 };
 
 await mkdir(ZIEL, { recursive: true });
