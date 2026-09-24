@@ -17,7 +17,11 @@ Stand 1.6.2026, ohne erfundene Fristen). Lokal (Vercel-Build ohne jede Env, `nex
 Codex (Runde 5, nur Lesezugriff): keine kritischen Befunde; umgesetzt: `vercel.json` statt reiner `VERCEL`-Erkennung (die Variable fehlt, wenn
 «System Environment Variables» nicht freigegeben sind), Webhook-/Vorschau-Pfade mit Schrägstrich (sonst 308, den Sanity nicht als Erfolg wertet),
 Formulierung «Kriterien der Speicherdauer». Sanity selbst weiterhin **nicht** angeschlossen und nicht geprüft.
-VERCEL_LIVE
+**Live auf Vercel (Commit 7320dc6, 24.09.):** anonymes `curl`: 18 Seiten 200, `/` 307 → `/de/`, `/studio/` 200 mit Hinweis, `/gibtsnicht/` 404,
+PDFs 200, keine `Set-Cookie`, `noindex`, Canonical vercel.app, Datenschutz «Hosting: Vercel» (GitHub Pages zeigt weiterhin «Hosting: GitHub Pages»).
+Chrome headless 390 px: 18 Seiten ohne Überlauf, je eine `h1`, 0 fremde Hosts/0 Speicher vor Einwilligung, Fokus nie vom Banner verdeckt,
+«Nur notwendige» ohne Iframe, «Alle akzeptieren» → Google-Karte, Footer-Widerruf entfernt Iframe und Speicher, Sprachwechsel, Hash-Akkordeon,
+0 Konsolenfehler. GitHub-Pages-Workflow für denselben Commit grün.
 
 ## Nachprüfung 23.09.2026 (Auftrag erneut vollständig gegengeprüft)
 
