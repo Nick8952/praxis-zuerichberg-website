@@ -71,3 +71,9 @@ npm run inhalt:pruefen                            # Inhalte, Sprachpaare, Links,
 npm run build:pages && npm run export:pruefen     # Export unter dem Unterpfad, noindex, keine externen Ressourcen
 npm run vorschau:pages                            # http://localhost:4321/praxis-zuerichberg-website/de/
 ```
+
+## Rechtstexte je Betriebsart (`nurBetrieb`)
+
+Ein Block in `data/<sprache>/rechtstexte/*.json` kann `"nurBetrieb": "pages"` oder `"nurBetrieb": "vercel"` tragen. Er erscheint dann nur im
+GitHub-Pages-Export bzw. nur auf Vercel. So nennt die Datenschutzerklärung immer den Hoster, der die Seite tatsächlich ausliefert.
+Blöcke ohne das Feld erscheinen überall. In Sanity gibt es das Feld nicht – dort steht nur die Vercel-Fassung (der Seed filtert entsprechend).

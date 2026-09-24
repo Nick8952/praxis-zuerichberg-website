@@ -124,7 +124,11 @@ for (const sprache of SPRACHEN) {
   // Rechtstexte
   for (const datei of await readdir(path.join(WURZEL, "data", sprache, "rechtstexte"))) {
     const r = await json<Roh>(`${sprache}/rechtstexte/${datei}`);
-    dokumente.push({ ...r, _id: r.id as string, _type: "rechtstext", id: undefined });
+    // Sanity läuft nur zusammen mit Vercel → nur Blöcke ohne `nurBetrieb` oder mit `nurBetrieb: "vercel"` importieren
+    const inhalt = (r.inhalt as Roh[])
+      .filter((b) => !b.nurBetrieb || b.nurBetrieb === "vercel")
+      .map(({ nurBetrieb: _weg, ...rest }) => (void _weg, rest));
+    dokumente.push({ ...r, inhalt, _id: r.id as string, _type: "rechtstext", id: undefined });
   }
   // Seiten
   for (const datei of await readdir(path.join(WURZEL, "data", sprache, "seiten"))) {

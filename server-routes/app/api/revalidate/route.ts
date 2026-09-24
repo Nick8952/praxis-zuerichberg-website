@@ -5,7 +5,7 @@ import { INHALT_TAG } from "@/lib/content/sanity";
 
 /**
  * Sanity-Webhook: nach jedem Publish/Unpublish/Delete den Inhalts-Cache leeren.
- * Einrichtung: sanity.io/manage → API → Webhooks → URL https://<domain>/api/revalidate,
+ * Einrichtung: sanity.io/manage → API → Webhooks → URL https://<domain>/api/revalidate/ (mit Schrägstrich – trailingSlash, sonst 308),
  * Trigger create/update/delete, Secret = SANITY_REVALIDATE_SECRET (Vercel-Env).
  * Ohne gültige Signatur wird nichts invalidiert.
  */

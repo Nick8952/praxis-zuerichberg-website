@@ -11,15 +11,18 @@ und vom öffentlichen Google-Unternehmensprofil (siehe `docs/INHALTSINVENTUR.md`
 
 | | **GitHub Pages (JETZT)** | **Vercel + Sanity (SPÄTER)** |
 |---|---|---|
-| Build | `npm run build:pages` (= `npm run build`) | `npm run build:vercel` |
-| Env | **keine nötig** | `DEPLOY_TARGET=vercel`, `CONTENT_SOURCE=sanity`, Sanity-Variablen (`.env.example`) |
+| Build | `npm run build:pages` (CI ruft es direkt) | `vercel.json` → `npm run build:vercel`; zusätzlich erkennt `npm run build` `VERCEL=1` (`scripts/build.mjs`) |
+| Env | **keine nötig** | ohne Env: lokale Inhalte; mit Sanity: `CONTENT_SOURCE=sanity` + Sanity-Variablen (`.env.example`) |
 | Ausgabe | `out/` statisch, Unterpfad `/praxis-zuerichberg-website`, `trailingSlash` | Server-Rendering, ISR, `/studio`, `/api/*`, Redirect `/` → `/de/` |
 | Inhalte | `data/**/*.json` | Sanity Content Lake (nur öffentliche Website-Inhalte, nie Patientendaten) |
 | Bilder | `public/images/*` (vorgerechnet, Hash im Namen) | Sanity-CDN via `@sanity/image-url` |
-| Status | **live, geprüft** | **vorbereitet, nicht angeschlossen** – erst nach Einrichtung prüfbar |
+| Status | **live, geprüft** | **Vercel live seit 24.09.** (praxis-zuerichberg-website.vercel.app, lokale Inhalte, noindex); **Sanity vorbereitet, nicht angeschlossen** |
 
-Umschaltung ausschliesslich über `lib/deploy-ziel.ts` und `next.config.ts`. Sanity-/Vercel-Projekte **nicht** anlegen und keine
-Zugänge verlangen – das macht Nick selbst (`docs/SANITY-VERCEL-EINRICHTUNG.md`). Keine Zugangsdaten in Dateien.
+Umschaltung ausschliesslich über `lib/deploy-ziel.ts`, `next.config.ts`, `vercel.json` und `scripts/build.mjs`. Server-Routen immer mit Schrägstrich
+am Ende ansprechen (`/api/revalidate/`, `/api/vorschau/aktivieren/`), sonst 308. `trailingSlash: true` gilt in beiden Betriebsarten.
+Rechtstext-Blöcke mit `nurBetrieb: "pages" | "vercel"` erscheinen nur in dieser Betriebsart (Hosting-Absatz der Datenschutzerklärung; Filter in
+`lib/content/local.ts`, Seed importiert die Vercel-Fassung). Sanity-/Vercel-Projekte **nicht** anlegen und keine
+Zugänge verlangen – das macht Nick selbst (Vercel-Projekt existiert seit 24.09., Sanity noch nicht) (`docs/SANITY-VERCEL-EINRICHTUNG.md`). Keine Zugangsdaten in Dateien.
 
 ## Architektur
 
@@ -50,6 +53,7 @@ Zugänge verlangen – das macht Nick selbst (`docs/SANITY-VERCEL-EINRICHTUNG.md
 
 ```bash
 npm run dev              # Entwicklung (lokale Inhalte, http://localhost:3000/praxis-zuerichberg-website/de/)
+npm run build            # wählt selbst: auf Vercel (VERCEL=1) build:vercel, sonst build:pages
 npm run build:pages      # statischer Export nach out/ (ohne Env-Variablen); schreibt zuletzt out/index.html (scripts/wurzel-schreiben.mjs)
 npm run export:pruefen   # out/ prüfen: Unterpfad, fehlende Ziele, externe Ressourcen, noindex, erwartete Seiten aus data/
 npm run vorschau:pages   # out/ wie GitHub Pages ausliefern (Port 4321; PORT=… falls belegt)

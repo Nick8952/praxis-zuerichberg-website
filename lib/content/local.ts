@@ -16,6 +16,7 @@ import type {
   Texte,
 } from "./types";
 import { SPRACHEN } from "./types";
+import { deployZiel } from "../deploy-ziel";
 
 /**
  * Lokale Inhaltsquelle: liest die JSON-Dateien in data/.
@@ -122,9 +123,27 @@ async function downloads(sprache: Sprache): Promise<Download[]> {
   return fertig.sort((a, b) => a.reihenfolge - b.reihenfolge);
 }
 
+/**
+ * Rechtstexte dürfen Blöcke mit `nurBetrieb: "pages" | "vercel"` enthalten (z. B. Hosting-Absatz der Datenschutzerklärung):
+ * Es erscheint nur der Block der aktuellen Betriebsart – die Vercel-Fassung darf nicht «GitHub Pages» nennen und umgekehrt.
+ */
+function nachBetrieb(inhalt: Rechtstext["inhalt"]): Rechtstext["inhalt"] {
+  return inhalt
+    .filter((b) => {
+      const nur = (b as { nurBetrieb?: string }).nurBetrieb;
+      return !nur || nur === deployZiel;
+    })
+    .map((b) => {
+      const { nurBetrieb: _weg, ...rest } = b as typeof b & { nurBetrieb?: string };
+      void _weg;
+      return rest as typeof b;
+    });
+}
+
 async function rechtstext(sprache: Sprache, art: Rechtstext["art"]): Promise<Rechtstext | null> {
   try {
-    return await json<Rechtstext>(`${sprache}/rechtstexte/${art}.json`);
+    const roh = await json<Rechtstext>(`${sprache}/rechtstexte/${art}.json`);
+    return { ...roh, inhalt: nachBetrieb(roh.inhalt) };
   } catch (err) {
     if (fehltNur(err)) return null;
     throw err;

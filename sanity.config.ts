@@ -58,7 +58,7 @@ export default defineConfig({
           ]),
     }),
     presentationTool({
-      previewUrl: { previewMode: { enable: "/api/vorschau/aktivieren", disable: "/api/vorschau/beenden" } },
+      previewUrl: { previewMode: { enable: "/api/vorschau/aktivieren/", disable: "/api/vorschau/beenden/" } },
       resolve: {
         mainDocuments: [{ route: "/:sprache/:slug", filter: `_type == "seite" && sprache == $sprache && slug.current == $slug` }, { route: "/:sprache", filter: `_type == "seite" && sprache == $sprache && slug.current == "start"` }],
         locations: {

@@ -1,6 +1,7 @@
 # Spätere Einrichtung: Sanity (CMS) und Vercel (Hosting)
 
-Status: **vorbereitet, nicht eingerichtet.** Nichts in diesem Dokument wurde gegen ein echtes Sanity- oder Vercel-Projekt getestet.
+Status (24.09.2026): **Vercel-Projekt angelegt** (von Nick, `praxis-zuerichberg-website.vercel.app`, läuft mit den lokalen Demo-Inhalten).
+**Sanity: vorbereitet, nicht eingerichtet** – Studio, Vorschau, Webhook und Seed wurden noch nie gegen ein echtes Sanity-Projekt getestet.
 Lokal geprüft (21.09.2026): `npm run build:vercel` kompiliert mit Studio- und API-Routen (Platzhalter-Projekt-ID, lokale Inhalte);
 `npm run seed -- --probe` stellt alle Dokumente (Einstellungen, 2× Texte, 18 Seiten, 32 Behandlungen, 6 Teammitglieder, 14 Downloads,
 4 Rechtstexte) und die Bilder/PDFs zusammen (kein Schreibzugriff).
@@ -54,25 +55,35 @@ verlangt ihn.
 
 ## 5. Vercel-Projekt
 
-1. https://vercel.com/new → Repo importieren (Next.js wird erkannt).
-2. **Build Command**: `npm run build:vercel`.
-3. Environment Variables (Production + Preview): `DEPLOY_TARGET=vercel`, `CONTENT_SOURCE=sanity`, `NEXT_PUBLIC_SANITY_PROJECT_ID`,
+1. https://vercel.com/new → Repo importieren (Next.js wird erkannt). **Erledigt 24.09.2026.**
+2. **Build Command**: nichts einstellen – `vercel.json` im Repo setzt `npm run build:vercel` (hat Vorrang vor dem Dashboard). Zusätzlich
+   erkennt `npm run build` Vercel an `VERCEL=1` (`scripts/build.mjs`; `VERCEL` ist nur sichtbar, wenn «Automatically expose System
+   Environment Variables» aktiv ist – deshalb die `vercel.json` als verlässlicher Weg);
+   GitHub Actions ruft weiterhin `build:pages`. Ohne Sanity-Variablen läuft die Website mit den lokalen Inhalten, `/studio` zeigt einen Hinweis.
+   (Vorher wurde hier ein manueller Build Command verlangt – beim Import mit Standardeinstellungen entstand deshalb der Pages-Export mit
+   Unterpfad und `/de/` lieferte 404.)
+3. Erst **mit Sanity** nötig – Environment Variables (Production + Preview): `CONTENT_SOURCE=sanity`, `NEXT_PUBLIC_SANITY_PROJECT_ID`,
    `NEXT_PUBLIC_SANITY_DATASET`, `NEXT_PUBLIC_SANITY_API_VERSION=2026-09-21`, `SANITY_API_READ_TOKEN`, `SANITY_REVALIDATE_SECRET`,
-   `SITE_URL=https://<projekt>.vercel.app`. **Kein** `BASE_PATH`, **kein** `INDEXIERUNG` (bleibt noindex bis Go-Live).
-4. Deploy; prüfen: `/` → `/de/` (Redirect aus `next.config.ts`), alle `/de/…`- und `/en/…`-Seiten, `/studio` (Login),
-   `/api/revalidate` (POST ohne Signatur → 401).
+   `SITE_URL=https://<projekt>.vercel.app` (ohne Angabe gilt `https://praxis-zuerichberg-website.vercel.app`). `DEPLOY_TARGET=vercel`
+   ist nicht mehr nötig (automatisch), schadet aber nicht. **Kein** `BASE_PATH`, **kein** `INDEXIERUNG` (bleibt noindex bis Go-Live).
+   Danach **Redeploy**, damit die Variablen wirken.
+4. Deploy; prüfen: `/` → `/de/` (Redirect aus `next.config.ts`), alle `/de/…`- und `/en/…`-Seiten, `/studio/` (Login bzw. Hinweis ohne Sanity),
+   `/api/revalidate/` (POST ohne Signatur → 401; solange `SANITY_REVALIDATE_SECRET` fehlt, bewusst 500 «nicht gesetzt»).
 5. Sanity-CORS um die Vercel-Domain ergänzen, sonst lädt das Studio nicht.
+6. Datenschutzerklärung: Der Vercel-Build zeigt automatisch den Hosting-Absatz «Vercel» (Blöcke mit `nurBetrieb`, siehe `docs/INHALTE-PFLEGEN.md`).
+   Wer Vercel Analytics/Speed Insights oder weitere Dienste einschaltet, muss den Absatz und ggf. die Einwilligung anpassen – der Text sagt
+   ausdrücklich, dass diese Dienste **nicht** aktiviert sind.
 
 ## 6. Vorschau und Visual Editing
 
-- Presentation-Tool in `sanity.config.ts`, Draft Mode über `/api/vorschau/aktivieren` (Geheimnisprüfung durch next-sanity) und `/api/vorschau/beenden`.
+- Presentation-Tool in `sanity.config.ts`, Draft Mode über `/api/vorschau/aktivieren/` (Geheimnisprüfung durch next-sanity) und `/api/vorschau/beenden/`.
   Entwürfe werden ungecacht mit Perspektive `drafts` gelesen (`lib/content/sanity.ts`).
 - Overlay `lib/vorschau/VorschauWerkzeuge.tsx` (nur Vercel + Draft Mode). Stega-Markierungen werden in Metadaten/JSON-LD entfernt (`jsonLdSicher`).
 - Im statischen Export wird `next-sanity/visual-editing` durch einen Stub ersetzt (`next.config.ts`, `turbopack.resolveAlias`).
 
 ## 7. Inhaltsaktualisierung (ISR + Webhook)
 
-- Sanity → *API → Webhooks → Create*: URL `https://<domain>/api/revalidate`, Dataset `production`, Trigger Create/Update/Delete,
+- Sanity → *API → Webhooks → Create*: URL `https://<domain>/api/revalidate/` (**mit** Schrägstrich am Ende – wegen `trailingSlash` würde sonst ein 308 zurückkommen, den Sanity nicht als Erfolg wertet), Dataset `production`, Trigger Create/Update/Delete,
   Projection `{_type}`, POST, **Secret = `SANITY_REVALIDATE_SECRET`**. Der Handler invalidiert das Cache-Tag `inhalt`.
 - **Neue Seiten (neue Slugs)**: `app/[sprache]/[slug]/page.tsx` hat `dynamicParams = false` (nötig für den Export). Auf Vercel erscheinen neue
   Slugs erst nach einem Rebuild → Vercel *Deploy Hook* als zweiten Sanity-Webhook (`_type == "seite"`) eintragen, oder `dynamicParams = true`,

@@ -5,6 +5,20 @@ Alle Browser-Tests sind **Geräte-Emulation** (Chrome headless via puppeteer-cor
 (VoiceOver/NVDA)** – offen. Prüfskripte lagen im Scratchpad der Erstellungssitzung (`pzb-pruefen.mjs`, `pzb-shots2.mjs`, `pzb-widerruf.mjs`);
 Ablauf unten beschrieben, damit er wiederholbar ist.
 
+## Vercel-Betrieb 24.09.2026
+
+Nick hat das Repo in Vercel importiert (Standardeinstellungen). Ergebnis: `praxis-zuerichberg-website.vercel.app/de/` → **404**, weil Vercel
+`npm run build` = GitHub-Pages-Export mit Unterpfad baute (die Seiten lagen unter `/praxis-zuerichberg-website/de/`, per curl bestätigt).
+Behoben ohne Dashboard-Einstellung: `vercel.json` (`buildCommand: npm run build:vercel`) plus Erkennung von `VERCEL=1` in `scripts/build.mjs`;
+`trailingSlash: true` in beiden Betriebsarten (keine 308 bei internen Links); `/studio/` zeigt ohne Sanity-Projekt-ID einen Hinweis statt einer
+Fehlermeldung; Datenschutzerklärung nennt je Betriebsart den tatsächlichen Hoster (`nurBetrieb`, Vercel-Absatz nach vercel.com/legal/privacy-policy,
+Stand 1.6.2026, ohne erfundene Fristen). Lokal (Vercel-Build ohne jede Env, `next start`): 18 Seiten 200, `/` → `/de/` (307), 404 zweisprachig,
+`noindex`, Canonical/hreflang auf vercel.app, keine `Set-Cookie`; Datenschutz zeigt nur «Hosting: Vercel», der Pages-Export nur «Hosting: GitHub Pages».
+Codex (Runde 5, nur Lesezugriff): keine kritischen Befunde; umgesetzt: `vercel.json` statt reiner `VERCEL`-Erkennung (die Variable fehlt, wenn
+«System Environment Variables» nicht freigegeben sind), Webhook-/Vorschau-Pfade mit Schrägstrich (sonst 308, den Sanity nicht als Erfolg wertet),
+Formulierung «Kriterien der Speicherdauer». Sanity selbst weiterhin **nicht** angeschlossen und nicht geprüft.
+VERCEL_LIVE
+
 ## Nachprüfung 23.09.2026 (Auftrag erneut vollständig gegengeprüft)
 
 Wieder **Geräte-Emulation** (Chrome headless, puppeteer-core im Scratchpad, `npm run vorschau:pages` auf Port 4390) – keine echten Geräte,

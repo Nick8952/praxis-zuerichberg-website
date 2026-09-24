@@ -13,7 +13,6 @@ const nextConfig: NextConfig = {
     ? {
         output: "export",
         basePath,
-        trailingSlash: true,
         // Diese next-sanity-Module bringen Server Actions mit, die ein statischer Export nicht kennt.
         turbopack: {
           resolveAlias: {
@@ -27,6 +26,8 @@ const nextConfig: NextConfig = {
           return [{ source: "/", destination: "/de/", permanent: false }];
         },
       }),
+  // Beide Betriebsarten mit Schrägstrich am Ende: gleiche URLs auf GitHub Pages und Vercel, interne Links ohne Umleitung.
+  trailingSlash: true,
   experimental: {
     // Das Root-Layout liegt im Sprachsegment app/[sprache]/ (zweisprachig); eine globale 404-Seite
     // ausserhalb davon braucht dieses Flag (Next 16: experimentell, hier lokal geprüft).

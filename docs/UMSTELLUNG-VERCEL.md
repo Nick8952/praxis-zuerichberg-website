@@ -48,7 +48,7 @@ gegen echte Dienste geprüft.
 
 ## Inhaltsaktualisierung
 
-- [ ] Sanity-Webhook → `/api/revalidate` (Tag `inhalt`), Secret gesetzt.
+- [ ] Sanity-Webhook → `/api/revalidate/` (mit Schrägstrich; Tag `inhalt`), Secret gesetzt.
 - [ ] Neue Seiten: Deploy Hook oder `dynamicParams = true`.
 - [ ] `data/**/*.json` bleibt als Backup/Ausgangszustand im Repo; nach dem Import ist Sanity die Quelle der Wahrheit.
 - [ ] Medizinische Texte: `pruefstatus`/`freigabedatum` im Studio pflegen; Änderungen an Behandlungstexten nur nach Freigabe durch die Praxis.

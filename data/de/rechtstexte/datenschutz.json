@@ -117,7 +117,8 @@
           "marks": []
         }
       ],
-      "markDefs": []
+      "markDefs": [],
+      "nurBetrieb": "pages"
     },
     {
       "_type": "block",
@@ -164,6 +165,72 @@
           "_type": "link",
           "_key": "b2f7fa4c0122",
           "href": "https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement",
+          "extern": true
+        }
+      ],
+      "nurBetrieb": "pages"
+    },
+    {
+      "_type": "block",
+      "_key": "266ee58f873b",
+      "style": "h2",
+      "nurBetrieb": "vercel",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "439393f3212b",
+          "text": "Hosting: Vercel",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "2d20a11c0d35",
+      "style": "normal",
+      "nurBetrieb": "vercel",
+      "children": [
+        {
+          "_type": "span",
+          "_key": "7f1212ab5809",
+          "text": "Diese Website wird über ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "_key": "df542efb1cd4",
+          "text": "Vercel",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "_key": "ff7e3d1720dd",
+          "text": " ausgeliefert, einen Dienst der Vercel Inc., 440 N Barranca Avenue #4133, Covina, CA 91723, USA. Beim Aufruf einer Seite verarbeitet Vercel nach eigenen Angaben unter anderem die IP-Adresse der besuchenden Person, daraus abgeleitete Standortangaben und Angaben zur Systemkonfiguration (zum Beispiel Browser und Betriebssystem). Diese Daten werden von Vercel verarbeitet, möglicherweise auch in den USA. Der Betreiber dieser Demo kann im Vercel-Konto technische Zugriffsprotokolle einsehen. Die Analyse- und Messdienste von Vercel sind nicht aktiviert. Informationen zu den Kriterien der Speicherdauer (feste Fristen nennt Vercel nicht) und zur Übermittlung in Drittstaaten finden Sie in der ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "_key": "bcf18b070f43",
+          "text": "Datenschutzerklärung von Vercel",
+          "marks": [
+            "27fa6635bcf8"
+          ]
+        },
+        {
+          "_type": "span",
+          "_key": "e204192230bd",
+          "text": ".",
+          "marks": []
+        }
+      ],
+      "markDefs": [
+        {
+          "_type": "link",
+          "_key": "27fa6635bcf8",
+          "href": "https://vercel.com/legal/privacy-policy",
           "extern": true
         }
       ]

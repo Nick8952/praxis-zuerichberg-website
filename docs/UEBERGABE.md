@@ -3,6 +3,7 @@
 ## Links
 
 - Demo (GitHub Pages, noindex): https://nick8952.github.io/praxis-zuerichberg-website/ → `/de/` · Englisch: `/en/`
+- Vercel (seit 24.09.2026, von Nick angelegt, lokale Inhalte, noindex): https://praxis-zuerichberg-website.vercel.app/ → `/de/`
 - Repository: https://github.com/Nick8952/praxis-zuerichberg-website
 - Verantwortlich für die Demo: Nick Holzbecher (Impressum); dargestellte Praxis: Praxis am Zürichberg, PD Dr. med. dent. Andreas Bindl,
   Attenhoferstrasse 8a, 8032 Zürich, 044 261 33 30, info@praxiszuerichberg.ch

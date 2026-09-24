@@ -13,7 +13,7 @@ export async function VorschauWerkzeuge() {
       <VorschauClient />
       {/* eslint-disable-next-line @next/next/no-html-link-for-pages -- API-Route, kein Seitenwechsel per Router */}
       <a
-        href="/api/vorschau/beenden"
+        href="/api/vorschau/beenden/"
         className="fixed bottom-4 left-4 z-50 rounded-full bg-tinte px-4 py-2 text-sm font-semibold text-white shadow-lg"
       >
         Vorschau beenden
